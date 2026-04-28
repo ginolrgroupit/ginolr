@@ -1,0 +1,321 @@
+{
+    "history_section": {
+        "header": "公司历史",
+        "content_one": "<0>GINORL GROUP</0> 成立于2004年，致力于通过提供完整的配电解决方案来建立用电安全，并根据研发、生产、销售和电气服务调整产品，包括电气柜、电线、电缆及其他产品。<2>GINORL GROUP</2> 持续与大型项目建立合作和稳定的关系，包括政府项目、住宅技术和大型商业项目，如发电厂、风力发电项目、电子系统、工业建筑、数据、通信、新能源和交通。公司坚持 <4>“以客户为中心”</4> 的核心政策，坚持根据客户需求研发产品。公司的技术研发中心使用国家级实验室，并拥有TISI、MIT、TIS、CB等各项认证。公司已获得 <6>ISO 9001:2015</6> 质量管理体系认证。我们致力于提供高品质的产品和良好的服务，在新时代不断创造组织的成长与发展，确保客户对品牌感到自信、安全和舒适。",
+        "content_two": "<0>“CT ELECTRIC”</0> 是一个适合各种区域所有环境的品牌。它用途广泛，支持太阳能、UPS和布线系统。我们发展生产、销售和服务，为客户提供良好的体验和专业的服务。<2>CT ELECTRIC</2> 因“安全用电、电气设备”而受到各地区客户的认可。"
+    },
+    "mascot_meaning_section": {
+        "kicker": "吉祥物含义",
+        "header": "巧思的含义",
+        "content": "巧思是 CT 品牌吉祥物，象征安全、速度、活力服务以及对环境的关怀。绿色叶形身体传达清新、积极和友善；安全护目镜、闪电眼睛、CT 白色上衣和黄色披风，则体现品牌对用电保护的信心。",
+        "points": [
+            {
+                "title": "\"CT\" 标志发型",
+                "description": "代表明朗活力与积极正向的思维。"
+            },
+            {
+                "title": "公司标志",
+                "description": "体现 CT 对电气安全的责任感，以及始终具备的安全愿景与思考。"
+            },
+            {
+                "title": "安全手套",
+                "description": "体现以用户为中心，重视安全、可控、灵活与舒适。"
+            },
+            {
+                "title": "衣服上的标志",
+                "description": "作为 CT 的一员，以充分的服务精神投入工作，并始终保持简洁、整齐、标准化的形象。"
+            },
+            {
+                "title": "闪电眉毛",
+                "description": "充分体现 CT 高效迅速的服务速度，如闪电般快速。"
+            },
+            {
+                "title": "明亮圆眼",
+                "description": "表达 CT 眼中有光、心中有爱，并将持续向目标前进。"
+            },
+            {
+                "title": "叶子尾巴",
+                "description": "表达环保友好、低碳意识与洁净理念。"
+            },
+            {
+                "title": "张开的双臂",
+                "description": "象征敞开心胸、承担责任，拥抱用户并拥抱世界。CT 希望与所有伙伴携手合作，实现共赢目标，共同创造光明未来。"
+            },
+            {
+                "title": "CT 腰带",
+                "description": "传达公司的专业形象，以及 CT 对经营事业的认真态度。"
+            },
+            {
+                "title": "披风",
+                "description": "带有公司标志或专属特征的披风，有助于形成醒目且易记的形象，强化公司清晰的识别度与品牌形象。"
+            }
+        ]
+    },
+    "process_section": {
+        "header": "质量流程",
+        "content": "CT ELECTRIC 坚持创新发展，创造有价值的高质量服务，为用户打造可持续的价值，在质量和服务上满足客户。这带来了持续的组织发展以及更大的社会和环境责任。"
+    },
+    "product_type_section": {
+        "header": "产品类别",
+        "type_one": {
+            "header": "低压电器",
+            "list": {
+                "left_side": [
+                    "电箱",
+                    "配电箱",
+                    "断路器",
+                    "漏电保护断路器",
+                    "电涌保护器"
+                ],
+                "right_side": [
+                    "面板开关",
+                    "墙壁插座",
+                    "工业插头",
+                    "漏电保护断路器",
+                    "户外插头"
+                ]
+            }
+        },
+        "type_two": {
+            "header": "建筑电气材料",
+            "list": {
+                "left_side": [
+                    "母线槽",
+                    "浮动螺母"
+                ]
+            }
+        },
+        "type_three": {
+            "header": "结构系统",
+            "list": {
+                "left_side": [
+                    "PVC管",
+                    "线槽"
+                ]
+            }
+        }
+    },
+    "other_info_section": {
+        "manu": {
+            "header": "制造",
+            "content": "在生产过程中使用最新版本的技术，包括机械和质量团队。"
+        },
+        "assembly": {
+            "header": "组装与包装",
+            "content": "我们认识到组装和包装的重要性。我们在仓库中使用条形码系统和跟踪系统，以确保产品处于完好状态并随时可用。"
+        },
+        "inspect": {
+            "header": "检验",
+            "content": "生产过程中的所有优质产品均需接受QC检验，以确保产品质量符合国际标准。"
+        },
+        "service": {
+            "header": "服务与运输",
+            "content": "我们的运输服务配备了GPS安装，以跟踪国内交货状态。"
+        }
+    },
+    "standard certification": {
+        "main_header": "标准认证",
+        "report": {
+            "header": "全面认证测试报告"
+        },
+        "importstan1": {
+            "header": "进口标准"
+        },
+        "electricalstan": {
+            "header": "电气标准"
+        },
+        "importstan2": {
+            "header": "进口标准"
+        }
+    },
+    "company_commitments": {
+        "intro": {
+            "content": "由于 Ginorl Group CT Electrification Co., Ltd. \n是电气设备的制造商和分销商，公司因此 \n申请建立标准化工厂，致力于成为电气设备领域的领导者。"
+        },
+        "iso": {
+            "content": "ISO: 9001:2015 是质量管理体系的国际标准。 \n为了获得 ISO: 9001 认证，公司必须严格遵守 \nISO: 9001:2015 标准中规定的各项要求。"
+        },
+        "pillars": {
+            "tis": {
+                "content": "TIS（泰国工业标准）是用于规范质量和生产过程的标准，\n以符合泰国的各项法规\n要求。通常分为两类：在国内销售前必须申请的\n强制性标准，以及非强制性标准。"
+            },
+            "target": {
+                "content": "Ginorl Group CT Electrification Co., Ltd. \n的目标是获取各类产品标准认证，\n无论这些标准是否为销售前的 \n强制要求，我们都致力于让客户对 \n公司的 CT 品牌产品充满信心。"
+            },
+            "quality": {
+                "content": "维护质量，无论是生产过程的质量 \n还是最终产品的质量，\n公司都将尽最大努力 \n始终如一地保持该卓越品质，\n确保其严格符合各项标准。"
+            }
+        }
+    },
+    "company_history": {
+        "menu": {
+            "overview": "概览",
+            "company_history": "公司历史",
+            "qiaoxi_meaning": "巧思的含义",
+            "quality_process": "质量流程"
+        },
+        "hero": {
+            "kicker": "公司历史",
+            "title_before": "扎根泰国超过",
+            "title_highlight": "22年",
+            "title_after": "，守护用户用电安全"
+        },
+        "stats": [
+            { "value": "15 莱 (36 亩)", "label": "工厂面积" },
+            { "value": "5", "label": "生产中心" },
+            { "value": "200+", "label": "员工人数" },
+            { "value": "1.5B+", "label": "最高生产能力" },
+            { "value": "30+", "label": "工程师及模具专家" },
+            { "value": "30000+ m²", "label": "建筑面积" },
+            { "value": "77", "label": "覆盖府区" },
+            { "value": "1,600", "label": "国内经销商" }
+        ],
+        "office": {
+            "title": "办公室",
+            "company": ""
+        },
+        "factory_one": {
+            "title": "工厂",
+            "company": ""
+        },
+        "factory_two": {
+            "title": "工厂",
+            "company": ""
+        },
+        "timeline": {
+            "kicker": "里程碑",
+            "title": "从 CT Electric (Thailand) 发展为覆盖全国的电气设备制造商",
+            "subtitle": "Ginor Group CT Electrification Co., Ltd. 与泰国电气行业共同成长22年，始终重视质量、安全与可靠服务。",
+            "items": [
+                {
+                    "year": "2004",
+                    "title": "公司成立",
+                    "text": "公司前身为 CT Electric (Thailand)，起初是一家电气设备制造商，产品包括家用断路器配电箱、继电器产品及相关电气解决方案。"
+                },
+                {
+                    "year": "2011",
+                    "title": "获得质量认证",
+                    "text": "CT 产品获得电气相关机构的质量认证，认证产品包括组装式家用配电箱和断路器，以推动泰国电气行业的发展。"
+                },
+                {
+                    "year": "2011-2012",
+                    "title": "投资建设龙仔厝府工厂",
+                    "text": "2011年4月，公司投资近4000万泰铢在龙仔厝府建设工厂。该工厂于2012年5月正式启用，并将国外新的电气技术引入泰国。"
+                },
+                {
+                    "year": "现在",
+                    "title": "扎根泰国22年",
+                    "text": "如今，CT 产品通过全国数千个销售和分销网点供应。公司持续开发更安全、更高质量的电气产品，以满足客户需求。"
+                }
+            ]
+        },
+        "production_centers": {
+            "intro": {
+                "title": "5 个生产中心",
+                "subtitle": "作为本地制造商，我们能够为客户提供快速服务。",
+                "backgroundImage": "/company-history/production-centers/background.jpg"
+            },
+            "centers": [
+                {
+                    "id": 1,
+                    "title": "钣金生产中心",
+                    "markets": ["OEM DIY"],
+                    "image": "รูปภาพ8.png",
+                    "imageAlt": "钣金生产中心",
+                    "detail": "钣金生产中心可生产电柜、电箱及定制零件，支持按客户需求生产。",
+                    "badge": {
+                        "title": "按需求生产",
+                        "label": "厚度",
+                        "items": ["0.8", "1.0", "1.2", "1.6", "2.0", "2.5"]
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": "注塑生产中心",
+                    "markets": ["政府市场", "私人市场"],
+                    "image": "รูปภาพ9.png",
+                    "imageAlt": "注塑生产中心",
+                    "detail": "支持电气部件注塑生产，并控制产品质量与零件一致性。",
+                    "badge": {
+                        "title": "按需求生产",
+                        "label": "厚度",
+                        "items": ["0.8", "1.0", "1.2", "1.6", "2.0", "2.5"]
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": "电缆生产中心",
+                    "markets": ["政府市场", "私人市场", "电力部门"],
+                    "image": "รูปภาพ11.png",
+                    "imageAlt": "电缆生产中心",
+                    "detail": "生产适用于项目、工业应用和配电系统的电线与电缆。"
+                },
+                {
+                    "id": 4,
+                    "title": "工业管道生产中心",
+                    "markets": ["政府市场", "私人市场"],
+                    "image": "รูปภาพ13.png",
+                    "imageAlt": "工业管道生产中心",
+                    "detail": "生产工业管道及布线系统配件，满足高强度和高标准安装需求。"
+                },
+                {
+                    "id": 5,
+                    "title": "变压器生产中心",
+                    "markets": ["政府市场", "电力部门"],
+                    "image": "รูปภาพ15.png",
+                    "imageAlt": "变压器生产中心",
+                    "detail": "支持电力系统、项目工程和能源机构所需变压器的生产与组装。"
+                }
+            ]
+        },
+        "images": {
+            "skyline": "泰国城市天际线",
+            "production": "生产线",
+            "technology": "电气产品技术",
+            "engineering": "工程设计",
+            "office": "公司办公室与设施",
+            "factory_one": "工厂建筑",
+            "factory_two": "工厂设施"
+        }
+    },
+    "quality_process": {
+        "title": "质量流程",
+        "items": [
+            {
+                "id": "manufacturing",
+                "title": "生产",
+                "description": "采用现代化生产技术，并由质量团队配合管控每一个生产阶段。",
+                "image": "",
+                "imageAlt": "生产流程"
+            },
+            {
+                "id": "inspection",
+                "title": "检验",
+                "description": "产品经过质量控制检验，以确保性能、安全性及符合相关标准。",
+                "image": "",
+                "imageAlt": "检验流程"
+            },
+            {
+                "id": "assembly-packaging",
+                "title": "组装与包装",
+                "description": "系统化管理组装与包装流程，确保产品完整、可追溯并随时可用。",
+                "image": "",
+                "imageAlt": "组装与包装流程"
+            },
+            {
+                "id": "product-stock",
+                "title": "产品库存",
+                "description": "系统化整理和管理产品库存，以支持备货、分销和订单交付。",
+                "image": "",
+                "imageAlt": "产品库存管理"
+            },
+            {
+                "id": "transportation",
+                "title": "运输",
+                "description": "规划运输流程，支持从仓库到目的地的可靠国内交付与产品处理。",
+                "image": "",
+                "imageAlt": "运输流程"
+            }
+        ]
+    }
+}

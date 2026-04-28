@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+
+/* fonts */
+@font-face {
+    font-family: 'Prompt';
+    src: url('./assets/Prompt/Prompt-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('./assets/Prompt/Prompt-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('./assets/Prompt/Prompt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-font {
+    font-family: 'Inter', 'Prompt', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.title-font {
+    font-family: 'Inter', 'Prompt', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.subtitle-font {
+    font-family: 'Inter', 'Prompt', sans-serif;
+    font-weight: 400;
+    color: rgb(73, 78, 87);
+}
+
+:root {
+    --gb-main-bg-color: rgba(245, 247, 246);
+    --gb-main-green: rgba(0, 137, 133);
+    --gb-sub-green: rgba(229, 242, 241);
+}
+
+.all-screen {
+    width: 100vw;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: var(--gb-main-bg-color);
+}
+
+.container-zone {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    min-height: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 65px;
+}
+
+.site-mascot {
+    position: fixed;
+    right: clamp(12px, 2.5vw, 32px);
+    bottom: clamp(12px, 2.5vw, 32px);
+    width: clamp(100px, 12vw, 180px);
+    height: auto;
+    z-index: 20;
+    pointer-events: none;
+    user-select: none;
+}
+
+.company-history-layout .site-mascot {
+    right: auto;
+    left: clamp(12px, 2.5vw, 32px);
+    width: clamp(120px, 13vw, 180px);
+    z-index: 9;
+}

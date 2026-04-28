@@ -1,0 +1,672 @@
+* {
+    box-sizing: border-box;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    background-color: var(--gb-main-bg-color);
+
+    & .head-clip-container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.home-page .video {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
+    & video {
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        z-index: 0;
+    }
+}
+
+.home-page .overlay {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.291);
+    z-index: 1;
+}
+
+.home-page .content-on-video {
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    z-index: 2;
+    padding-left: 50px;
+    padding-bottom: 30px;
+
+    & h1 {
+        font-size: 64px;
+        font-weight: 600;
+        color: white;
+    }
+
+    & p {
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+        white-space: pre-line;
+    }
+}
+
+.home-page .video-footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    & button {
+        width: 200px;
+        height: 50px;
+        background-color: var(--gb-main-green);
+        border: none;
+        border-radius: 15px;
+        color: white;
+        font-size: 18px;
+        padding: 0;
+        margin-left: 3%;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.home-page .featured-video-section {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background-color: #ffffff;
+    padding: 0px 2% 100px;
+}
+
+.home-page .featured-video-section .header-of-section {
+    width: min(980px, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.home-page .featured-video-section .header-of-section h1,
+.home-page .featured-video-section .header-of-section p {
+    margin: 0;
+}
+
+.home-page .featured-video-section .featured-video-frame {
+    width: min(1100px, 100%);
+    aspect-ratio: 16 / 9;
+    margin-top: -8px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #0f172a;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.14);
+}
+
+.home-page .featured-video-section .featured-video-frame iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+    background-color: #0f172a;
+}
+
+.home-page>.company-info {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    padding: 8px clamp(24px, 5vw, 100px) 20px;
+}
+
+.home-page>.company-info .operation-card-grid {
+    width: min(1480px, 100%);
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.home-page>.company-info .operation-brand-card {
+    height: 100%;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 6px;
+    background-color: #ffffff;
+    padding: 26px 34px;
+    overflow: hidden;
+}
+
+.home-page>.company-info .operation-brand-card>.operation-brand-logo {
+    width: 96px;
+    height: 58px;
+    object-fit: contain;
+    object-position: left center;
+    flex: 0 0 auto;
+}
+
+.home-page>.company-info .operation-brand-card:first-child>.operation-brand-logo {
+    width: 74px;
+}
+
+.home-page>.company-info .operation-brand-content {
+    margin-top: 24px;
+    width: 100%;
+}
+
+.home-page>.company-info .operation-brand-content h3 {
+    margin: 0 0 18px;
+    color: #000000;
+    font-size: clamp(20px, 1.85vw, 25px);
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.home-page>.company-info .operation-brand-content p {
+    margin: 0;
+    color: #1f2937;
+    font-size: clamp(12px, 1.05vw, 14px);
+    line-height: 1.35;
+    font-weight: 400;
+}
+
+.home-page>.company-info .operation-brand-image {
+    width: 100%;
+    height: clamp(150px, 22vh, 240px);
+    margin-top: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.home-page .company-info .body {
+    width: 85%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    gap: 1%;
+
+    & section.company {
+        flex: 1;
+        display: grid;
+        place-items: center;
+        padding: 10px;
+    }
+
+    & section.info {
+        flex: 2;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        & .company-info:nth-child(1), .company-info:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+        }
+    }
+
+    & section.company .ginolr-logo-section {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding: 30px 10%;
+        gap: 20px;
+
+        & .logo-container {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background-color: var(--gb-sub-green);
+            display: grid;
+            place-items: center;
+        }
+
+        & .ginolr-title {
+            font-size: 30px !important;
+            margin: 0;
+            margin-top: 10px;
+        }
+    }
+
+    & section.info .company-info {
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & .card {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+            padding: 20px;
+            padding-bottom: 10px;
+        }
+
+        & .card .icon {
+            width: 60px;
+            height: 60px;
+            background-color: var(--gb-main-green);
+            border: 1px solid rgb(12, 92, 54);
+            /* top */
+            box-shadow: inset 0 1px 0 0 rgb(85, 168, 115), inset 0 -1px 0 rgb(18, 113, 69);
+
+            /* bottom */
+            /* box-shadow: inset 0 -1px 0 rgb(18, 113, 69); */
+
+            border-radius: 20%;
+            display: grid;
+            place-items: center;
+            font-size: 20px;
+            color: #ffffff;
+
+        }
+
+        & .card .icon-info {
+            width: 100%;
+        }
+
+        & .card .action {
+            color: var(--gb-main-green);
+            font-weight: bold;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.home-page .target-info {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-margin-top: -65px;
+    padding-top: 24px;
+}
+
+.home-page .target-info>.header-of-section {
+    gap: 0;
+}
+
+.home-page .target-info>.header-of-section h1 {
+    margin: 0;
+}
+
+.home-page .target-info>main {
+    width: 100%;
+    flex: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.home-page .target-info .card-in-vision-section {
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 0;
+    padding: 5px;
+
+    & .img {
+        width: 100%;
+        height: 60%;
+        background-color: var(--gb-main-bg-color);
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .content {
+        width: 100%;
+        flex: 1;
+        padding: 20px;
+
+        & h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--gb-main-green);
+        }
+
+        & p {
+            font-size: 16px;
+            font-weight: 400;
+            color: rgb(73, 78, 87);
+        }
+    }
+
+    & .safety, .vision, .value {
+        object-fit: cover;
+    }
+}
+
+.home-page .our-product {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background-color: #ffffff;
+
+    & .header-of-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        & h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--gb-main-green);
+        }
+
+        & h1 {
+            font-size: 40px;
+            font-weight: 600;
+            margin: 0;
+
+        }
+
+    }
+
+    & .content-of-section {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        &>div {
+            flex: 1;
+            height: 100%;
+        }
+
+        & .left-section, .right-section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            justify-content: space-evenly;
+        }
+
+        & .left-section {
+            align-items: end;
+        }
+
+        & .right-section {
+            align-items: start;
+        }
+
+        & .content {
+            width: 300px;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            gap: 5px;
+
+            & h3 {
+                margin: 0;
+            }
+        }
+
+        & .icon-container {
+            width: 50px;
+            aspect-ratio: 1/1;
+            border: 1px solid rgb(174, 174, 174);
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: grid;
+            place-items: center;
+            padding: 5px;
+        }
+    }
+}
+
+
+.cls-1 {
+    stroke: #000;
+    stroke-width: .5px;
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4 {
+    stroke-miterlimit: 10;
+}
+
+.cls-1, .cls-3, .cls-4 {
+    fill: none;
+}
+
+.cls-5 {
+    font-size: 17.82px;
+}
+
+.cls-5, .cls-6 {
+    font-family: Bahnschrift-BoldSemiCondensed, Bahnschrift;
+    font-variation-settings: 'wght' 700, 'wdth' 87;
+    font-weight: 700;
+}
+
+.cls-7 {
+    font-size: 11.58px;
+}
+
+.cls-7, .cls-8 {
+    font-family: Bahnschrift-SemiCondensed, Bahnschrift;
+    font-variation-settings: 'wght' 400, 'wdth' 87;
+}
+
+.cls-2 {
+    fill: #939598;
+    stroke-width: .25px;
+}
+
+.cls-2, .cls-3, .cls-4 {
+    stroke: #231f20;
+}
+
+.cls-9, .cls-10 {
+    fill: #231f20;
+}
+
+.cls-3 {
+    stroke-width: 2px;
+}
+
+.cls-6 {
+    font-size: 20.12px;
+}
+
+.cls-10 {
+    font-family: Bahnschrift, Bahnschrift;
+    font-size: 45.81px;
+    font-variation-settings: 'wght' 400, 'wdth' 100;
+}
+
+.cls-8 {
+    font-size: 13.08px;
+}
+
+.home-page .asia-map-section {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    gap: 16px;
+    padding: 8px 20px 20px;
+    overflow: hidden;
+}
+
+.home-page .asia-map-section .map-container {
+    width: 100%;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home-page .asia-map-section .content {
+    flex: unset;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+
+    & .card {
+        width: 25%;
+    }
+
+    & h1, h3, p {
+        text-align: center;
+    }
+
+    & h1 {
+        font-size: 30px;
+        color: var(--gb-main-green);
+    }
+
+}
+
+.home-page .asia-map-section .product-showcase {
+    width: min(1320px, 100%);
+    overflow: hidden;
+    margin-top: 35px;
+    padding-top: 8px;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+
+.home-page .asia-map-section .product-showcase-title {
+    width: 100%;
+    margin: 0 0 14px;
+    text-align: center;
+}
+
+.home-page .asia-map-section .product-showcase-track {
+    width: max-content;
+    display: flex;
+    gap: 24px;
+    animation: product-showcase-scroll 34s linear infinite;
+}
+
+.home-page .asia-map-section .product-showcase-card {
+    width: clamp(220px, 16vw, 260px);
+    height: clamp(140px, 10vw, 170px);
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.home-page .asia-map-section .product-showcase-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 14px;
+}
+
+@keyframes product-showcase-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* เพิ่มเพื่อรองรับการเว้นบรรทัด \n จาก JSON */
+.home-page .content-on-video p, 
+.home-page .content-on-video h1,
+.home-page .target-info .content p,
+.home-page .our-product .content p,
+.home-page .company-info .ginolr-logo-section p {
+    white-space: pre-line;
+}

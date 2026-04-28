@@ -1,0 +1,125 @@
+{
+    "seller_section": {
+        "northern_upper": {
+            "label": "Northern Upper Region",
+            "seller_list": [
+                {
+                    "name": "Mr. Watchara Panphrom (Note)",
+                    "call": ""
+                }
+            ]
+        },
+        "northern_lower": {
+            "label": "Northern Lower Region",
+            "seller_list": [
+                {
+                    "name": "Mr. Chalermpon Sribuaban (Benz)",
+                    "call": ""
+                }
+            ]
+        },
+        "southern_upper": {
+            "label": "Southern Upper Region",
+            "seller_list": [
+                {
+                    "name": "Mr. Kidravi Pimpradit (O)",
+                    "call": ""
+                }
+            ]
+        },
+        "southern_lower": {
+            "label": "Southern Lower Region",
+            "seller_list": [
+                {
+                    "name": "Mr. Nutthapat Pusee (Pruek)",
+                    "call": ""
+                }
+            ]
+        },
+        "northeastern_upper": {
+            "label": "Northeastern Upper Region",
+            "seller_list": [
+                {
+                    "name": "Ms. Nutchareeporn Tuenchanthuek (Golf)",
+                    "call": ""
+                }
+            ]
+        },
+        "northeastern_lower": {
+            "label": "Northeastern Lower Region",
+            "seller_list": [
+                {
+                    "name": "Mr. Promma Patana (Kik)",
+                    "call": ""
+                }
+            ]
+        },
+        "bangkok": {
+            "label": "Bangkok",
+            "seller_list": [
+                {
+                    "name": "Ms. Natthanan Donkaew (Nut)",
+                    "call": ""
+                }
+            ]
+        },
+        "center": {
+            "label": "Central Region",
+            "seller_list": [
+                {
+                    "name": "Mr. Saktat Siritaratip (Yo)",
+                    "call": ""
+                },
+                {
+                    "name": "Mr. Kittisak Thongpool (Nui)",
+                    "call": ""
+                }
+            ]
+        }
+    },
+    "contact_section": {
+        "contact_us": "Contact us",
+        "header": "GINOLR CT ELECTRIC CONTACT",
+        "title": "Our friendly team is always here to chat.",
+        "email": {
+            "title": "Email",
+            "subtitle": "Feel free to email us anytime",
+            "contact": "ctthai@hotmail.com"
+        },
+        "location": {
+            "title": "Location",
+            "subtitle": "Visit our main office",
+            "contact": "49/3 Moo 8 Nadee Subdistrict, Mueang Samut Sakhon District, Samut Sakhon, Thailand"
+        },
+        "phone": {
+            "title": "Phone",
+            "subtitle": "Mon–Sat, 8.30am–5.30pm",
+            "call": "034-496-686"
+        }
+    },
+    "social_media_section": {
+        "social_media": "Social Media",
+        "header": "FOLLOW US ON SOCIAL MEDIA",
+        "title": "Stay updated with our latest news and events.",
+        "facebook": {
+            "title": "Facebook",
+            "contact": "CTElectric"
+        },
+        "tiktok": {
+            "title": "Tiktok",
+            "contact": "ctelectric"
+        },
+        "line": {
+            "title": "LINE",
+            "contact": "@ctelectric"
+        },
+        "lazada": {
+            "title": "Lazada",
+            "contact": "CT ELECTRIC"
+        },
+        "shopee": {
+            "title": "Shopee",
+            "sub_title": "CT ELCETRIC SHOP"
+        }
+    }
+}

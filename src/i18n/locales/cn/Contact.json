@@ -1,0 +1,125 @@
+{
+  "seller_section": {
+    "northern_upper": {
+      "label": "泰国北部上区",
+      "seller_list": [
+        {
+          "name": "Watchara Panphrom 先生（Note）",
+          "call": ""
+        }
+      ]
+    },
+    "northern_lower": {
+      "label": "泰国北部下区",
+      "seller_list": [
+        {
+          "name": "Chalermpon Sribuaban 先生（Benz）",
+          "call": ""
+        }
+      ]
+    },
+    "southern_upper": {
+      "label": "泰国南部上区",
+      "seller_list": [
+        {
+          "name": "Kidravi Pimpradit 先生（O）",
+          "call": ""
+        }
+      ]
+    },
+    "southern_lower": {
+      "label": "泰国南部下区",
+      "seller_list": [
+        {
+          "name": "Nutthapat Pusee 先生（Pruek）",
+          "call": ""
+        }
+      ]
+    },
+    "northeastern_upper": {
+      "label": "泰国东北部上区",
+      "seller_list": [
+        {
+          "name": "Nutchareeporn Tuenchanthuek 女士（Golf）",
+          "call": ""
+        }
+      ]
+    },
+    "northeastern_lower": {
+      "label": "泰国东北部下区",
+      "seller_list": [
+        {
+          "name": "Promma Patana 先生（Kik）",
+          "call": ""
+        }
+      ]
+    },
+    "bangkok": {
+      "label": "曼谷",
+      "seller_list": [
+        {
+          "name": "Natthanan Donkaew 女士（Nut）",
+          "call": ""
+        }
+      ]
+    },
+    "center": {
+      "label": "泰国中部地区",
+      "seller_list": [
+        {
+          "name": "Saktat Siritaratip 先生（Yo）",
+          "call": ""
+        },
+        {
+          "name": "Kittisak Thongpool 先生（Nui）",
+          "call": ""
+        }
+      ]
+    }
+  },
+  "contact_section": {
+    "contact_us": "联系我们",
+    "header": "GINOLR CT ELECTRIC 联系方式",
+    "title": "我们专业且友善的团队随时乐意为您提供服务。",
+    "email": {
+      "title": "电子邮箱",
+      "subtitle": "欢迎随时发送邮件与我们联系",
+      "contact": "ctthai@hotmail.com"
+    },
+    "location": {
+      "title": "地址",
+      "subtitle": "欢迎前往我们的总部办公室",
+      "contact": "泰国 龙仔厝府 龙仔厝府治县 纳里区 第8村 49/3号"
+    },
+    "phone": {
+      "title": "电话",
+      "subtitle": "周一至周六，上午 8:30 - 下午 5:30",
+      "call": "034-496-686"
+    }
+  },
+  "social_media_section": {
+    "social_media": "社交媒体",
+    "header": "关注我们的社交媒体",
+    "title": "随时获取我们的最新资讯与活动信息。",
+    "facebook": {
+      "title": "Facebook",
+      "contact": "CTElectric"
+    },
+    "tiktok": {
+      "title": "TikTok",
+      "contact": "ctelectric"
+    },
+    "line": {
+      "title": "LINE",
+      "contact": "@ctelectric"
+    },
+    "lazada": {
+      "title": "Lazada",
+      "contact": "CT ELECTRIC"
+    },
+    "shopee": {
+      "title": "Shopee",
+      "sub_title": "CT ELECTRIC SHOP"
+    }
+  }
+}

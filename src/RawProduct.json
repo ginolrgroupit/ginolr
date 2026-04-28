@@ -1,0 +1,636 @@
+[
+    {
+        "name": "ตู้คอนซูมเมอร์ยูนิต",
+        "img": [
+            "/category/consumer_unit.webp"
+        ],
+        "product": [
+            {
+                "name": "ตู้คอนซูมเมอร์ยูนิต CTM",
+                "img": [
+                    "/category/consumer unit/CTM.webp"
+                ],
+                "product_id": 1
+            },
+            {
+                "name": "ตู้คอนซูมเมอร์ยูนิต CHONG",
+                "img": [
+                    "/category/consumer unit/CHONG.webp"
+                ],
+                "product_id": 2
+            },
+            {
+                "name": "ตู้คอนซูมเมอร์ยูนิต CTU",
+                "img": [
+                    "/category/consumer unit/CTU.webp"
+                ],
+                "product_id": 3
+            },
+            {
+                "name": "ตู้คอนซูมเมอร์ยูนิต CTI",
+                "img": [
+                    "/category/consumer unit/CTI.webp"
+                ],
+                "product_id": 4
+            }
+        ]
+    },
+    {
+        "name": "ตู้โหลดเซนเตอร์",
+        "img": [
+            "/category/load_center.webp"
+        ],
+        "product": [
+            {
+                "name": "ตู้โหลดเซนเตอร์ CT",
+                "img": [
+                    "/category/loadcenter/Loadcenter.webp"
+                ],
+                "product_id": 5
+            }
+        ]
+    },
+    {
+        "name": "ตู้ไฟสวิทซ์บอร์ด",
+        "img": [
+            "/category/Switchboard Cabinet.webp"
+        ],
+        "product": [
+            {
+                "name": "ตู้ไฟสวิทซ์บอร์ด CT",
+                "img": [
+                    "/category/Switchboard Cabinet/Switchboard Cabinet.webp"
+                ],
+                "product_id": 6
+            }
+        ]
+    },
+    {
+        "name": "เซอกิตเบรกเกอร์",
+        "img": [
+            "/category/Circuit Breaker.webp"
+        ],
+        "product": [
+            {
+                "name": "เบรกเกอร์ CTM1",
+                "img": [
+                    "/category/Circuit Breaker/CTM1.webp"
+                ],
+                "product_id": 7
+            },
+            {
+                "name": "เบรกเกอร์ CTM2",
+                "img": [
+                    "/category/Circuit Breaker/CTM2.webp"
+                ],
+                "product_id": 8
+            },
+            {
+                "name": "เบรกเกอร์ CTM4",
+                "img": [
+                    "/category/Circuit Breaker/CTM4.webp"
+                ],
+                "product_id": 9
+            },
+            {
+                "name": "เบรกเกอร์ CTMF7",
+                "img": [
+                    "/category/Circuit Breaker/CTMF7.webp"
+                ],
+                "product_id": 10
+            }
+        ]
+    },
+    {
+        "name": "เซฟตี้เบรกเกอร์",
+        "img": [
+            "/category/safety breaker.webp"
+        ],
+        "product": [
+            {
+                "name": "เซฟตี้เบรกเกอร์ CNT-40c",
+                "img": [
+                    "/category/safety breaker/CNT-40c.webp"
+                ],
+                "product_id": 11
+            },
+            {
+                "name": "เซฟตี้เบรกเกอร์ CNTLE-40c",
+                "img": [
+                    "/category/safety breaker/CNTLE-40c.webp"
+                ],
+                "product_id": 12
+            },
+            {
+                "name": "เซฟตี้เบรกเกอร์ CNT-B40c",
+                "img": [
+                    "/category/safety breaker/CNT-B40c.webp"
+                ],
+                "product_id": 13
+            },
+            {
+                "name": "กล่องเซฟตี้เบรกเกอร์ CNTBOX",
+                "img": [
+                    "/category/safety breaker/CNTBOX.webp"
+                ],
+                "product_id": 14
+            }
+        ]
+    },
+    {
+        "name": "เบรกเกอร์ RCCB",
+        "img": [
+            "/category/breaker RCCB.webp"
+        ],
+        "product": [
+            {
+                "name": "เบรกเกอร์ CTMBS-125",
+                "img": [
+                    "/category/breaker RCCB.webp"
+                ],
+                "product_id": 15
+            }
+        ]
+    },
+    {
+        "name": "เบรกเกอร์ MCCB",
+        "img": [
+            "/category/MCCB.webp"
+        ],
+        "product": [
+            {
+                "name": "เบรกเกอร์ CTNF",
+                "img": [
+                    "/category/MCCB/CTNF.webp"
+                ],
+                "product_id": 16
+            },
+            {
+                "name": "เบรกเกอร์ GTM1",
+                "img": [
+                    "/category/MCCB/GTM1.webp"
+                ],
+                "product_id": 17
+            },
+            {
+                "name": "เบรกเกอร์ GTM1LE",
+                "img": [
+                    "/category/MCCB/GTM1LE.webp"
+                ],
+                "product_id": 18
+            }
+        ]
+    },
+    {
+        "name": "อุปกรณ์ป้องกันไฟกระชาก",
+        "img": [
+            "/category/surge.webp"
+        ],
+        "product": [
+            {
+                "name": "อุปกรณ์ป้องกันไฟกระชาก CSPD-A",
+                "img": [
+                    "/category/surge/CSPD-A.webp"
+                ],
+                "product_id": 19
+            },
+            {
+                "name": "อุปกรณ์ป้องกันไฟกระชาก CSPD-D",
+                "img": [
+                    "/category/surge/CSPD-D.webp"
+                ],
+                "product_id": 20
+            }
+        ]
+    },
+    {
+        "name": "กล่องฟิวส์พร้อมลูกฟิวส์",
+        "img": [
+            "/category/fuse.webp"
+        ],
+        "product": [
+            {
+                "name": "กล่องฟิวส์",
+                "img": [
+                    "/category/fuse/fuse box.webp"
+                ],
+                "product_id": 21
+            },
+            {
+                "name": "ลูกฟิวส์",
+                "img": [
+                    "/category/fuse/fuse.webp"
+                ],
+                "product_id": 22
+            }
+        ]
+    },
+    {
+        "name": "เครื่องตัดกระแสไฟอัตโนมัติ",
+        "img": [
+            "/category/ELECTICAL CUTTER.webp"
+        ],
+        "product": [
+            {
+                "name": "เครื่องตัดกระแสไฟอัตโนมัติ V-SAFE2",
+                "img": [
+                    "/category/ELECTICAL CUTTER/V-SAFE2.webp"
+                ],
+                "product_id": 23
+            },
+            {
+                "name": "เครื่องตัดกระแสไฟอัตโนมัติ SPD-R",
+                "img": [
+                    "/category/ELECTICAL CUTTER/SPD-R.webp"
+                ],
+                "product_id": 24
+            }
+        ]
+    },
+    {
+        "name": "กิโลวัตต์ฮาวมิเตอร์",
+        "img": [
+            "/category/Kilowatt-hour meter.webp"
+        ],
+        "product": [
+            {
+                "name": "กิโลวัตต์ฮาวมิเตอร์ meter EM3-86",
+                "img": [
+                    "/category/Kilowatt-hour meter/EM3-86.webp"
+                ],
+                "product_id": 25
+            },
+            {
+                "name": "กิโลวัตต์ฮาวมิเตอร์ meter EM4-86",
+                "img": [
+                    "/category/Kilowatt-hour meter/EM4-86.webp"
+                ],
+                "product_id": 26
+            }
+        ]
+    },
+    {
+        "name": "แมกเนติกคอนแทคเตอร์ & โอเวอร์โหลดรีเลย์",
+        "img": [
+            "/category/magnetic contactor & overload.webp"
+        ],
+        "product": [
+            {
+                "name": "แมกเนติกคอนแทคเตอร์ SN",
+                "img": [
+                    "/category/magnetic contactor & overload/SN.webp"
+                ],
+                "product_id": 27
+            },
+            {
+                "name": "แมกเนติกคอนแทคเตอร์ CXC",
+                "img": [
+                    "/category/magnetic contactor & overload/CXC.webp"
+                ],
+                "product_id": 28
+            },
+            {
+                "name": "โอเวอร์โหลดรีเลย์ TH-N",
+                "img": [
+                    "/category/magnetic contactor & overload/TH-N.webp"
+                ],
+                "product_id": 29
+            },
+            {
+                "name": "โอเวอร์โหลดรีเลย์ JR-28",
+                "img": [
+                    "/category/magnetic contactor & overload/JR-28.webp"
+                ],
+                "product_id": 30
+            },
+            {
+                "name": "Auxiliary F4",
+                "img": [
+                    "/category/magnetic contactor & overload/F4.webp"
+                ],
+                "product_id": 31
+            },
+            {
+                "name": "Auxiliary F8",
+                "img": [
+                    "/category/magnetic contactor & overload/F8.webp"
+                ],
+                "product_id": 32
+            },
+            {
+                "name": "Delay Module LA2-TO",
+                "img": [
+                    "/category/magnetic contactor & overload/LA2-TO.webp"
+                ],
+                "product_id": 33
+            }
+        ]
+    },
+    {
+        "name": "พาวเวอร์ปลั๊ก",
+        "img": [
+            "/category/Power Plug.webp"
+        ],
+        "product": [
+            {
+                "name": "พาวเวอร์ปลั๊ก ปลั๊กเต้าเสียบ (ตัวผู้)",
+                "img": [
+                    "/category/Power Plug/พาวเวอร์ปลั๊ก ปลั๊กเต้าเสียบ (ตัวผู้).webp"
+                ],
+                "product_id": 34
+            },
+            {
+                "name": "พาวเวอร์ปลั๊ก กลางทางเต้ารับ (ตัวเมีย)",
+                "img": [
+                    "/category/Power Plug/พาวเวอร์ปลั๊ก กลางทางเต้ารับ (ตัวเมีย).webp"
+                ],
+                "product_id": 35
+            },
+            {
+                "name": "พาวเวอร์ปลั๊ก ติดลอยเต้ารับ (ตัวเมีย)",
+                "img": [
+                    "/category/Power Plug/พาวเวอร์ปลั๊ก ติดลอยเต้ารับ (ตัวเมีย).webp"
+                ],
+                "product_id": 36
+            },
+            {
+                "name": "พาวเวอร์ปลั๊ก สามทางเต้ารับ (ตัวเมีย)",
+                "img": [
+                    "/category/Power Plug/พาวเวอร์ปลั๊ก สามทางเต้ารับ (ตัวเมีย).webp"
+                ],
+                "product_id": 37
+            },
+            {
+                "name": "พาวเวอร์ปลั๊ก ฝังผนังเต้ารับ (ตัวเมีย)",
+                "img": [
+                    "/category/Power Plug/พาวเวอร์ปลั๊ก ฝังผนังเต้ารับ (ตัวเมีย).webp"
+                ],
+                "product_id": 38
+            }
+        ]
+    },
+    {
+        "name": "ปุ่มและไฟแสดงสถานะ",
+        "img": [
+            "/category/Button.webp"
+        ],
+        "product": [
+            {
+                "name": "สวิตช์ LA38",
+                "img": [
+                    "/category/Button/LA38.webp"
+                ],
+                "product_id": 39
+            },
+            {
+                "name": "ไฟแสดงสถานะ AD16",
+                "img": [
+                    "/category/Button/AD16.webp"
+                ],
+                "product_id": 40
+            },
+            {
+                "name": "สวิตช์ PB25",
+                "img": [
+                    "/category/Button/PB25.webp"
+                ],
+                "product_id": 41
+            },
+            {
+                "name": "สวิตช์แสงแดด AS-15",
+                "img": [
+                    "/category/Button/AS-15.webp"
+                ],
+                "product_id": 42
+            },
+            {
+                "name": "ไฟแสดงสถานะ CA-25",
+                "img": [
+                    "/category/Button/CA-25.webp"
+                ],
+                "product_id": 43
+            },
+            {
+                "name": "สวิตช์ SS25",
+                "img": [
+                    "/category/Button/SS25.webp"
+                ],
+                "product_id": 44
+            }
+        ]
+    },
+    {
+        "name": "สวิตซ์ปุ่มกด ON-OFF",
+        "img": [
+            "/category/Push Button.webp"
+        ],
+        "product": [
+            {
+                "name": "สวิตซ์ปุ่มกด CPBS",
+                "img": [
+                    "/category/Push Button.webp"
+                ],
+                "product_id": 45
+            }
+        ]
+    },
+    {
+        "name": "ซีเล็คเตอร์สวิตซ์",
+        "img": [
+            "/category/Selector Switch.webp"
+        ],
+        "product": [
+            {
+                "name": "ซีเล็คเตอร์สวิตซ์ LW28",
+                "img": [
+                    "/category/Selector Switch.webp"
+                ],
+                "product_id": 46
+            }
+        ]
+    },
+    {
+        "name": "หางปลามาตฐานสากล",
+        "img": [
+            "/category/lug.webp"
+        ],
+        "product": [
+            {
+                "name": "หางปลากลมเปลือย",
+                "img": [
+                    "/category/lug/หางปลากลมเปลือย.webp"
+                ],
+                "product_id": 47
+            },
+            {
+                "name": "หางปลาแฉกเปลือย",
+                "img": [
+                    "/category/lug/หางปลาแฉกเปลือย.webp"
+                ],
+                "product_id": 48
+            },
+            {
+                "name": "หางปลากลมหุ่มฉนวน",
+                "img": [
+                    "/category/lug/หางปลากลมหุ่มฉนวน.webp"
+                ],
+                "product_id": 49
+            },
+            {
+                "name": "หางปลาแฉกหุ้มฉนวน",
+                "img": [
+                    "/category/lug/หางปลาแฉกหุ้มฉนวน.webp"
+                ],
+                "product_id": 50
+            },
+            {
+                "name": "หางปลารุ่นหนาทรงยุโรป (แบบท่อ)",
+                "img": [
+                    "/category/lug/หางปลารุ่นหนาทรงยุโรป (แบบท่อ).webp"
+                ],
+                "product_id": 51
+            },
+            {
+                "name": "ข้อต่อสายแบบย้ำเปลือย (ยาวพิเศษ)",
+                "img": [
+                    "/category/lug/ข้อต่อสายแบบย้ำเปลือย (ยาวพิเศษ).webp"
+                ],
+                "product_id": 52
+            },
+            {
+                "name": "หางปลาหัวเสียบตัวผู้ (แบบแบนหุ้มฉนวน)",
+                "img": [
+                    "/category/lug/หางปลาหัวเสียบตัวผู้ (แบบแบนหุ้มฉนวน).webp"
+                ],
+                "product_id": 53
+            },
+            {
+                "name": "หางปลาหัวเสียบตัวเมีย (แบบแบนหุ้มฉนวน)",
+                "img": [
+                    "/category/lug/หางปลาหัวเสียบตัวเมีย (แบบแบนหุ้มฉนวน).webp"
+                ],
+                "product_id": 54
+            },
+            {
+                "name": "หางปลาหัวเสียบตัวเมีย (แบบแบนหุ้มฉนวนเต็ม)",
+                "img": [
+                    "/category/lug/หางปลาหัวเสียบตัวเมีย (แบบแบนหุ้มฉนวนเต็ม).webp"
+                ],
+                "product_id": 55
+            },
+            {
+                "name": "ข้อต่อสาย (แบบย้ำหุ้มฉนวน)",
+                "img": [
+                    "/category/lug/ข้อต่อสาย (แบบย้ำหุ้มฉนวน).webp"
+                ],
+                "product_id": 56
+            },
+            {
+                "name": "หางปลาหัวเสียบตัวผู้ (แบบกลมหุ้มฉนวน)",
+                "img": [
+                    "/category/lug/หางปลาหัวเสียบตัวผู้ (แบบกลมหุ้มฉนวน).webp"
+                ],
+                "product_id": 57
+            },
+            {
+                "name": "หางปลาหัวเสียบตัวเมีย (แบบกลมหุ้มฉนวน)",
+                "img": [
+                    "/category/lug/หางปลาหัวเสียบตัวเมีย (แบบกลมหุ้มฉนวน).webp"
+                ],
+                "product_id": 58
+            },
+            {
+                "name": "หางปลาหัวเสียบก้านไม้ขีด (แบบแบนยาวหุ้มฉนวน)",
+                "img": [
+                    "/category/lug/หางปลาหัวเสียบก้านไม้ขีด (แบบแบนยาวหุ้มฉนวน).webp"
+                ],
+                "product_id": 59
+            },
+            {
+                "name": "หางปลาหัวเสียบก้านไม้ขีด (แบบกลมหุ้มฉนวน)",
+                "img": [
+                    "/category/lug/หางปลาหัวเสียบก้านไม้ขีด (แบบกลมหุ้มฉนวน).webp"
+                ],
+                "product_id": 60
+            },
+            {
+                "name": "หางปลาหัวเสียบก้านไม้ขีด (แบบแบนหุ้มฉนวน)",
+                "img": [
+                    "/category/lug/หางปลาหัวเสียบก้านไม้ขีด (แบบแบนหุ้มฉนวน).webp"
+                ],
+                "product_id": 61
+            },
+            {
+                "name": "หัวต่อสายหุ้มฉนวนรูปหมวก (แบบขาวขุ่น)",
+                "img": [
+                    "/category/lug/หัวต่อสายหุ้มฉนวนรูปหมวก (แบบขาวขุ่น).webp"
+                ],
+                "product_id": 62
+            },
+            {
+                "name": "ไวร์นัท สปริงเหลี่ยม หุ้มฉนวน",
+                "img": [
+                    "/category/lug/ไวร์นัท สปริงเหลี่ยม หุ้มฉนวน.webp"
+                ],
+                "product_id": 63
+            },
+            {
+                "name": "ตลับหนีบสาย หุ้มฉนวน",
+                "img": [
+                    "/category/lug/ตลับหนีบสาย หุ้มฉนวน.webp"
+                ],
+                "product_id": 64
+            },
+            {
+                "name": "ข้อต่อย้ำปลายสายหุ้มฉนวน (แบบคู่)",
+                "img": [
+                    "/category/lug/ข้อต่อย้ำปลายสายหุ้มฉนวน (แบบคู่).webp"
+                ],
+                "product_id": 65
+            },
+            {
+                "name": "ข้อต่อย้ำปลายสายหุ้มฉนวน (แบบเดี่ยว)",
+                "img": [
+                    "/category/lug/ข้อต่อย้ำปลายสายหุ้มฉนวน (แบบเดี่ยว).webp"
+                ],
+                "product_id": 66
+            },
+            {
+                "name": "ข้อต่อย้ำปลายสาย (แบบเดี่ยวเปลือย)",
+                "img": [
+                    "/category/lug/ข้อต่อย้ำปลายสาย (แบบเดี่ยวเปลือย).webp"
+                ],
+                "product_id": 67
+            }
+        ]
+    },
+    {
+        "name": "สวิตซ์กับปลั๊ก",
+        "img": [
+            "/category/Switch and plug.webp"
+        ],
+        "product": [
+            {
+                "name": "หน้ากาก",
+                "img": [
+                    "/category/Switch and plug/Faceplate.webp"
+                ],
+                "product_id": 68
+            },
+            {
+                "name": "สวิตซ์",
+                "img": [
+                    "/category/Switch and plug/Switch.webp"
+                ],
+                "product_id": 69
+            },
+            {
+                "name": "ปลั๊ก",
+                "img": [
+                    "/category/Switch and plug/Plug.webp"
+                ],
+                "product_id": 70
+            }
+        ]
+    }
+]

@@ -1,0 +1,125 @@
+{
+    "seller_section": {
+        "northern_upper": {
+            "label": "ภาคเหนือตอนบน",
+            "seller_list": [
+                {
+                    "name": "นายวัชระ ปานพรม (โน๊ต)",
+                    "call": ""
+                }
+            ]
+        },
+        "northern_lower": {
+            "label": "ภาคเหนือตอนล่าง",
+            "seller_list": [
+                {
+                    "name": "นายเฉลิมพล ศรีบัวบาน (เบนซ์)",
+                    "call": ""
+                }
+            ]
+        },
+        "southern_upper": {
+            "label": "ภาคใต้ตอนบน",
+            "seller_list": [
+                {
+                    "name": "นายกิตต์รวี พิมประดิษฐ์ (โอ)",
+                    "call": ""
+                }
+            ]
+        },
+        "southern_lower": {
+            "label": "ภาคใต้ตอนล่าง",
+            "seller_list": [
+                {
+                    "name": "นายณัฐภัทร ภูศรี (พฤกษ์)",
+                    "call": ""
+                }
+            ]
+        },
+        "northeastern_upper": {
+            "label": "ภาคตะวันออกเฉียงเหนือตอนบน",
+            "seller_list": [
+                {
+                    "name": "นางสาวนุชรีพร เตือนจันทร์ทึก (กอล์ฟ)",
+                    "call": ""
+                }
+            ]
+        },
+        "northeastern_lower": {
+            "label": "ภาคตะวันออกเฉียงเหนือตอนล่าง",
+            "seller_list": [
+                {
+                    "name": "นายพรมมา ปะตะเน (กิ๊ก)",
+                    "call": ""
+                }
+            ]
+        },
+        "bangkok": {
+            "label": "กรุงเทพมหานคร",
+            "seller_list": [
+                {
+                    "name": "นางสาวนัททนัน ด่อนแก้ว (นัท)",
+                    "call": ""
+                }
+            ]
+        },
+        "center": {
+            "label": "ภาคกลาง",
+            "seller_list": [
+                {
+                    "name": "นายศักดิ์ธัชญ์ สิริธาราทิพย์ (โย)",
+                    "call": ""
+                },
+                {
+                    "name": "นายกิตติศักดิ์ ทองพูล (หนุ่ย)",
+                    "call": ""
+                }
+            ]
+        }
+    },
+    "contact_section": {
+        "contact_us": "ติดต่อเรา",
+        "header": "GINOLR CT ELECTRIC CONTACT",
+        "title": "ทีมงานของเราพร้อมให้บริการและให้คำปรึกษาแก่คุณ",
+        "email": {
+            "title": "อีเมล",
+            "subtitle": "สอบถามข้อมูลผ่านอีเมลได้ตลอดเวลา",
+            "contact": "ctthai@hotmail.com"
+        },
+        "location": {
+            "title": "ที่อยู่",
+            "subtitle": "แวะเยี่ยมชมสำนักงานใหญ่ของเรา",
+            "contact": "49/3 หมู่ 8 ตำบลนาดี อำเภอเมืองสมุทรสาคร จังหวัดสมุทรสาคร"
+        },
+        "phone": {
+            "title": "เบอร์โทรศัพท์",
+            "subtitle": "จันทร์ – เสาร์, 8:30 น. – 17:30 น.",
+            "call": "034-496-686"
+        }
+    },
+    "social_media_section": {
+        "social_media": "โซเชียลมีเดีย",
+        "header": "ติดตามเราทางช่องทางออนไลน์",
+        "title": "ติดตามข่าวสารของเรา และกิจกรรมสำคัญล่าสุด",
+        "facebook": {
+            "title": "Facebook",
+            "contact": "CTElectric"
+        },
+        "tiktok": {
+            "title": "Tiktok",
+            "contact": "ctelectric"
+        },
+        "line": {
+            "title": "LINE",
+            "contact": "@ctelectric"
+        },
+        "lazada": {
+            "title": "Lazada",
+            "contact": "CT ELECTRIC"
+        },
+        "shopee": {
+            "title": "Shopee",
+            "sub_title": "Ct ELECTRIC SHOP"
+        }
+    }
+}

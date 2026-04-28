@@ -1,0 +1,126 @@
+{
+  "video_section": {
+    "company_name": "GINOLR GROUP",
+    "company_subtitle": "一家位于泰国的公司，该公司生产和销售符合国际标准的电气设备。",
+    "btn": {
+      "product": "产品中心"
+    }
+  },
+  "product_all": {
+    "title": "全部产品",
+    "subtitle": "选择产品类别以查看全部产品与详细信息。",
+    "product_count": "产品",
+    "view": "查看产品"
+  },
+  "product_list": {
+    "all": "全部"
+  },
+  "product_detail": {
+    "breadcrumb_product": "产品",
+    "products": "产品",
+    "specifications": "规格",
+    "features": "产品特点",
+    "product_specs": "产品规格",
+    "recommend": "推荐",
+    "labels": {
+      "product_name": "产品名称",
+      "category": "类别",
+      "material": "材质",
+      "color": "颜色",
+      "size": "尺寸",
+      "usage": "用途",
+      "installation": "安装方式"
+    }
+  },
+  "featured_video": {
+    "title": "企业介绍视频",
+    "subtitle": "进一步了解我们的标准、产品与运营体系。"
+  },
+  "target_section": {
+    "header": {
+      "title": "企业文化"
+    },
+    "mission": {
+      "title": "使命",
+      "subtitle": "以品质与安全为核心，持续开发精准满足客户需求的电气产品。"
+    },
+    "vision": {
+      "title": "愿景",
+      "subtitle": "打造更安全、更可靠、更普及的电气设备标准，守护日常生活中的每一处用电需求。"
+    },
+    "core_value": {
+      "title": "核心价值",
+      "subtitle": "以值得信赖的国内外标准，为客户提供优质产品与专业服务。"
+    }
+  },
+  "role_section": {
+    "left_section": {
+      "title": "GINOLR 运营体系",
+      "sub_title": "从产品选材、研发设计到生产、销售与售后服务，我们严格把控每一个环节，确保品质稳定，让客户更安心。"
+    },
+    "right_section": {
+      "research_card": {
+        "title": "研发设计",
+        "sub_title": "根据安全标准以及工业与住宅领域的实际需求，持续开发和设计电气设备及保护系统。"
+      },
+      "qc_card": {
+        "title": "质量管控",
+        "sub_title": "对每一道流程进行严格检验，确保产品具备优异的安全性、耐用性与可靠性。"
+      },
+      "manu_card": {
+        "title": "生产制造",
+        "sub_title": "按照工业标准管理生产流程，确保产品质量稳定、性能高效。"
+      },
+      "supply_card": {
+        "title": "供应链管理",
+        "sub_title": "高效管理供应商与原材料采购，保障生产与供货流程顺畅稳定。"
+      },
+      "sell_card": {
+        "title": "销售与服务",
+        "sub_title": "提供完善的销售支持与产品服务，快速响应客户需求。"
+      }
+    }
+  },
+  "operation_cards": {
+    "ginolr": {
+      "title": "GINOLR 运营体系",
+      "description": "从产品采购与设计，到销售配送与售后服务，我们负责每一个环节，确保产品品质与使用信心。"
+    },
+    "ct_electric": {
+      "title": "CT Electric 运营体系",
+      "description": "从产品采购与设计，到销售配送与售后服务，我们负责每一个环节，确保产品品质与使用信心。"
+    },
+    "ct_electric_pv": {
+      "title": "CT Electric PV 运营体系",
+      "description": "从产品采购与设计，到销售配送与售后服务，我们负责每一个环节，确保产品品质与使用信心。"
+    }
+  },
+  "distribution_channels": {
+    "title": "分销渠道"
+  },
+  "quality": {
+    "header_section": {
+      "header": "产品品质",
+      "title": "我们的产品",
+      "sub_title": "精选优质材料与核心元件，打造值得信赖的电气产品。"
+    },
+    "content_section": {
+      "robust_construction": {
+        "title": "坚固耐用",
+        "sub_title": "采用高品质材料与元件制造，结构稳固，能够在多种使用环境下保持可靠运行。"
+      },
+      "smart_intuitive_interface": {
+        "title": "智能便捷",
+        "sub_title": "模块化设计让安装更省空间、操作更直观，为技术人员和终端用户带来更高效率的使用体验。"
+      },
+      "high_precision_performance": {
+        "title": "精准稳定",
+        "sub_title": "通过先进电路设计，产品在电力波动环境下依然能够稳定运行，为整个系统提供持续保护。"
+      },
+      "tis_standard_certified": {
+        "title": "TIS 标准认证",
+        "sub_title": "符合泰国工业标准（TIS）要求，确保产品在安全性、品质与可靠性方面达到严格标准。"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  /* เอา padding ออก */
+  margin: 0;
+  overflow: hidden;
+  /* ล็อกไว้ไม่ให้ตัว root scroll */
+}

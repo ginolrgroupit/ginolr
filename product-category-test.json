@@ -1,0 +1,390 @@
+[
+  {
+    "category_id": 1,
+    "category_name": "ตู้คอนซูมเมอร์ยูนิต",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "ตู้คอนซูมเมอร์ยูนิต CTM"
+      },
+      {
+        "group_id": 2,
+        "group_name": "ตู้คอนซูมเมอร์ยูนิต CHONG"
+      },
+      {
+        "group_id": 3,
+        "group_name": "ตู้คอนซูมเมอร์ยูนิต CTU"
+      },
+      {
+        "group_id": 4,
+        "group_name": "ตู้คอนซูมเมอร์ยูนิต CTI"
+      }
+    ]
+  },
+  {
+    "category_id": 2,
+    "category_name": "ตู้โหลดเซนเตอร์",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "ตู้โหลดเซนเตอร์ CT"
+      }
+    ]
+  },
+  {
+    "category_id": 3,
+    "category_name": "ตู้ไฟสวิทซ์บอร์ด",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "ตู้ไฟสวิทซ์บอร์ด CT"
+      }
+    ]
+  },
+  {
+    "category_id": 4,
+    "category_name": "เซอกิตเบรกเกอร์",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "เบรกเกอร์ CTM1"
+      },
+      {
+        "group_id": 2,
+        "group_name": "เบรกเกอร์ CTM2"
+      },
+      {
+        "group_id": 3,
+        "group_name": "เบรกเกอร์ CTM4"
+      },
+      {
+        "group_id": 4,
+        "group_name": "เบรกเกอร์ CTMF7"
+      }
+    ]
+  },
+  {
+    "category_id": 5,
+    "category_name": "เซฟตี้เบรกเกอร์",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "เซฟตี้เบรกเกอร์ CNT-40c"
+      },
+      {
+        "group_id": 2,
+        "group_name": "เซฟตี้เบรกเกอร์ CNTLE-40c"
+      },
+      {
+        "group_id": 3,
+        "group_name": "เซฟตี้เบรกเกอร์ CNT-B40c"
+      },
+      {
+        "group_id": 4,
+        "group_name": "กล่องเซฟตี้เบรกเกอร์ CNTBOX"
+      }
+    ]
+  },
+  {
+    "category_id": 6,
+    "category_name": "เบรกเกอร์ RCCB",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "เบรกเกอร์ CTMBS-125"
+      }
+    ]
+  },
+  {
+    "category_id": 7,
+    "category_name": "เบรกเกอร์ MCCB",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "เบรกเกอร์ CTNF"
+      },
+      {
+        "group_id": 2,
+        "group_name": "เบรกเกอร์ GTM1"
+      },
+      {
+        "group_id": 3,
+        "group_name": "เบรกเกอร์ GTM1LE"
+      }
+    ]
+  },
+  {
+    "category_id": 8,
+    "category_name": "อุปกรณ์ป้องกันไฟกระชาก",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "อุปกรณ์ป้องกันไฟกระชาก CSPD-A"
+      },
+      {
+        "group_id": 2,
+        "group_name": "อุปกรณ์ป้องกันไฟกระชาก CSPD-D"
+      }
+    ]
+  },
+  {
+    "category_id": 9,
+    "category_name": "กล่องฟิวส์พร้อมลูกฟิวส์",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "กล่องฟิวส์"
+      },
+      {
+        "group_id": 2,
+        "group_name": "ลูกฟิวส์"
+      }
+    ]
+  },
+  {
+    "category_id": 10,
+    "category_name": "เครื่องตัดกระแสไฟอัตโนมัติ",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "เครื่องตัดกระแสไฟอัตโนมัติ V-SAFE2"
+      },
+      {
+        "group_id": 2,
+        "group_name": "เครื่องตัดกระแสไฟอัตโนมัติ SPD-R"
+      }
+    ]
+  },
+  {
+    "category_id": 11,
+    "category_name": "กิโลวัตต์ฮาวมิเตอร์",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "กิโลวัตต์ฮาวมิเตอร์ meter EM3-86"
+      },
+      {
+        "group_id": 2,
+        "group_name": "กิโลวัตต์ฮาวมิเตอร์ meter EM4-86"
+      }
+    ]
+  },
+  {
+    "category_id": 12,
+    "category_name": "แมกเนติกคอนแทคเตอร์ & โอเวอร์โหลดรีเลย์",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "แมกเนติกคอนแทคเตอร์ SN"
+      },
+      {
+        "group_id": 2,
+        "group_name": "แมกเนติกคอนแทคเตอร์ CXC"
+      },
+      {
+        "group_id": 3,
+        "group_name": "โอเวอร์โหลดรีเลย์ TH-N"
+      },
+      {
+        "group_id": 4,
+        "group_name": "โอเวอร์โหลดรีเลย์ JR-28"
+      },
+      {
+        "group_id": 5,
+        "group_name": "Auxiliary F4"
+      },
+      {
+        "group_id": 6,
+        "group_name": "Auxiliary F8"
+      },
+      {
+        "group_id": 7,
+        "group_name": "Delay Module LA2-TO"
+      }
+    ]
+  },
+  {
+    "category_id": 13,
+    "category_name": "พาวเวอร์ปลั๊ก",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "พาวเวอร์ปลั๊ก ปลั๊กเต้าเสียบ (ตัวผู้)"
+      },
+      {
+        "group_id": 2,
+        "group_name": "พาวเวอร์ปลั๊ก กลางทางเต้ารับ (ตัวเมีย)"
+      },
+      {
+        "group_id": 3,
+        "group_name": "พาวเวอร์ปลั๊ก ติดลอยเต้ารับ (ตัวเมีย)"
+      },
+      {
+        "group_id": 4,
+        "group_name": "พาวเวอร์ปลั๊ก สามทางเต้ารับ (ตัวเมีย)"
+      },
+      {
+        "group_id": 5,
+        "group_name": "พาวเวอร์ปลั๊ก ฝังผนังเต้ารับ (ตัวเมีย)"
+      }
+    ]
+  },
+  {
+    "category_id": 14,
+    "category_name": "ปุ่มและไฟแสดงสถานะ",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "สวิตช์ LA38"
+      },
+      {
+        "group_id": 2,
+        "group_name": "ไฟแสดงสถานะ AD16"
+      },
+      {
+        "group_id": 3,
+        "group_name": "สวิตช์ PB25"
+      },
+      {
+        "group_id": 4,
+        "group_name": "สวิตช์แสงแดด AS-15"
+      },
+      {
+        "group_id": 5,
+        "group_name": "ไฟแสดงสถานะ CA-25"
+      },
+      {
+        "group_id": 6,
+        "group_name": "สวิตช์ SS25"
+      }
+    ]
+  },
+  {
+    "category_id": 15,
+    "category_name": "สวิตซ์ปุ่มกด ON-OFF",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "สวิตซ์ปุ่มกด CPBS"
+      }
+    ]
+  },
+  {
+    "category_id": 16,
+    "category_name": "ซีเล็คเตอร์สวิตซ์",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "ซีเล็คเตอร์สวิตซ์ LW28"
+      }
+    ]
+  },
+  {
+    "category_id": 17,
+    "category_name": "หางปลามาตฐานสากล",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "หางปลากลมเปลือย"
+      },
+      {
+        "group_id": 2,
+        "group_name": "หางปลาแฉกเปลือย"
+      },
+      {
+        "group_id": 3,
+        "group_name": "หางปลากลมหุ่มฉนวน"
+      },
+      {
+        "group_id": 4,
+        "group_name": "หางปลาแฉกหุ้มฉนวน"
+      },
+      {
+        "group_id": 5,
+        "group_name": "หางปลารุ่นหนาทรงยุโรป (แบบท่อ)"
+      },
+      {
+        "group_id": 6,
+        "group_name": "ข้อต่อสายแบบย้ำเปลือย (ยาวพิเศษ)"
+      },
+      {
+        "group_id": 7,
+        "group_name": "หางปลาหัวเสียบตัวผู้ (แบบแบนหุ้มฉนวน)"
+      },
+      {
+        "group_id": 8,
+        "group_name": "หางปลาหัวเสียบตัวเมีย (แบบแบนหุ้มฉนวน)"
+      },
+      {
+        "group_id": 9,
+        "group_name": "หางปลาหัวเสียบตัวเมีย (แบบแบนหุ้มฉนวนเต็ม)"
+      },
+      {
+        "group_id": 10,
+        "group_name": "ข้อต่อสาย (แบบย้ำหุ้มฉนวน)"
+      },
+      {
+        "group_id": 11,
+        "group_name": "หางปลาหัวเสียบตัวผู้ (แบบกลมหุ้มฉนวน)"
+      },
+      {
+        "group_id": 12,
+        "group_name": "หางปลาหัวเสียบตัวเมีย (แบบกลมหุ้มฉนวน)"
+      },
+      {
+        "group_id": 13,
+        "group_name": "หางปลาหัวเสียบก้านไม้ขีด (แบบแบนยาวหุ้มฉนวน)"
+      },
+      {
+        "group_id": 14,
+        "group_name": "หางปลาหัวเสียบก้านไม้ขีด (แบบกลมหุ้มฉนวน)"
+      },
+      {
+        "group_id": 15,
+        "group_name": "หางปลาหัวเสียบก้านไม้ขีด (แบบแบนหุ้มฉนวน)"
+      },
+      {
+        "group_id": 16,
+        "group_name": "หัวต่อสายหุ้มฉนวนรูปหมวก (แบบขาวขุ่น)"
+      },
+      {
+        "group_id": 17,
+        "group_name": "ไวร์นัท สปริงเหลี่ยม หุ้มฉนวน"
+      },
+      {
+        "group_id": 18,
+        "group_name": "ตลับหนีบสาย หุ้มฉนวน"
+      },
+      {
+        "group_id": 19,
+        "group_name": "ข้อต่อย้ำปลายสายหุ้มฉนวน (แบบคู่)"
+      },
+      {
+        "group_id": 20,
+        "group_name": "ข้อต่อย้ำปลายสายหุ้มฉนวน (แบบเดี่ยว)"
+      },
+      {
+        "group_id": 21,
+        "group_name": "ข้อต่อย้ำปลายสาย (แบบเดี่ยวเปลือย)"
+      }
+    ]
+  },
+  {
+    "category_id": 18,
+    "category_name": "สวิตซ์กับปลั๊ก",
+    "group": [
+      {
+        "group_id": 1,
+        "group_name": "หน้ากาก"
+      },
+      {
+        "group_id": 2,
+        "group_name": "สวิตซ์"
+      },
+      {
+        "group_id": 3,
+        "group_name": "ปลั๊ก"
+      }
+    ]
+  }
+]

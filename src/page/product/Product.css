@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
+.product-page {
+    width: 100%;
+    height: 100vh;
+    padding-top: 65px;
+    overflow-y: auto;
+
+    & .promote-img-section {
+        width: 100%;
+        display: flex;
+    }
+}
+
+/* 🌟 ส่วนแบนเนอร์ */
+.product-page .promote-img-section {
+    flex-direction: column;
+
+    & .promote-img {
+        width: 100%;
+        background-color: #f5f5f5; 
+        min-height: 400px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    & img {
+        width: 100%;
+        height: auto;
+        max-height: 650px;
+        object-fit: cover; 
+        display: block;
+    }
+
+    & .landing-footer {
+        width: 100%;
+        height: 130px;
+        min-width: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-bottom: 9px solid #538184;
+
+        & h2.category-header {
+            margin: 0;
+            font-family: 'Khand';
+            font-size: 48px;
+            font-weight: 400;
+            color: #1C4949;
+        }
+    }
+}
+
+/* -----------------------------------------------------------
+   🌟 ส่วนสินค้าด้านล่าง (แก้ไขปัญหาตัวหนังสือทับรูป) 
+   ----------------------------------------------------------- */
+.product-page .product-list-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    /* ปรับ Column ให้ยืดหยุ่น: ฝั่งซ้าย 300px | กลาง (สินค้า) 1000-1200px | ขวา (พื้นที่ว่าง) */
+    grid-template-columns: 350px minmax(800px, 1200px) 1fr; 
+    padding: 60px 50px 100px 50px; /* ปรับ Padding ให้สมดุล */
+    column-gap: 20px;
+
+    &>div, >aside {
+        width: 100%;
+    }
+
+    & aside.group-list {
+        grid-column: 1;
+        text-align: end;
+        padding-right: 40px; /* สร้างระยะห่างไม่ให้ตัวหนังสือไปกินเนื้อที่รูปภาพ */
+
+        & h3 {
+            font-family: 'Khand';
+            font-weight: 400;
+            font-size: 18px; /* ขนาดฟอนต์ 18px ตามต้องการ */
+            white-space: nowrap; 
+            margin: 12px 0;
+            transition: 0.3s;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        & h3:not(.activate) {
+            color: #8BAAAA;
+
+            &:hover {
+                opacity: 0.6;
+                color: #1C4949;
+            }
+        }
+
+        & h3.activate {
+            color: #1C4949;
+            font-weight: 600;
+        }
+    }
+
+    & div.product-list {
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+
+        & .product-card {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            position: relative;
+            border-radius: 16px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+            transition: 0.5s;
+            overflow: hidden; 
+            background-color: rgb(255, 255, 255);
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            & img.product-img {
+                width: 100%;
+                height: 100%;
+                padding: 60px; /* รูปเล็กลงในกรอบเท่าเดิม */
+                object-fit: contain;
+            }
+
+            & .product-name-container {
+                position: absolute;
+                width: 100%;
+                height: 50%;
+                bottom: 0;
+                border-radius: 0 0 16px 16px;
+                display: none;
+                padding: 0 20px 20px 20px;
+
+                & h3 {
+                    font-weight: 500;
+                    font-size: 22px;
+                    font-family: 'Khand';
+                    color: white;
+                    margin: 2px;
+                    white-space: nowrap; 
+                    overflow: hidden;
+                    text-overflow: ellipsis; 
+                    width: 100%;
+                }
+
+                & h4 {
+                    font-weight: 300;
+                    font-size: 16px;
+                    font-family: 'Khand';
+                    color: white;
+                }
+            }
+
+            &:hover {
+                transform: translateY(-5px); /* ปรับให้ลอยขึ้นเล็กน้อยแทนการ scale ใหญ่จนทับตัวหนังสือ */
+                box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+
+                & .product-name-container {
+                    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(56, 92, 92, 0.8) 60%, #1C4949 100%);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: end;
+                }
+            }
+        }
+    }
+}

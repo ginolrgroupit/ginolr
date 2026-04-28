@@ -1,0 +1,687 @@
+.about-page {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    padding-top: 65px;
+
+    .page-section {
+        width: 100%;
+    }
+}
+
+.about-page .history-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h3 {
+        margin: 20px 0;
+        font: 400 40px "Anuphan";
+    }
+
+    & p {
+        text-align: center;
+        margin: 0 15%;
+        font: 300 18px "Anuphan";
+        line-height: 2;
+
+        & b {
+            font-weight: 600;
+        }
+    }
+
+    & p:nth-child(3) {
+        margin-top: 40px;
+    }
+}
+
+.about-page .landing-img-section img {
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    object-fit: cover;
+    object-position: 0 100%;
+}
+
+.about-page .process-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    & svg {
+        margin: 50px 0;
+    }
+
+    & h3 {
+        font: 400 40px "Anuphan";
+        margin-bottom: 40px;
+    }
+
+    & p {
+        font: 300 18px "Anuphan";
+        padding: 0 10%;
+        text-align: center;
+    }
+}
+
+.about-page .product-cateogry-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+    & .header-container {
+        width: 100%;
+        height: 100px;
+        background-color: #538184;
+        display: grid;
+        place-items: center;
+
+        & h3 {
+            font: 400 40px "Anuphan";
+            margin: 0;
+            color: white;
+        }
+    }
+
+    & .product-img-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        padding: 2% 5%;
+        margin: 10px 0;
+
+        & .left-side img {
+            width: 100%;
+            height: auto;
+        }
+
+        & .right-side {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            & .content {
+                flex: 1;
+                transition: 0.5s ease;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100px;
+                font: 700 32px "Anuphan";
+                position: relative;
+
+                & img {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                & .overlay {
+                    display: none;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                & .arrow-btn {
+                    width: 30px;
+                    aspect-ratio: 1/1;
+                    background-color: #1C4949;
+                    border-radius: 50%;
+                    display: grid;
+                    place-items: center;
+                    z-index: 10;
+                }
+
+                & h3 {
+                    margin: 0;
+                    color: white;
+                    text-align: start;
+                    z-index: 10;
+                    width: 80%;
+                }
+
+                & .list-container {
+                    display: flex;
+                    flex-direction: row;
+                    z-index: 10;
+                    width: 80%;
+                    justify-content: center;
+                    margin: 0;
+                    padding: 0;
+                    max-height: 0;
+                    opacity: 0;
+                    transition: 0.5s ease;
+
+                    &>div {
+                        width: 50%;
+                        flex: 1;
+                    }
+
+                    & li {
+                        list-style-type: "- ";
+                        color: white;
+                        font: 200 22px 'Anuphan';
+                    }
+                }
+
+                &:hover {
+                    flex: 2.5;
+                    justify-content: start;
+
+                    & .overlay {
+                        display: flex;
+                        z-index: 9;
+                        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 37.02%);
+                    }
+
+                    & .list-container {
+                        display: flex;
+                        margin-top: 5%;
+                        opacity: 1;
+                        max-height: 80%;
+                    }
+
+                    & h3 {
+                        margin-top: 5%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-page .more-info-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10%;
+    background-color: #F3F3F3;
+    height: auto;
+    padding: 2% 22%;
+
+    @media screen and (max-width: 1500px) {
+        padding: 2% 10%;
+    }
+
+    & .info-box {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        &>div {
+            width: 100%;
+            height: 200px;
+            display: grid;
+            place-content: center;
+        }
+    }
+
+    & h3 {
+        font: 700 36px 'Anuphan';
+        color: #1C4949;
+        border-bottom: 2px solid #1C4949;
+        padding-bottom: 3%;
+    }
+
+    & p {
+        font: 400 16px 'Anuphan';
+    }
+}
+
+.about-page .standart-section {
+    height: 500px;
+}
+.about-page {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    padding-top: 65px;
+
+    .page-section {
+        width: 100%;
+    }
+}
+
+.about-page .history-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h3 {
+        margin: 20px 0;
+        font: 400 40px "Anuphan";
+    }
+
+    & p {
+        text-align: center;
+        margin: 0 15%;
+        font: 300 18px "Anuphan";
+        line-height: 2;
+
+        & b {
+            font-weight: 600;
+        }
+    }
+
+    & p:nth-child(3) {
+        margin-top: 40px;
+    }
+}
+
+.about-page .landing-img-section img {
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    object-fit: cover;
+    object-position: 0 100%;
+}
+
+.about-page .process-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    & svg {
+        margin: 50px 0;
+    }
+
+    & h3 {
+        font: 400 40px "Anuphan";
+        margin-bottom: 40px;
+    }
+
+    & p {
+        font: 300 18px "Anuphan";
+        padding: 0 10%;
+        text-align: center;
+    }
+}
+
+.about-page .product-cateogry-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+    & .header-container {
+        width: 100%;
+        height: 100px;
+        background-color: #538184;
+        display: grid;
+        place-items: center;
+
+        & h3 {
+            font: 400 40px "Anuphan";
+            margin: 0;
+            color: white;
+        }
+    }
+
+    & .product-img-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        padding: 2% 5%;
+        margin: 10px 0;
+
+        & .left-side img {
+            width: 100%;
+            height: auto;
+        }
+
+        & .right-side {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            & .content {
+                flex: 1;
+                transition: 0.5s ease;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100px;
+                font: 700 32px "Anuphan";
+                position: relative;
+
+                & img {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                & .overlay {
+                    display: none;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                & .arrow-btn {
+                    width: 30px;
+                    aspect-ratio: 1/1;
+                    background-color: #1C4949;
+                    border-radius: 50%;
+                    display: grid;
+                    place-items: center;
+                    z-index: 10;
+                }
+
+                & h3 {
+                    margin: 0;
+                    color: white;
+                    text-align: start;
+                    z-index: 10;
+                    width: 80%;
+                }
+
+                & .list-container {
+                    display: flex;
+                    flex-direction: row;
+                    z-index: 10;
+                    width: 80%;
+                    justify-content: center;
+                    margin: 0;
+                    padding: 0;
+                    max-height: 0;
+                    opacity: 0;
+                    transition: 0.5s ease;
+
+                    &>div {
+                        width: 50%;
+                        flex: 1;
+                    }
+
+                    & li {
+                        list-style-type: "- ";
+                        color: white;
+                        font: 200 22px 'Anuphan';
+                    }
+                }
+
+                &:hover {
+                    flex: 2.5;
+                    justify-content: start;
+
+                    & .overlay {
+                        display: flex;
+                        z-index: 9;
+                        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 37.02%);
+                    }
+
+                    & .list-container {
+                        display: flex;
+                        margin-top: 5%;
+                        opacity: 1;
+                        max-height: 80%;
+                    }
+
+                    & h3 {
+                        margin-top: 5%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-page .more-info-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10%;
+    background-color: #F3F3F3;
+    height: auto;
+    padding: 2% 22%;
+
+    @media screen and (max-width: 1500px) {
+        padding: 2% 10%;
+    }
+
+    & .info-box {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        &>div {
+            width: 100%;
+            height: 200px;
+            display: grid;
+            place-content: center;
+        }
+    }
+
+    & h3 {
+        font: 700 36px 'Anuphan';
+        color: #1C4949;
+        border-bottom: 2px solid #1C4949;
+        padding-bottom: 3%;
+    }
+
+    & p {
+        font: 400 16px 'Anuphan';
+    }
+}
+
+.about-page .standart-section {
+    height: 500px;
+}
+/* --- แทนที่ .standart-section อันเก่าด้วยอันนี้ --- */
+
+.about-page .standart-section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.about-page .cert-main-header {
+    margin: 40px 0;
+}
+
+.about-page .cert-main-header h3 {
+    background-color:#ffffff;
+    color: #3C5858;
+    padding: 50px 0px;
+    font: 500 32px "Anuphan";
+    border-radius: 4px;
+    margin: 0;
+}
+
+.about-page .certification-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px 40px;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 40px;
+}
+
+.about-page .cert-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-page .cert-info {
+    flex: 1;
+}
+
+.about-page .cert-title {
+    font: 600 18px "Anuphan";
+    color: #3C5858;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* กล่องจำลองสำหรับใส่รูปใบเซอร์ */
+.about-page .placeholder-cert {
+    flex: 1.2;
+    aspect-ratio: 3 / 4;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    display: grid;
+    place-items: center;
+    color: #aaa;
+    font-family: "Anuphan";
+    font-size: 14px;
+}
+
+/* กล่องจำลองสำหรับใส่โลโก้ */
+.about-page .placeholder-logo {
+    width: 120px;
+    height: 60px;
+    border: 1px dashed #ccc;
+    display: grid;
+    place-items: center;
+    color: #999;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* ทำให้หน้าจอมือถือแสดงผลเป็นแถวเดียว */
+@media screen and (max-width: 1024px) {
+    .about-page .certification-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+}
+
+/* ========================================================
+   ส่วนที่เพิ่มใหม่ล่าสุด: Company Commitments
+   ======================================================== */
+.about-page .commitments-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10%;
+    width: 100%;
+    gap: 20px;
+}
+
+/* แถวที่ 1: กล่องข้อความด้านบน 2 กล่อง */
+.about-page .commitments-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.about-page .commit-box {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.about-page .commit-box p {
+    font: 300 15px "Anuphan";
+    line-height: 1.6;
+    color: #000000;
+    text-align: left;
+    margin: 0;
+    white-space: pre-line; /* เพิ่มบรรทัดนี้ เพื่อให้ \n ทำงาน */
+}
+
+/* แถวที่ 2: แถบโลโก้ตรงกลาง */
+.about-page .commitments-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    padding: 30px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+/* แถวที่ 3: เสาหลัก 3 ต้นด้านล่าง */
+.about-page .commitments-pillars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+    max-width:1400px;
+    white-space: pre-line; /* เพิ่มบรรทัดนี้ เพื่อให้ \n ทำงาน */
+    text-align: left; /* <--- เพิ่มบรรทัดนี้เข้าไปครับ */
+}
+
+.about-page .pillar-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* <--- เปลี่ยนจาก center เป็น flex-start เพื่อให้ทุกอย่างในกล่องชิดซ้าย */
+    gap: 20px;
+    padding: 30px 20px;
+    background: #ffffff;
+    border-left: 2px solid #000000; /* เพิ่มเส้นคั่นระหว่างคอลัมน์คล้ายในรูป */
+}
+
+/* ลบเส้นคั่นฝั่งซ้ายของกล่องแรกออก */
+.about-page .pillar-box:first-child {
+    border-left: none;
+}
+
+.about-page .pillar-box p {
+    font: 300 16px "Anuphan";
+    line-height: 1.6;
+    color: #000000;
+    margin: 0;
+    width: 100%;       /* <--- กางพื้นที่ข้อความให้เต็มกล่อง */
+    text-align: center;  /* <--- สั่งตัวหนังสือให้ชิดซ้าย */
+}
+
+/* Icon Placeholder (วงกลม) */
+.about-page .placeholder-icon {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    border: 1px dashed #bbb;
+    display: grid;
+    place-items: center;
+    font-size: 11px;
+    color: #888;
+    text-align: center;
+}
+
+/* Responsive สำหรับมือถือ */
+@media screen and (max-width: 1024px) {
+    .about-page .commitments-top,
+    .about-page .commitments-pillars {
+        grid-template-columns: 1fr;
+    }
+    .about-page .pillar-box {
+        border-left: none; /* เอาเส้นคั่นออกเมื่อเป็นหน้าจอมือถือ */
+        border-bottom: 1px solid #eee;
+    }
+    .about-page .pillar-box:last-child {
+        border-bottom: none;
+    }
+}

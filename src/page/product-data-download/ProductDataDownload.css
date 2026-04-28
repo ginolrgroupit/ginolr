@@ -1,0 +1,129 @@
+.product-data-download-page {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 65px;
+    background: #ffffff;
+}
+
+.product-data-download-header {
+    width: min(1180px, calc(100% - 48px));
+    margin: 0 auto;
+    padding: 72px 0 36px;
+}
+
+.product-data-download-header p {
+    margin: 0 0 10px;
+    color: #008985;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product-data-download-header h1 {
+    margin: 0;
+    color: #1c4949;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.catalog-download-section {
+    width: min(1180px, calc(100% - 48px));
+    margin: 0 auto;
+    padding-bottom: 96px;
+}
+
+.catalog-toolbar {
+    margin-bottom: 24px;
+}
+
+.catalog-toolbar p {
+    margin: 0;
+    color: #405454;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.catalog-card {
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 26px;
+    border: 1px solid rgba(28, 73, 73, 0.14);
+    background: #f7fbfa;
+}
+
+.catalog-category {
+    display: block;
+    margin-bottom: 12px;
+    color: #008985;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.catalog-card h2 {
+    margin: 0 0 16px;
+    color: #1c4949;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.28;
+}
+
+.catalog-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0 22px;
+}
+
+.catalog-meta span {
+    padding: 6px 10px;
+    background: #ffffff;
+    color: #405454;
+    border: 1px solid rgba(28, 73, 73, 0.12);
+    font-size: 13px;
+    line-height: 1;
+}
+
+.catalog-card button {
+    width: 100%;
+    min-height: 42px;
+    border: none;
+    background: rgba(28, 73, 73, 0.3);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 860px) {
+    .product-data-download-header,
+    .catalog-download-section {
+        width: min(100% - 32px, 640px);
+    }
+
+    .product-data-download-header {
+        padding: 48px 0 28px;
+    }
+
+    .product-data-download-header h1 {
+        font-size: 36px;
+    }
+
+    .catalog-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .catalog-card {
+        min-height: 210px;
+        padding: 24px;
+    }
+}

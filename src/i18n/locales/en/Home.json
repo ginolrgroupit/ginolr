@@ -1,0 +1,126 @@
+{
+    "video_section": {
+        "company_name": "GINOLR GROUP",
+        "company_subtitle": "A company in Thailand that both manufactures \nand distributes electrical equipment to international standards.",
+        "btn": {
+            "product": "Products"
+        }
+    },
+    "product_all": {
+        "title": "Product All",
+        "subtitle": "Choose a product category to view all products and details.",
+        "product_count": "Products",
+        "view": "View Products"
+    },
+    "product_list": {
+        "all": "All"
+    },
+    "product_detail": {
+        "breadcrumb_product": "Product",
+        "products": "Products",
+        "specifications": "Specifications",
+        "features": "Features",
+        "product_specs": "Product Specs",
+        "recommend": "Recommend",
+        "labels": {
+            "product_name": "Product Name",
+            "category": "Category",
+            "material": "Material",
+            "color": "Color",
+            "size": "Size",
+            "usage": "Usage",
+            "installation": "Installation"
+        }
+    },
+    "featured_video": {
+        "title": "Company Video",
+        "subtitle": "A closer look at our standards, products, and operations."
+    },
+    "target_section": {
+        "header": {
+            "title": "Corporate Culture"
+        },
+        "mission": {
+            "title": "Mission",
+            "subtitle": "Developing products that precisely meet customer needs, with a primary focus on quality and safety."
+        },
+        "vision": {
+            "title": "Vision",
+            "subtitle": "Setting new standards for safe, reliable, and accessible electrical equipment to protect every electrical application in daily life."
+        },
+        "core_value": {
+            "title": "Core Values",
+            "subtitle": "Delivering products and services under trusted national and international standards."
+        }
+    },
+    "role_section": {
+        "left_section": {
+            "title": "GINOLR Operations",
+            "sub_title": "We oversee every stage of the product lifecycle—from sourcing and design to distribution and after-sales service—to ensure quality and user confidence."
+        },
+        "right_section": {
+            "research_card": {
+                "title": "Research & Development",
+                "sub_title": "Developing and designing electrical equipment and protection systems based on safety standards and the specific needs of industrial and residential sectors."
+            },
+            "qc_card": {
+                "title": "Quality Control",
+                "sub_title": "Conducting rigorous quality inspections at every stage to ensure the safety, durability, and reliability of our products."
+            },
+            "manu_card": {
+                "title": "Manufacturing",
+                "sub_title": "Controlling production processes according to industrial standards to achieve consistent quality and efficient performance."
+            },
+            "supply_card": {
+                "title": "Supply Chain",
+                "sub_title": "Managing suppliers and raw material procurement to ensure efficient production and distribution."
+            },
+            "sell_card": {
+                "title": "Sales & Service",
+                "sub_title": "Providing comprehensive sales management and product services to effectively meet customer requirements."
+            }
+        }
+    },
+    "operation_cards": {
+        "ginolr": {
+            "title": "GINOLR Operations",
+            "description": "We oversee every stage of the product lifecycle, from sourcing and design to distribution and after-sales service, to ensure quality and user confidence."
+        },
+        "ct_electric": {
+            "title": "CT Electric Operations",
+            "description": "We oversee every stage of the product lifecycle, from sourcing and design to distribution and after-sales service, to ensure quality and user confidence."
+        },
+        "ct_electric_pv": {
+            "title": "CT Electric PV Operations",
+            "description": "We oversee every stage of the product lifecycle, from sourcing and design to distribution and after-sales service, to ensure quality and user confidence."
+        }
+    },
+    "distribution_channels": {
+        "title": "Distribution Channels"
+    },
+    "quality": {
+        "header_section": {
+            "header": "Quality",
+            "title": "Our Products",
+            "sub_title": "Our product is made with the highest quality materials and components."
+        },
+        "content_section": {
+            "robust_construction": {
+                "title": "Robust Construction",
+                "sub_title": "Built to endure. Our products utilize premium-grade components that guarantee structural integrity and operational reliability under demanding conditions."
+            },
+            "smart_intuitive_interface": {
+                "title": "Smart & Intuitive Interface",
+                "sub_title": "Focused on simplifying complex systems. The modular design ensures space-saving installation and a user-friendly experience for technicians and end-users alike."
+            },
+            "high_precision_performance": {
+                "title": "High-Precision Performance",
+                "sub_title": "Engineered for maximum stability and precise operation. Our advanced electronic circuitry ensures consistent performance even under fluctuating power conditions, protecting your entire system without interruption."
+            },
+            "tis_standard_certified": {
+                "title": "TIS Standard Certified",
+                "sub_title": "Fully compliant with Thai Industrial Standards (TIS), ensuring every product meets rigorous safety and quality benchmarks required by law for maximum reliability."
+            }
+        }
+    }
+}
