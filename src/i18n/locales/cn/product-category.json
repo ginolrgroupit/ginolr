@@ -8967,5 +8967,19 @@
                 ]
             }
         ]
+    },
+    {
+        "category_id": 19,
+        "category_name": "Wriway",
+        "path": "wriway",
+        "category_img": "",
+        "group": []
+    },
+    {
+        "category_id": 20,
+        "category_name": "CURRENT TRANFORMER",
+        "path": "current-tranformer",
+        "category_img": "",
+        "group": []
     }
 ]

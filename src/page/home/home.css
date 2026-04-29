@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: start;
     width: 100%;
-    background-color: var(--gb-main-bg-color);
+    background: var(--gb-map-gradient-bg);
 
     & .head-clip-container {
         height: 100vh;
@@ -113,7 +113,7 @@
     gap: 0;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    background-color: #ffffff;
+    background: var(--gb-map-gradient-bg);
     padding: 0px 2% 100px;
 }
 
@@ -418,7 +418,7 @@
     justify-content: center;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    background-color: #ffffff;
+    background: #ffffff;
 
     & .header-of-section {
         width: 100%;

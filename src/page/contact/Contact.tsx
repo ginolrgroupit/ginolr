@@ -4,7 +4,6 @@ import "./Contact.css"
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons"
 import ThailandMap from "./Map"
 import { useEffect, useRef, useState } from "react"
-import { faUser } from "@fortawesome/free-solid-svg-icons/faUser"
 import lazadaIcon from "../../assets/lazada-icon.webp"
 import { motion } from 'framer-motion'
 import { card_variants, header_variants, section } from "../motion/normal";
@@ -173,8 +172,7 @@ const Contact = () => {
                         const regionData = sellerSection[key];
                         // 2. ถ้าไม่มีข้อมูลใน JSON ให้ใช้ label จาก ZONES เป็น default
                         const label = regionData?.label || zone.label;
-                        // 3. ถ้าไม่มีข้อมูล seller_list ให้เป็น array ว่าง
-                        const sellers = regionData?.seller_list || [];
+
 
                         return (
                             <div
@@ -195,22 +193,7 @@ const Contact = () => {
                                     <h3 className="title-font">{label}</h3>
                                 </div>
 
-                                <div className="contact-info">
-                                    {sellers.map((seller, index) => (
-                                        <div key={index} className="contact-zone" style={{ borderBottom: index !== sellers.length - 1 ? '1px solid rgba(0,0,0,0.05)' : 'none' }}>
-                                            <div className="name title-font">
-                                                <FontAwesomeIcon className="icon" icon={faUser} />
-                                                : {seller.name}
-                                            </div>
-                                            {seller.call && (
-                                                <div className="tel title-font">
-                                                    <FontAwesomeIcon className="icon" icon={faPhone} />
-                                                    : {seller.call}
-                                                </div>
-                                            )}
-                                        </div>
-                                    ))}
-                                </div>
+                                
                             </div>
                         )
                     })}
@@ -389,7 +372,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="social-media-card shopee" onClick={() => window.open('https://shopee.co.th/ctelectricshop?is_from_signup=true', '_blank')}>
+                    <div className="social-media-card shopee" onClick={() => window.open('https://shopee.co.th/CT.ELECTRICshop?is_from_signup=true', '_blank')}>
                         <div className="icon">
                             <SiShopee size={32} color="rgb(247,60,50)" />
                         </div>

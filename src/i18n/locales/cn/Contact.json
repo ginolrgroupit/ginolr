@@ -1,7 +1,7 @@
 {
   "seller_section": {
     "northern_upper": {
-      "label": "泰国北部上区",
+      "label": "泰国北部上区 \n(销售代表)",
       "seller_list": [
         {
           "name": "Watchara Panphrom 先生（Note）",
@@ -10,7 +10,7 @@
       ]
     },
     "northern_lower": {
-      "label": "泰国北部下区",
+      "label": "泰国北部下区 \n(销售代表)",
       "seller_list": [
         {
           "name": "Chalermpon Sribuaban 先生（Benz）",
@@ -19,7 +19,7 @@
       ]
     },
     "southern_upper": {
-      "label": "泰国南部上区",
+      "label": "泰国南部上区 \n(销售代表)",
       "seller_list": [
         {
           "name": "Kidravi Pimpradit 先生（O）",
@@ -28,7 +28,7 @@
       ]
     },
     "southern_lower": {
-      "label": "泰国南部下区",
+      "label": "泰国南部下区 \n(销售代表)",
       "seller_list": [
         {
           "name": "Nutthapat Pusee 先生（Pruek）",
@@ -37,7 +37,7 @@
       ]
     },
     "northeastern_upper": {
-      "label": "泰国东北部上区",
+      "label": "泰国东北部上区 \n(销售代表)",
       "seller_list": [
         {
           "name": "Nutchareeporn Tuenchanthuek 女士（Golf）",
@@ -46,7 +46,7 @@
       ]
     },
     "northeastern_lower": {
-      "label": "泰国东北部下区",
+      "label": "泰国东北部下区 \n(销售代表)",
       "seller_list": [
         {
           "name": "Promma Patana 先生（Kik）",
@@ -55,7 +55,7 @@
       ]
     },
     "bangkok": {
-      "label": "曼谷",
+      "label": "曼谷 \n(销售代表)",
       "seller_list": [
         {
           "name": "Natthanan Donkaew 女士（Nut）",
@@ -64,7 +64,7 @@
       ]
     },
     "center": {
-      "label": "泰国中部地区",
+      "label": "泰国中部地区 \n(销售代表)",
       "seller_list": [
         {
           "name": "Saktat Siritaratip 先生（Yo）",
@@ -103,23 +103,23 @@
     "title": "随时获取我们的最新资讯与活动信息。",
     "facebook": {
       "title": "Facebook",
-      "contact": "CTElectric"
+      "contact": "CT.ELECTRIC"
     },
     "tiktok": {
       "title": "TikTok",
-      "contact": "ctelectric"
+      "contact": "CT.ELECTRIC"
     },
     "line": {
       "title": "LINE",
-      "contact": "@ctelectric"
+      "contact": "CT.ELECTRIC"
     },
     "lazada": {
       "title": "Lazada",
-      "contact": "CT ELECTRIC"
+      "contact": "CT.ELECTRIC"
     },
     "shopee": {
       "title": "Shopee",
-      "sub_title": "CT ELECTRIC SHOP"
+      "sub_title": "CT.ELECTRIC SHOP"
     }
   }
 }

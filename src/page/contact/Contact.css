@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: start;
     height: 100%;
-    background-color: #ffffff;
+    background: var(--gb-map-gradient-bg);
 
     & .header-of-section {
         width: 100%;
@@ -71,7 +71,7 @@
     height: 100%;
     min-height: 700px;
     position: relative;
-    background-image: linear-gradient(0deg, #fefefe, #dbf4f9);
+    background: var(--gb-map-gradient-bg);
 
     & .overlay {
         width: 100%;
@@ -237,7 +237,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    background-color: #ffffff;
+    background: var(--gb-map-gradient-bg);
 
     & .header-of-section {
         width: 100%;
@@ -379,4 +379,10 @@
     to {
         stroke-dashoffset: 0;
     }
+}
+
+/* เพิ่มเพื่อรองรับการเว้นบรรทัด \n จาก JSON ในหน้า Contact */
+.contact-page .sale-contact-section .contact-card .header-zone h3 {
+    white-space: pre-line;
+    line-height: 1.5; /* เพิ่มระยะห่างบรรทัดนิดหน่อยให้อ่านง่ายขึ้น */
 }

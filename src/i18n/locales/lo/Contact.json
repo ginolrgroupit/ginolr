@@ -1,35 +1,35 @@
 {
     "seller_section": {
         "northern_upper": {
-            "label": "ພາກເໜືອຕອນເທິງ",
+            "label": "ພາກເໜືອຕອນເທິງ \n(ຕົວແທນຈໍາໜ່າຍ)",
             "seller_list": [{ "name": "ທ່ານ Watchara Panphrom (Note)", "call": "" }]
         },
         "northern_lower": {
-            "label": "ພາກເໜືອຕອນລຸ່ມ",
+            "label": "ພາກເໜືອຕອນລຸ່ມ \n(ຕົວແທນຈໍາໜ່າຍ)",
             "seller_list": [{ "name": "ທ່ານ Chalermpon Sribuaban (Benz)", "call": "" }]
         },
         "southern_upper": {
-            "label": "ພາກໃຕ້ຕອນເທິງ",
+            "label": "ພາກໃຕ້ຕອນເທິງ \n(ຕົວແທນຈໍາໜ່າຍ)",
             "seller_list": [{ "name": "ທ່ານ Kidravi Pimpradit (O)", "call": "" }]
         },
         "southern_lower": {
-            "label": "ພາກໃຕ້ຕອນລຸ່ມ",
+            "label": "ພາກໃຕ້ຕອນລຸ່ມ \n(ຕົວແທນຈໍາໜ່າຍ)",
             "seller_list": [{ "name": "ທ່ານ Nutthapat Pusee (Pruek)", "call": "" }]
         },
         "northeastern_upper": {
-            "label": "ພາກຕາເວັນອອກສຽງເໜືອຕອນເທິງ",
+            "label": "ພາກຕາເວັນອອກສຽງເໜືອຕອນເທິງ \n(ຕົວແທນຈໍາໜ່າຍ)",
             "seller_list": [{ "name": "ນາງ Nutchareeporn Tuenchanthuek (Golf)", "call": "" }]
         },
         "northeastern_lower": {
-            "label": "ພາກຕາເວັນອອກສຽງເໜືອຕອນລຸ່ມ",
+            "label": "ພາກຕາເວັນອອກສຽງເໜືອຕອນລຸ່ມ \n(ຕົວແທນຈໍາໜ່າຍ)",
             "seller_list": [{ "name": "ທ່ານ Promma Patana (Kik)", "call": "" }]
         },
         "bangkok": {
-            "label": "ກຸງເທບ",
+            "label": "ກຸງເທບ \n(ຕົວແທນຈໍາໜ່າຍ)",
             "seller_list": [{ "name": "ນາງ Natthanan Donkaew (Nut)", "call": "" }]
         },
         "center": {
-            "label": "ພາກກາງ",
+            "label": "ພາກກາງ \n(ຕົວແທນຈໍາໜ່າຍ)",
             "seller_list": [
                 { "name": "ທ່ານ Saktat Siritaratip (Yo)", "call": "" },
                 { "name": "ທ່ານ Kittisak Thongpool (Nui)", "call": "" }
@@ -60,10 +60,10 @@
         "social_media": "ໂຊເຊຍມີເດຍ",
         "header": "ຕິດຕາມພວກເຮົາຜ່ານຊ່ອງທາງອອນລາຍ",
         "title": "ຕິດຕາມຂ່າວສານ ແລະ ກິດຈະກໍາສໍາຄັນລ່າສຸດຂອງພວກເຮົາ",
-        "facebook": { "title": "Facebook", "contact": "CTElectric" },
-        "tiktok": { "title": "Tiktok", "contact": "ctelectric" },
-        "line": { "title": "LINE", "contact": "@ctelectric" },
-        "lazada": { "title": "Lazada", "contact": "CT ELECTRIC" },
-        "shopee": { "title": "Shopee", "sub_title": "Ct ELECTRIC SHOP" }
+        "facebook": { "title": "Facebook", "contact": "CT.ELECTRIC" },
+        "tiktok": { "title": "Tiktok", "contact": "CT.ELECTRIC" },
+        "line": { "title": "LINE", "contact": "CT.ELECTRIC" },
+        "lazada": { "title": "Lazada", "contact": "CT.ELECTRIC" },
+        "shopee": { "title": "Shopee", "sub_title": "CT.ELECTRIC SHOP" }
     }
 }

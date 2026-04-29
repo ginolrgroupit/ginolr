@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100vh;
     padding-top: 65px;
-    background: #ffffff;
+    background: var(--gb-map-gradient-bg);
 }
 
 .quality-process-hero {

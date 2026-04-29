@@ -6,12 +6,6 @@ import category_right2 from '../../assets/product_category_right_section2.webp'
 import category_right3 from '../../assets/product_category_right_section3.webp'
 import { Trans, useTranslation } from 'react-i18next'
 
-// หมวดโลโก้
-import logo_tisi from '../../assets/logo_tisi.webp'
-import logo_iec from '../../assets/logo_iec.webp'
-import logo_iecee from '../../assets/logo_iecee.webp'
-import logo_ukas from '../../assets/logo_ukas.webp'
-import logo_made_in_th from '../../assets/logo_made_in_th.webp'
 // หมวดไอคอน
 import icon_iso9001 from '../../assets/icon_iso9001.webp'
 import icon_gears from '../../assets/icon_gears.webp'
@@ -19,15 +13,74 @@ import icon_globe from '../../assets/icon_globe.webp'
 import icon_target from '../../assets/icon_target.webp'
 import icon_premium from '../../assets/icon_premium.webp'
 // หมวดใบรับรอง
-import logo_ilac_cnas from '../../assets/logo_ilac_cnas.webp'
 import cert_report from '../../assets/cert_report.webp'
 import cert_import1 from '../../assets/cert_import1.webp'
-import logo_iec_iecee from '../../assets/logo_iec_iecee.webp'
 import cert_electrical from '../../assets/cert_electrical.webp'
 import cert_import2 from '../../assets/cert_import2.webp'
+import cert_report1 from '../../assets/cert_report1.webp'
+import cert_report2 from '../../assets/cert_report2.webp'
+import cert_report3 from '../../assets/cert_report3.webp'
+import cert_report4 from '../../assets/cert_report4.webp'
+import { useEffect, useState } from 'react'
+
+const certificateImages = [
+    cert_electrical,
+    cert_import1,
+    cert_import2,
+    cert_report,
+    cert_report1,
+    cert_report2,
+    cert_report3,
+    cert_report4,
+]
 
 const About = () => {
     const { t } = useTranslation('about')
+    const [activeCertificateIndex, setActiveCertificateIndex] = useState<number | null>(null)
+    const activeCertificate = activeCertificateIndex === null ? null : certificateImages[activeCertificateIndex]
+
+    const closeCertificateLightbox = () => {
+        setActiveCertificateIndex(null)
+    }
+
+    const showPreviousCertificate = () => {
+        setActiveCertificateIndex((current) => {
+            if (current === null) return current
+            return (current - 1 + certificateImages.length) % certificateImages.length
+        })
+    }
+
+    const showNextCertificate = () => {
+        setActiveCertificateIndex((current) => {
+            if (current === null) return current
+            return (current + 1) % certificateImages.length
+        })
+    }
+
+    useEffect(() => {
+        if (activeCertificateIndex === null) return
+
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (event.key === 'Escape') {
+                closeCertificateLightbox()
+            }
+            if (event.key === 'ArrowLeft') {
+                showPreviousCertificate()
+            }
+            if (event.key === 'ArrowRight') {
+                showNextCertificate()
+            }
+        }
+
+        document.body.style.overflow = 'hidden'
+        window.addEventListener('keydown', handleKeyDown)
+
+        return () => {
+            document.body.style.overflow = ''
+            window.removeEventListener('keydown', handleKeyDown)
+        }
+    }, [activeCertificateIndex])
+
     const renderList = (path: string) => {
         const data = t(path, { returnObjects: true });
         const list = Array.isArray(data) ? data : [];
@@ -187,47 +240,74 @@ const About = () => {
                 </div>
             </div>
 
+            {/* ==========================================
+                ส่วนใบรับรองมาตรฐาน (ปรับ Layout ใหม่แบ่งซ้าย-ขวา)
+            ========================================== */}
             <div className="standart-section page-section">
-                <div className="cert-main-header">
-                    <h3>{t('standard certification.main_header')}</h3>
-                </div>
+                <div className="cert-section-inner">
+                    <div className="cert-heading-row">
+                        <div className="cert-heading-copy">
+                            <p>GINOLR Electric</p>
+                            <h3>{t('standard certification.main_header')}</h3>
+                            <span>All products are certified by international standards to meet global market requirements.</span>
+                        </div>
+                    </div>
 
-                <div className="certification-grid">
-                    <div className="cert-card">
-                        <div className="cert-info">
-                            <p className="cert-title">{t('standard certification.report.header')}</p>
-                            <img src={logo_ilac_cnas} alt="ilac/CNAS" style={{ height: '100px', objectFit: 'contain' }} />
-                        </div>
-                        <img src={cert_report} alt="Report" style={{ height: '400px', objectFit: 'contain' }} />
-                    </div>
-                    <div className="cert-card">
-                        <div className="cert-info">
-                            <p className="cert-title">{t('standard certification.importstan1.header')}</p>
-                        </div>
-                        <img src={cert_import2} alt="Import Standard 1" style={{ height: '400px', objectFit: 'contain' }} />
-                    </div>
-                    <div className="cert-card">
-                        <div className="cert-info">
-                            <p className="cert-title">{t('standard certification.electricalstan.header')}</p>
-                            <img src={logo_iec_iecee} alt="IEC/IECEE" style={{ height: '100px', objectFit: 'contain' }} />
-                        </div>
-                        <img src={cert_electrical} alt="Electrical Standard" style={{ height: '400px', objectFit: 'contain' }} />
-                    </div>
-                    <div className="cert-card">
-                        <div className="cert-info">
-                            <p className="cert-title">{t('standard certification.importstan2.header')}</p>
-                        </div>
-                        <img src={cert_import1} alt="Import Standard 2" style={{ height: '400px', objectFit: 'contain' }} />
+                    <div className="cert-images-container">
+                        {certificateImages.map((image, index) => (
+                            <button
+                                type="button"
+                                className="cert-image-box"
+                                key={image}
+                                onClick={() => setActiveCertificateIndex(index)}
+                                aria-label={`Open certificate ${index + 1}`}
+                            >
+                                <img src={image} alt={`Certificate ${index + 1}`} />
+                            </button>
+                        ))}
                     </div>
                 </div>
             </div>
 
-            {/* ==========================================
-                ส่วนที่เพิ่มใหม่ล่าสุด: Company Commitments (สลับตำแหน่งแล้ว)
-                ========================================== */}
-            <div className="commitments-section page-section">
+            {activeCertificate && activeCertificateIndex !== null && (
+                <div className="certificate-lightbox" role="dialog" aria-modal="true" aria-label="Certificate preview" onClick={closeCertificateLightbox}>
+                    <button type="button" className="certificate-lightbox-close" onClick={closeCertificateLightbox} aria-label="Close certificate preview">
+                        ×
+                    </button>
+                    <button
+                        type="button"
+                        className="certificate-lightbox-nav certificate-lightbox-prev"
+                        onClick={(event) => {
+                            event.stopPropagation()
+                            showPreviousCertificate()
+                        }}
+                        aria-label="Previous certificate"
+                    >
+                        ‹
+                    </button>
+                    <div className="certificate-lightbox-frame" onClick={(event) => event.stopPropagation()}>
+                        <img src={activeCertificate} alt={`Certificate ${activeCertificateIndex + 1}`} />
+                        <p>{activeCertificateIndex + 1} / {certificateImages.length}</p>
+                    </div>
+                    <button
+                        type="button"
+                        className="certificate-lightbox-nav certificate-lightbox-next"
+                        onClick={(event) => {
+                            event.stopPropagation()
+                            showNextCertificate()
+                        }}
+                        aria-label="Next certificate"
+                    >
+                        ›
+                    </button>
+                </div>
+            )}
 
-                {/* แถวที่ 1 (ย้ายขึ้นมาจากด้านล่าง): 3 เสาหลัก (มอก. / เป้าหมาย / คุณภาพ) */}
+            {/* ==========================================
+                Company Commitments 
+            ========================================== */}
+            <div className="commitments-section page-section">
+                {/* แถวที่ 1: 3 เสาหลัก (มอก. / เป้าหมาย / คุณภาพ) */}
                 <div className="commitments-pillars">
                     <div className="pillar-box">
                         <img src={icon_globe} alt="globe" style={{ height: '80px', objectFit: 'contain' }} />
@@ -243,8 +323,6 @@ const About = () => {
                     </div>
                 </div>
 
-
-
                 {/* แถวที่ 3 (ย้ายลงมาจากด้านบน): ข้อมูลบริษัท & ISO */}
                 <div className="commitments-top">
                     <div className="commit-box">
@@ -256,19 +334,6 @@ const About = () => {
                         <p>{t('company_commitments.iso.content')}</p>
                     </div>
                 </div>
-
-                {/* แถวที่ 2: โลโก้มาตรฐานต่างๆ */}
-                <div className="commitments-logos">
-                    <img src={logo_tisi} alt="TISI" style={{ height: '60px', objectFit: 'contain' }} />
-                    <img src={logo_iec} alt="IEC" style={{ height: '60px', objectFit: 'contain' }} />
-                    <img src={logo_iecee} alt="IECEE" style={{ height: '60px', objectFit: 'contain' }} />
-
-                    {/* ตรงโลโก้ UKAS ลบ div placeholder ทิ้ง แล้วใส่ img แทนแบบนี้ครับ */}
-                    <img src={logo_ukas} alt="UKAS" style={{ height: '60px', objectFit: 'contain' }} />
-
-                    <img src={logo_made_in_th} alt="Made in TH" style={{ height: '60px', objectFit: 'contain' }} />
-                </div>
-
             </div>
 
         </div>

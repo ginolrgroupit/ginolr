@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    background-color: white;
+    background-color: #ffffff;
     padding-top: 65px;
 
     .page-section {
@@ -47,6 +47,10 @@
     margin-top: 100px;
     object-fit: cover;
     object-position: 0 100%;
+}
+
+.about-page .landing-img-section {
+    background: #ffffff;
 }
 
 .about-page .process-section {
@@ -242,345 +246,235 @@
 }
 
 .about-page .standart-section {
-    height: 500px;
-}
-.about-page {
     width: 100%;
-    height: auto;
-    min-height: 100vh;
+    background:
+        linear-gradient(90deg, rgba(15, 18, 18, 0.82), rgba(15, 18, 18, 0.66)),
+        url('../../assets/image-16.webp') center / cover no-repeat;
+    padding: 72px 0 82px;
+}
+
+.about-page .cert-section-inner {
+    width: min(1180px, calc(100% - 48px));
+    margin: 0 auto;
+}
+
+.about-page .cert-heading-row {
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    background-color: white;
-    padding-top: 65px;
-
-    .page-section {
-        width: 100%;
-    }
+    align-items: flex-start;
+    margin-bottom: 34px;
 }
 
-.about-page .history-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    & h3 {
-        margin: 20px 0;
-        font: 400 40px "Anuphan";
-    }
-
-    & p {
-        text-align: center;
-        margin: 0 15%;
-        font: 300 18px "Anuphan";
-        line-height: 2;
-
-        & b {
-            font-weight: 600;
-        }
-    }
-
-    & p:nth-child(3) {
-        margin-top: 40px;
-    }
+.about-page .cert-heading-copy {
+    max-width: 100%;
 }
 
-.about-page .landing-img-section img {
-    width: 100%;
-    height: 700px;
-    margin-top: 100px;
-    object-fit: cover;
-    object-position: 0 100%;
+.about-page .cert-heading-copy p {
+    margin: 0 0 8px;
+    color: #209491;
+    font: 700 16px "Inter", "Prompt", sans-serif;
 }
 
-.about-page .process-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-
-    & svg {
-        margin: 50px 0;
-    }
-
-    & h3 {
-        font: 400 40px "Anuphan";
-        margin-bottom: 40px;
-    }
-
-    & p {
-        font: 300 18px "Anuphan";
-        padding: 0 10%;
-        text-align: center;
-    }
-}
-
-.about-page .product-cateogry-section {
-    display: flex;
-    flex-direction: column;
-    margin-top: 80px;
-
-    & .header-container {
-        width: 100%;
-        height: 100px;
-        background-color: #538184;
-        display: grid;
-        place-items: center;
-
-        & h3 {
-            font: 400 40px "Anuphan";
-            margin: 0;
-            color: white;
-        }
-    }
-
-    & .product-img-container {
-        width: 100%;
-        height: auto;
-        display: grid;
-        grid-template-columns: 1.2fr 1fr;
-        padding: 2% 5%;
-        margin: 10px 0;
-
-        & .left-side img {
-            width: 100%;
-            height: auto;
-        }
-
-        & .right-side {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-
-            & .content {
-                flex: 1;
-                transition: 0.5s ease;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                min-height: 100px;
-                font: 700 32px "Anuphan";
-                position: relative;
-
-                & img {
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
-
-                & .overlay {
-                    display: none;
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                }
-
-                & .arrow-btn {
-                    width: 30px;
-                    aspect-ratio: 1/1;
-                    background-color: #1C4949;
-                    border-radius: 50%;
-                    display: grid;
-                    place-items: center;
-                    z-index: 10;
-                }
-
-                & h3 {
-                    margin: 0;
-                    color: white;
-                    text-align: start;
-                    z-index: 10;
-                    width: 80%;
-                }
-
-                & .list-container {
-                    display: flex;
-                    flex-direction: row;
-                    z-index: 10;
-                    width: 80%;
-                    justify-content: center;
-                    margin: 0;
-                    padding: 0;
-                    max-height: 0;
-                    opacity: 0;
-                    transition: 0.5s ease;
-
-                    &>div {
-                        width: 50%;
-                        flex: 1;
-                    }
-
-                    & li {
-                        list-style-type: "- ";
-                        color: white;
-                        font: 200 22px 'Anuphan';
-                    }
-                }
-
-                &:hover {
-                    flex: 2.5;
-                    justify-content: start;
-
-                    & .overlay {
-                        display: flex;
-                        z-index: 9;
-                        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 37.02%);
-                    }
-
-                    & .list-container {
-                        display: flex;
-                        margin-top: 5%;
-                        opacity: 1;
-                        max-height: 80%;
-                    }
-
-                    & h3 {
-                        margin-top: 5%;
-                    }
-                }
-            }
-        }
-    }
-}
-
-.about-page .more-info-section {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 10%;
-    background-color: #F3F3F3;
-    height: auto;
-    padding: 2% 22%;
-
-    @media screen and (max-width: 1500px) {
-        padding: 2% 10%;
-    }
-
-    & .info-box {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-
-        &>div {
-            width: 100%;
-            height: 200px;
-            display: grid;
-            place-content: center;
-        }
-    }
-
-    & h3 {
-        font: 700 36px 'Anuphan';
-        color: #1C4949;
-        border-bottom: 2px solid #1C4949;
-        padding-bottom: 3%;
-    }
-
-    & p {
-        font: 400 16px 'Anuphan';
-    }
-}
-
-.about-page .standart-section {
-    height: 500px;
-}
-/* --- แทนที่ .standart-section อันเก่าด้วยอันนี้ --- */
-
-.about-page .standart-section {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 100px;
-}
-
-.about-page .cert-main-header {
-    margin: 40px 0;
-}
-
-.about-page .cert-main-header h3 {
-    background-color:#ffffff;
-    color: #3C5858;
-    padding: 50px 0px;
-    font: 500 32px "Anuphan";
-    border-radius: 4px;
+.about-page .cert-heading-copy h3 {
     margin: 0;
+    color: #ffffff;
+    font: 700 40px "Inter", "Prompt", sans-serif;
+    line-height: 1.15;
 }
 
-.about-page .certification-grid {
+.about-page .cert-heading-copy span {
+    display: block;
+    margin-top: 26px;
+    color: #ffffff;
+    font: 700 18px "Inter", "Prompt", sans-serif;
+    line-height: 1.55;
+    white-space: nowrap;
+}
+
+.about-page .cert-images-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px 40px;
-    width: 80%;
-    max-width: 1200px;
-    margin-top: 40px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 40px 28px;
 }
 
-.about-page .cert-card {
+.about-page .cert-image-box {
+    width: 100%;
+    aspect-ratio: 0.74 / 1;
+    border: 0;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #f7f7f7;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.34);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: zoom-in;
 }
 
-.about-page .cert-info {
-    flex: 1;
+.about-page .cert-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
-.about-page .cert-title {
-    font: 600 18px "Anuphan";
-    color: #3C5858;
-    line-height: 1.5;
-    margin-bottom: 20px;
+.about-page .cert-image-box:hover,
+.about-page .cert-image-box:focus-visible {
+    transform: translateY(-6px);
+    box-shadow: 0 26px 52px rgba(0, 0, 0, 0.42);
 }
 
-/* กล่องจำลองสำหรับใส่รูปใบเซอร์ */
-.about-page .placeholder-cert {
-    flex: 1.2;
-    aspect-ratio: 3 / 4;
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    display: grid;
-    place-items: center;
-    color: #aaa;
-    font-family: "Anuphan";
-    font-size: 14px;
+.about-page .cert-image-box:focus-visible {
+    outline: 3px solid #75c842;
+    outline-offset: 4px;
 }
 
-/* กล่องจำลองสำหรับใส่โลโก้ */
-.about-page .placeholder-logo {
-    width: 120px;
-    height: 60px;
-    border: 1px dashed #ccc;
-    display: grid;
-    place-items: center;
-    color: #999;
-    font-size: 12px;
-    margin-top: 10px;
+.certificate-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px clamp(64px, 8vw, 120px);
+    background: rgba(8, 12, 12, 0.88);
+    backdrop-filter: blur(6px);
 }
 
-/* ทำให้หน้าจอมือถือแสดงผลเป็นแถวเดียว */
+.certificate-lightbox-frame {
+    max-width: min(920px, 100%);
+    max-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.certificate-lightbox-frame img {
+    max-width: 100%;
+    max-height: calc(88vh - 42px);
+    object-fit: contain;
+    background: #ffffff;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.48);
+}
+
+.certificate-lightbox-frame p {
+    margin: 0;
+    color: #ffffff;
+    font: 600 15px "Inter", "Prompt", sans-serif;
+}
+
+.certificate-lightbox-close,
+.certificate-lightbox-nav {
+    border: 0;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.12);
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.certificate-lightbox-close:hover,
+.certificate-lightbox-nav:hover,
+.certificate-lightbox-close:focus-visible,
+.certificate-lightbox-nav:focus-visible {
+    background: rgba(117, 200, 66, 0.85);
+    color: #101a0b;
+}
+
+.certificate-lightbox-close {
+    position: absolute;
+    top: 24px;
+    right: 28px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 34px;
+    line-height: 1;
+}
+
+.certificate-lightbox-nav {
+    position: absolute;
+    top: 50%;
+    width: 54px;
+    height: 72px;
+    border-radius: 6px;
+    font-size: 56px;
+    line-height: 1;
+    transform: translateY(-50%);
+}
+
+.certificate-lightbox-prev {
+    left: clamp(18px, 3vw, 44px);
+}
+
+.certificate-lightbox-next {
+    right: clamp(18px, 3vw, 44px);
+}
+
 @media screen and (max-width: 1024px) {
-    .about-page .certification-grid {
-        grid-template-columns: 1fr;
-        width: 90%;
+    .about-page .cert-images-container {
+        grid-template-columns: repeat(3, 1fr);
     }
+}
+
+@media screen and (max-width: 768px) {
+    .about-page .standart-section {
+        padding: 52px 0 60px;
+    }
+
+    .about-page .cert-heading-row {
+        margin-bottom: 28px;
+    }
+
+    .about-page .cert-heading-copy span {
+        white-space: normal;
+    }
+
+    .about-page .cert-images-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 22px 16px;
+    }
+
+    .certificate-lightbox {
+        padding: 72px 18px 28px;
+    }
+
+    .certificate-lightbox-close {
+        top: 16px;
+        right: 16px;
+    }
+
+    .certificate-lightbox-nav {
+        top: auto;
+        bottom: 20px;
+        width: 48px;
+        height: 48px;
+        font-size: 38px;
+        transform: none;
+    }
+
+    .certificate-lightbox-prev {
+        left: 18px;
+    }
+
+    .certificate-lightbox-next {
+        right: 18px;
+    }
+
+    .certificate-lightbox-frame img {
+        max-height: calc(82vh - 80px);
+    }
+
 }
 
 /* ========================================================
-   ส่วนที่เพิ่มใหม่ล่าสุด: Company Commitments
+   Company Commitments
    ======================================================== */
 .about-page .commitments-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 10%;
+    padding: 0px 10% 50px 10%;
     width: 100%;
     gap: 20px;
 }
@@ -606,7 +500,7 @@
     color: #000000;
     text-align: left;
     margin: 0;
-    white-space: pre-line; /* เพิ่มบรรทัดนี้ เพื่อให้ \n ทำงาน */
+    white-space: pre-line;
 }
 
 /* แถวที่ 2: แถบโลโก้ตรงกลาง */
@@ -627,19 +521,19 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     width: 100%;
-    max-width:1400px;
-    white-space: pre-line; /* เพิ่มบรรทัดนี้ เพื่อให้ \n ทำงาน */
-    text-align: left; /* <--- เพิ่มบรรทัดนี้เข้าไปครับ */
+    max-width: 1400px;
+    white-space: pre-line;
+    text-align: left;
 }
 
 .about-page .pillar-box {
     display: flex;
     flex-direction: column;
-    align-items: center; /* <--- เปลี่ยนจาก center เป็น flex-start เพื่อให้ทุกอย่างในกล่องชิดซ้าย */
+    align-items: flex-start;
     gap: 20px;
     padding: 30px 20px;
     background: #ffffff;
-    border-left: 2px solid #000000; /* เพิ่มเส้นคั่นระหว่างคอลัมน์คล้ายในรูป */
+    border-left: 2px solid #000000;
 }
 
 /* ลบเส้นคั่นฝั่งซ้ายของกล่องแรกออก */
@@ -652,35 +546,22 @@
     line-height: 1.6;
     color: #000000;
     margin: 0;
-    width: 100%;       /* <--- กางพื้นที่ข้อความให้เต็มกล่อง */
-    text-align: center;  /* <--- สั่งตัวหนังสือให้ชิดซ้าย */
+    width: 100%;
+    text-align: left;
 }
 
-/* Icon Placeholder (วงกลม) */
-.about-page .placeholder-icon {
-    width: 70px;
-    height: 70px;
-    min-width: 70px;
-    border-radius: 50%;
-    background-color: #f5f5f5;
-    border: 1px dashed #bbb;
-    display: grid;
-    place-items: center;
-    font-size: 11px;
-    color: #888;
-    text-align: center;
-}
-
-/* Responsive สำหรับมือถือ */
+/* Responsive สำหรับมือถือ ส่วน Commitments */
 @media screen and (max-width: 1024px) {
     .about-page .commitments-top,
     .about-page .commitments-pillars {
         grid-template-columns: 1fr;
     }
+
     .about-page .pillar-box {
-        border-left: none; /* เอาเส้นคั่นออกเมื่อเป็นหน้าจอมือถือ */
+        border-left: none;
         border-bottom: 1px solid #eee;
     }
+
     .about-page .pillar-box:last-child {
         border-bottom: none;
     }

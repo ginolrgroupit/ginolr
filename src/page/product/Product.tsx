@@ -50,6 +50,9 @@ const ProductList = () => {
                         key={currentImg} 
                         src={currentImg}
                         alt={categoryObj?.category_name}
+                        onError={(event) => {
+                            event.currentTarget.style.display = 'none'
+                        }}
                         onLoad={() => setFadeStatus(true)}
                         style={{
                             opacity: fadeStatus ? 3 : 0,
@@ -83,7 +86,12 @@ const ProductList = () => {
                 </aside>
 
                 <div className='product-list'>
-                    {productObj?.map((e: any) => (
+                    {productObj.length === 0 ? (
+                        <div className="empty-product-placeholder">
+                            <h3>{categoryObj?.category_name}</h3>
+                            <p>Product information is coming soon.</p>
+                        </div>
+                    ) : productObj?.map((e: any) => (
                         <div
                             key={`${category_name}-${e.group_id}-${e.product_id}`}
                             className='product-card'

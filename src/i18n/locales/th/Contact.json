@@ -1,16 +1,16 @@
 {
     "seller_section": {
         "northern_upper": {
-            "label": "ภาคเหนือตอนบน",
+            "label": "ภาคเหนือตอนบน \n(ตัวแทนจำหน่าย)",
             "seller_list": [
                 {
-                    "name": "นายวัชระ ปานพรม (โน๊ต)",
+                    "name": "",
                     "call": ""
                 }
             ]
         },
         "northern_lower": {
-            "label": "ภาคเหนือตอนล่าง",
+            "label": "ภาคเหนือตอนล่าง \n(ตัวแทนจำหน่าย)",
             "seller_list": [
                 {
                     "name": "นายเฉลิมพล ศรีบัวบาน (เบนซ์)",
@@ -19,7 +19,7 @@
             ]
         },
         "southern_upper": {
-            "label": "ภาคใต้ตอนบน",
+            "label": "ภาคใต้ตอนบน \n(ตัวแทนจำหน่าย)",
             "seller_list": [
                 {
                     "name": "นายกิตต์รวี พิมประดิษฐ์ (โอ)",
@@ -28,7 +28,7 @@
             ]
         },
         "southern_lower": {
-            "label": "ภาคใต้ตอนล่าง",
+            "label": "ภาคใต้ตอนล่าง \n(ตัวแทนจำหน่าย)",
             "seller_list": [
                 {
                     "name": "นายณัฐภัทร ภูศรี (พฤกษ์)",
@@ -37,7 +37,7 @@
             ]
         },
         "northeastern_upper": {
-            "label": "ภาคตะวันออกเฉียงเหนือตอนบน",
+            "label": "ภาคตะวันออกเฉียงเหนือตอนบน \n(ตัวแทนจำหน่าย)",
             "seller_list": [
                 {
                     "name": "นางสาวนุชรีพร เตือนจันทร์ทึก (กอล์ฟ)",
@@ -46,7 +46,7 @@
             ]
         },
         "northeastern_lower": {
-            "label": "ภาคตะวันออกเฉียงเหนือตอนล่าง",
+            "label": "ภาคตะวันออกเฉียงเหนือตอนล่าง \n(ตัวแทนจำหน่าย)",
             "seller_list": [
                 {
                     "name": "นายพรมมา ปะตะเน (กิ๊ก)",
@@ -55,7 +55,7 @@
             ]
         },
         "bangkok": {
-            "label": "กรุงเทพมหานคร",
+            "label": "กรุงเทพมหานคร \n(ตัวแทนจำหน่าย)",
             "seller_list": [
                 {
                     "name": "นางสาวนัททนัน ด่อนแก้ว (นัท)",
@@ -64,7 +64,7 @@
             ]
         },
         "center": {
-            "label": "ภาคกลาง",
+            "label": "ภาคกลาง \n(ตัวแทนจำหน่าย)",
             "seller_list": [
                 {
                     "name": "นายศักดิ์ธัชญ์ สิริธาราทิพย์ (โย)",
@@ -103,23 +103,23 @@
         "title": "ติดตามข่าวสารของเรา และกิจกรรมสำคัญล่าสุด",
         "facebook": {
             "title": "Facebook",
-            "contact": "CTElectric"
+            "contact": "CT.ELECTRIC"
         },
         "tiktok": {
             "title": "Tiktok",
-            "contact": "ctelectric"
+            "contact": "CT.ELECTRIC"
         },
         "line": {
             "title": "LINE",
-            "contact": "@ctelectric"
+            "contact": "CT.ELECTRIC"
         },
         "lazada": {
             "title": "Lazada",
-            "contact": "CT ELECTRIC"
+            "contact": "CT.ELECTRIC"
         },
         "shopee": {
             "title": "Shopee",
-            "sub_title": "Ct ELECTRIC SHOP"
+            "sub_title": "CT.ELECTRIC SHOP"
         }
     }
 }

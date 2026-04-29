@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100vh;
     padding: 120px 6% 100px;
-    background-color: var(--gb-main-bg-color);
+    background: var(--gb-map-gradient-bg);
 }
 
 .product-all-hero {

@@ -1,7 +1,7 @@
 {
     "seller_section": {
         "northern_upper": {
-            "label": "Northern Upper Region",
+            "label": "Northern Upper Region \n(Dealer)",
             "seller_list": [
                 {
                     "name": "Mr. Watchara Panphrom (Note)",
@@ -10,7 +10,7 @@
             ]
         },
         "northern_lower": {
-            "label": "Northern Lower Region",
+            "label": "Northern Lower Region \n(Dealer)",
             "seller_list": [
                 {
                     "name": "Mr. Chalermpon Sribuaban (Benz)",
@@ -19,7 +19,7 @@
             ]
         },
         "southern_upper": {
-            "label": "Southern Upper Region",
+            "label": "Southern Upper Region \n(Dealer)",
             "seller_list": [
                 {
                     "name": "Mr. Kidravi Pimpradit (O)",
@@ -28,7 +28,7 @@
             ]
         },
         "southern_lower": {
-            "label": "Southern Lower Region",
+            "label": "Southern Lower Region \n(Dealer)",
             "seller_list": [
                 {
                     "name": "Mr. Nutthapat Pusee (Pruek)",
@@ -37,7 +37,7 @@
             ]
         },
         "northeastern_upper": {
-            "label": "Northeastern Upper Region",
+            "label": "Northeastern Upper Region \n(Dealer)",
             "seller_list": [
                 {
                     "name": "Ms. Nutchareeporn Tuenchanthuek (Golf)",
@@ -46,7 +46,7 @@
             ]
         },
         "northeastern_lower": {
-            "label": "Northeastern Lower Region",
+            "label": "Northeastern Lower Region \n(Dealer)",
             "seller_list": [
                 {
                     "name": "Mr. Promma Patana (Kik)",
@@ -55,7 +55,7 @@
             ]
         },
         "bangkok": {
-            "label": "Bangkok",
+            "label": "Bangkok \n(Dealer)",
             "seller_list": [
                 {
                     "name": "Ms. Natthanan Donkaew (Nut)",
@@ -64,7 +64,7 @@
             ]
         },
         "center": {
-            "label": "Central Region",
+            "label": "Central Region \n(Dealer)",
             "seller_list": [
                 {
                     "name": "Mr. Saktat Siritaratip (Yo)",
@@ -103,23 +103,23 @@
         "title": "Stay updated with our latest news and events.",
         "facebook": {
             "title": "Facebook",
-            "contact": "CTElectric"
+            "contact": "CT.ELECTRIC"
         },
         "tiktok": {
             "title": "Tiktok",
-            "contact": "ctelectric"
+            "contact": "CT.ELECTRIC"
         },
         "line": {
             "title": "LINE",
-            "contact": "@ctelectric"
+            "contact": "CT.ELECTRIC"
         },
         "lazada": {
             "title": "Lazada",
-            "contact": "CT ELECTRIC"
+            "contact": "CT.ELECTRIC"
         },
         "shopee": {
             "title": "Shopee",
-            "sub_title": "CT ELCETRIC SHOP"
+            "sub_title": "CT.ELECTRIC SHOP"
         }
     }
 }

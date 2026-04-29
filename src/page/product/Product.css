@@ -5,6 +5,7 @@
     height: 100vh;
     padding-top: 65px;
     overflow-y: auto;
+    background: var(--gb-map-gradient-bg);
 
     & .promote-img-section {
         width: 100%;
@@ -43,6 +44,7 @@
         align-items: center;
         box-sizing: border-box;
         border-bottom: 9px solid #538184;
+        background: var(--gb-map-gradient-bg);
 
         & h2.category-header {
             margin: 0;
@@ -108,6 +110,31 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 25px;
+
+        & .empty-product-placeholder {
+            grid-column: 1 / -1;
+            min-height: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            border: 1px solid rgba(28, 73, 73, 0.12);
+            background: rgba(255, 255, 255, 0.86);
+            text-align: center;
+
+            & h3 {
+                margin: 0;
+                color: #1C4949;
+                font: 500 42px 'Khand';
+            }
+
+            & p {
+                margin: 0;
+                color: #6b7f7f;
+                font: 300 22px 'Khand';
+            }
+        }
 
         & .product-card {
             width: 100%;
