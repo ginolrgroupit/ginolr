@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next'
 import './QualityProcess.css'
-import qualityImageOne from '../../assets/qualityimage/1.png'
-import qualityImageTwo from '../../assets/qualityimage/2.png'
-import qualityImageThree from '../../assets/qualityimage/3.png'
-import qualityImageFour from '../../assets/qualityimage/4.png'
-import qualityImageFive from '../../assets/qualityimage/5.png'
+import qualityImageOne from '../../assets/qualityimage/1.webp'
+import qualityImageTwo from '../../assets/qualityimage/2.webp'
+import qualityImageThree from '../../assets/qualityimage/3.webp'
+import qualityImageFour from '../../assets/qualityimage/4.webp'
+import qualityImageFive from '../../assets/qualityimage/5.webp'
 
 type QualityProcessItem = {
     id: string

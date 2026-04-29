@@ -1,4 +1,4 @@
-{
+﻿{
     "history_section": {
         "header": "Company History",
         "content_one": "<0>GINORL GROUP</0> was established in 2004, focusing on building electrical safety by providing complete power distribution solutions and adapting products to meet research and development, production, sales, and electrical services, including electrical cabinets, wires, cables, and other products. <2>GINORL GROUP</2> has continuously built cooperative and stable relationships with large-scale projects, including government projects, residential technologies, and large commercial projects such as power plants, wind power projects, electronics systems, industrial construction, data, communication, new energy, and transportation. The company adheres to the core policy of <4>\"Customer Centric\"</4> and persists in researching and developing products according to customer needs. The company's technology research and development center uses a national laboratory and has various certificates such as TISI,MIT, TIS, and CB. The company has received the <6>ISO 9001:2015</6> quality management system certification. We are committed to providing high-quality products and good services, creating continuous growth and development of the organization in the new era, to ensure customers feel confident, safe, and comfortable with the brand.",
@@ -213,14 +213,14 @@
             "intro": {
                 "title": "5 Production Centers",
                 "subtitle": "As a domestic manufacturer, we are able to provide fast customer service.",
-                "backgroundImage": "/company-history/production-centers/background.jpg"
+                "backgroundImage": "/company-history/production-centers/background.webp"
             },
             "centers": [
                 {
                     "id": 1,
                     "title": "Sheet Metal Manufacturing Center",
                     "markets": ["OEM DIY"],
-                    "image": "รูปภาพ8.png",
+                    "image": "image-08.webp",
                     "imageAlt": "Sheet metal manufacturing center",
                     "detail": "A sheet metal production center for electrical cabinets, electrical boxes, and custom parts, supporting production according to customer requirements.",
                     "badge": {
@@ -233,7 +233,7 @@
                     "id": 2,
                     "title": "Injection Molding Manufacturing Center",
                     "markets": ["Government Market", "Private Market"],
-                    "image": "รูปภาพ9.png",
+                    "image": "image-09.webp",
                     "imageAlt": "Injection molding manufacturing center",
                     "detail": "Supports plastic injection molding for electrical components with quality control and consistent part standards.",
                     "badge": {
@@ -246,7 +246,7 @@
                     "id": 3,
                     "title": "Cable Manufacturing Center",
                     "markets": ["Government Market", "Private Market", "Electricity Authority"],
-                    "image": "รูปภาพ11.png",
+                    "image": "image-11.webp",
                     "imageAlt": "Cable manufacturing center",
                     "detail": "Produces wires and cables for projects, industrial applications, and electrical distribution systems."
                 },
@@ -254,7 +254,7 @@
                     "id": 4,
                     "title": "Industrial Pipe Manufacturing Center",
                     "markets": ["Government Market", "Private Market"],
-                    "image": "รูปภาพ13.png",
+                    "image": "image-13.webp",
                     "imageAlt": "Industrial pipe manufacturing center",
                     "detail": "Produces industrial pipes and wiring system accessories for installations that require strength and high standards."
                 },
@@ -262,7 +262,7 @@
                     "id": 5,
                     "title": "Transformer Manufacturing Center",
                     "markets": ["Government Market", "Electricity Authority"],
-                    "image": "รูปภาพ15.png",
+                    "image": "image-15.webp",
                     "imageAlt": "Transformer manufacturing center",
                     "detail": "Supports the production and assembly of transformers for power systems, projects, and energy organizations."
                 }

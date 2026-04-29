@@ -92,6 +92,19 @@ const Nav = ({ setPage_selected, page_selected, language_selected, setLanguage_s
                 </div>
             ),
         },
+        {
+            key: '4',
+            label: (
+                <div className='language-option' onClick={() => languageHandler('LO' as Language)}>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24" width="24" height="24">
+                        <path fill="#ce1126" d="M0 0h32v6H0zM0 18h32v6H0z" />
+                        <path fill="#002868" d="M0 6h32v12H0z" />
+                        <circle cx="16" cy="12" r="5" fill="#fff" />
+                    </svg>
+                    LO
+                </div>
+            ),
+        },
     ]
 
     const handleMouseEnter = () => {

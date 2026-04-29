@@ -14,6 +14,9 @@ import thContact from './locales/th/Contact.json'
 
 // 🌟 --- Import Chinese --- 🌟
 import cnHome from './locales/cn/Home.json'
+import loHome from './locales/lo/Home.json'
+import loAbout from './locales/lo/About.json'
+import loContact from './locales/lo/Contact.json'
 import cnAbout from './locales/cn/About.json'         // เพิ่ม About
 import cnContact from './locales/cn/Contact.json'     // เพิ่ม Contact
 
@@ -57,6 +60,12 @@ i18n
                 about: cnAbout,
                 contact: cnContact,
                 productCategory: { data: cnProductCategory }
+            },
+            lo: {
+                home: loHome,
+                about: loAbout,
+                contact: loContact,
+                productCategory: { data: enProductCategory }
             },
         },
     })

@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 import type { Category } from '../../type'
 
 import './Product-detail.css'
-import lazada_icon from '../../assets/logo/lazada.png'
+import lazada_icon from '../../assets/logo/lazada.webp'
 
 const show_detail_nav = ['spec', 'standart'] as const
 type SHOW_DETAIL_NAV = typeof show_detail_nav[number]
@@ -97,7 +97,7 @@ const ProductDetail = () => {
     }
 
     useEffect(() => {
-        setImgShowPath(specObj?.detail?.spec_img ? `/spec_img/${specObj.detail.spec_img}/01.png` : '')
+        setImgShowPath(specObj?.detail?.spec_img ? `/spec_img/${specObj.detail.spec_img}/01.webp` : '')
     }, [specObj?.detail?.spec_img])
 
     const handleSpecSelected = (spec_id: number) => {
@@ -189,7 +189,7 @@ const ProductDetail = () => {
                     <div className='img-list'>
                         <div className='img-container'>
                             {[1, 2, 3, 4].map((num) => {
-                                const imgPath = `/spec_img/${specObj?.detail?.spec_img}/0${num}.png`
+                                const imgPath = `/spec_img/${specObj?.detail?.spec_img}/0${num}.webp`
                                 return (
                                     <img
                                         key={`${specObj?.detail?.spec_img}-${num}`}

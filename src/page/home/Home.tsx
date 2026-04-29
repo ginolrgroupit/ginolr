@@ -1,32 +1,31 @@
-import { faBrain, faDumbbell, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons'
+﻿import { faBrain, faDumbbell, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons/faArrowRight'
-import target_vision from "../../assets/target/target_vision.png"
-import target_safety from "../../assets/target/target_safety.png"
+import target_vision from "../../assets/target/target_vision.webp"
+import target_safety from "../../assets/target/target_safety.webp"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import target_value from "../../assets/target/target_value.png"
-import ginolrLogo from '../../assets/logo/ginolr.png'
-import ctpvLogo from '../../assets/logo/ctpv.png'
-import ctLogo from '../../assets/logo/ct.png'
-import operationImageOne from '../../assets/รูปภาพ1.png'
-import operationImageTwo from '../../assets/รูปภาพ2.jpg'
-import operationImageThree from '../../assets/รูปภาพ3.jpg'
+import target_value from "../../assets/target/target_value.webp"
+import ginolrLogo from '../../assets/logo/ginolr.webp'
+import ctpvLogo from '../../assets/logo/ctpv.webp'
+import ctLogo from '../../assets/logo/ct.webp'
+import operationImageOne from '../../assets/image-01.webp'
+import operationImageTwo from '../../assets/image-02.webp'
+import operationImageThree from '../../assets/image-03.webp'
 import { header_variants } from '../motion/normal'
 import { card_variants } from '../motion/normal'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import { section } from '../motion/normal'
 import { motion } from 'framer-motion'
-import './Home.css'
+import './home.css'
 import AsiaMap from './AsiaMap'
 
 const productShowcase = [
-  { title: 'Global House', image: '/image_store/globalhouse.jpg' },
-  { title: 'Hardware House', image: '/image_store/hardwarehouse.jpg' },
-  { title: 'HomeHub', image: '/image_store/HomeHub.jpg' },
-  { title: 'HomePro', image: '/image_store/homepro.jpeg' },
-  { title: 'Komeri', image: '/image_store/komeri.jpg' },
-  { title: 'Mega Home', image: '/image_store/megahome.jpg' },
-  { title: 'Thai Watsadu', image: '/image_store/thaiwatsadu.jpg' },
+  { title: 'Hardware House', image: '/image_store/hardwarehouse.webp' },
+  { title: 'HomeHub', image: '/image_store/HomeHub.webp' },
+  { title: 'HomePro', image: '/image_store/homepro.webp' },
+  { title: 'Komeri', image: '/image_store/komeri.webp' },
+  { title: 'Mega Home', image: '/image_store/megahome.webp' },
+  { title: 'Thai Watsadu', image: '/image_store/thaiwatsadu.webp' },
 ]
 
 const companyIntroVideoUrl = 'https://www.youtube.com/embed/EeTw3d1cM2k?rel=0'

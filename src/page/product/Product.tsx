@@ -22,7 +22,7 @@ const ProductList = () => {
         setFadeStatus(false);
         
         // สร้าง URL รูปใหม่
-        const newImgUrl = `${LANDING_IMG_PATH}${category_name}.png`;
+        const newImgUrl = `${LANDING_IMG_PATH}${category_name}.webp`;
         setCurrentImg(newImgUrl);
     }, [category_name]);
 
@@ -89,7 +89,7 @@ const ProductList = () => {
                             className='product-card'
                             onClick={() => navigate(`/product/${category_name}/${e.group_id ?? group_id1}/${e.product_id}`)}
                         >
-                            <img className='product-img' src={`${PRODUCT_IMG_PATH}${e.img_path}.png`} alt={e.product_name} />
+                            <img className='product-img' src={`${PRODUCT_IMG_PATH}${e.img_path}.webp`} alt={e.product_name} />
                             <div className='product-name-container'>
                                 <h3>{e.product_name}</h3>
                                 <h4>{e.subtitle || ''}</h4>

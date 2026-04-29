@@ -1,6 +1,6 @@
 export type NavMenu = 'home' | 'product' | 'about' | 'product-data-download' | 'contact'
 
-export type Language = 'TH' | 'EN' | 'CN'
+export type Language = 'TH' | 'EN' | 'CN' | 'LO'
 
 export type Company = 'CT' | 'GINOLR'
 

@@ -1,11 +1,11 @@
-import { useTranslation } from 'react-i18next'
+﻿import { useTranslation } from 'react-i18next'
 import './CompanyHistory.css'
-import officePhoto from '../../assets/รูปภาพ1.png'
-import factoryPhotoOne from '../../assets/รูปภาพ5.png'
-import certificationLogos from '../../assets/รูปภาพ7.png'
-import ginolrLogo from '../../assets/logo/ginolr.png'
-import ctLogo from '../../assets/logo/ct.png'
-import ctpvLogo from '../../assets/logo/ctpv.png'
+import officePhoto from '../../assets/image-01.webp'
+import factoryPhotoOne from '../../assets/image-05.webp'
+import certificationLogos from '../../assets/image-07.webp'
+import ginolrLogo from '../../assets/logo/ginolr.webp'
+import ctLogo from '../../assets/logo/ct.webp'
+import ctpvLogo from '../../assets/logo/ctpv.webp'
 
 const assetImages = import.meta.glob('../../assets/*', {
     eager: true,

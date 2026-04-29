@@ -1,4 +1,4 @@
-{
+﻿{
     "history_section": {
         "header": "公司历史",
         "content_one": "<0>GINORL GROUP</0> 成立于2004年，致力于通过提供完整的配电解决方案来建立用电安全，并根据研发、生产、销售和电气服务调整产品，包括电气柜、电线、电缆及其他产品。<2>GINORL GROUP</2> 持续与大型项目建立合作和稳定的关系，包括政府项目、住宅技术和大型商业项目，如发电厂、风力发电项目、电子系统、工业建筑、数据、通信、新能源和交通。公司坚持 <4>“以客户为中心”</4> 的核心政策，坚持根据客户需求研发产品。公司的技术研发中心使用国家级实验室，并拥有TISI、MIT、TIS、CB等各项认证。公司已获得 <6>ISO 9001:2015</6> 质量管理体系认证。我们致力于提供高品质的产品和良好的服务，在新时代不断创造组织的成长与发展，确保客户对品牌感到自信、安全和舒适。",
@@ -213,14 +213,14 @@
             "intro": {
                 "title": "5 个生产中心",
                 "subtitle": "作为本地制造商，我们能够为客户提供快速服务。",
-                "backgroundImage": "/company-history/production-centers/background.jpg"
+                "backgroundImage": "/company-history/production-centers/background.webp"
             },
             "centers": [
                 {
                     "id": 1,
                     "title": "钣金生产中心",
                     "markets": ["OEM DIY"],
-                    "image": "รูปภาพ8.png",
+                    "image": "image-08.webp",
                     "imageAlt": "钣金生产中心",
                     "detail": "钣金生产中心可生产电柜、电箱及定制零件，支持按客户需求生产。",
                     "badge": {
@@ -233,7 +233,7 @@
                     "id": 2,
                     "title": "注塑生产中心",
                     "markets": ["政府市场", "私人市场"],
-                    "image": "รูปภาพ9.png",
+                    "image": "image-09.webp",
                     "imageAlt": "注塑生产中心",
                     "detail": "支持电气部件注塑生产，并控制产品质量与零件一致性。",
                     "badge": {
@@ -246,7 +246,7 @@
                     "id": 3,
                     "title": "电缆生产中心",
                     "markets": ["政府市场", "私人市场", "电力部门"],
-                    "image": "รูปภาพ11.png",
+                    "image": "image-11.webp",
                     "imageAlt": "电缆生产中心",
                     "detail": "生产适用于项目、工业应用和配电系统的电线与电缆。"
                 },
@@ -254,7 +254,7 @@
                     "id": 4,
                     "title": "工业管道生产中心",
                     "markets": ["政府市场", "私人市场"],
-                    "image": "รูปภาพ13.png",
+                    "image": "image-13.webp",
                     "imageAlt": "工业管道生产中心",
                     "detail": "生产工业管道及布线系统配件，满足高强度和高标准安装需求。"
                 },
@@ -262,7 +262,7 @@
                     "id": 5,
                     "title": "变压器生产中心",
                     "markets": ["政府市场", "电力部门"],
-                    "image": "รูปภาพ15.png",
+                    "image": "image-15.webp",
                     "imageAlt": "变压器生产中心",
                     "detail": "支持电力系统、项目工程和能源机构所需变压器的生产与组装。"
                 }

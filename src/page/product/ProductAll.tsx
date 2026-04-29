@@ -37,7 +37,7 @@ const ProductAll = () => {
                     >
                         <div className="product-category-image">
                             <img
-                                src={`${LANDING_IMG_PATH}${category.path}.png`}
+                                src={`${LANDING_IMG_PATH}${category.path}.webp`}
                                 alt={category.category_name}
                                 loading="lazy"
                                 onError={(event) => {

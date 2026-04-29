@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "category_id": 1,
         "category_name": "Consumer Units",
@@ -1587,7 +1587,7 @@
                     {
                         "product_id": 1,
                         "product_name": "CT Load Center",
-                        "img_path": "ธรรมดา",
+                        "img_path": "standard",
                         "property": [
                             "Steel Material",
                             "1.2 mm Thickness"
@@ -1730,7 +1730,7 @@
                     {
                         "product_id": 2,
                         "product_name": "CT Load Center RCBO",
-                        "img_path": "rcbo (กันดูด)",
+                        "img_path": "rcbo-leakage-protection",
                         "property": [
                             "Steel Material",
                             "1.2 mm Thickness",
@@ -3659,7 +3659,7 @@
                                     "size": "35mm x 70mm x 80mm",
                                     "used": "",
                                     "setup": "",
-                                    "spec_img": "ctm5b-125-rccb-2p-type-b-(1-เฟส)"
+                                    "spec_img": "ctm5b-125-rccb-2p-type-b-1-phase"
                                 },
                                 "list": [
                                     {
@@ -3705,7 +3705,7 @@
                                     "size": "70mm x 85mm x 70mm",
                                     "used": "",
                                     "setup": "",
-                                    "spec_img": "ctm5b-125-rccb-4p-type-b-(3-เฟส)"
+                                    "spec_img": "ctm5b-125-rccb-4p-type-b-3-phase"
                                 },
                                 "list": [
                                     {
@@ -6447,7 +6447,7 @@
                                     "size": "30mm x 79.5mm x 41.5mm",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "la38-11x2-2-จังหวะ"
+                                    "spec_img": "la38-11x2-2-position"
                                 },
                                 "list": [
                                     {
@@ -6469,7 +6469,7 @@
                                     "size": "30mm x 79.5mm x 41.5mm",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "la38-11x2-3-จังหวะ"
+                                    "spec_img": "la38-11x2-3-position"
                                 },
                                 "list": [
                                     {
@@ -6491,7 +6491,7 @@
                                     "size": "30mm x 95mm x 41.5mm",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "la38-11xd-2-2-จังหวะ"
+                                    "spec_img": "la38-11xd-2-2-position"
                                 },
                                 "list": [
                                     {
@@ -6513,7 +6513,7 @@
                                     "size": "30mm x 95mm x 41.5mm",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "la38-11xd-3-3-จังหวะ"
+                                    "spec_img": "la38-11xd-3-3-position"
                                 },
                                 "list": [
                                     {
@@ -6545,7 +6545,7 @@
                                     "size": "30mm x 76mm x 41.5mm",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "la38-11y-2-2-จังหวะ"
+                                    "spec_img": "la38-11y-2-2-position"
                                 },
                                 "list": [
                                     {
@@ -6567,7 +6567,7 @@
                                     "size": "30mm x 76mm x 41.5mm",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "la38-11y-3-3-จังหวะ"
+                                    "spec_img": "la38-11y-3-3-position"
                                 },
                                 "list": [
                                     {
@@ -7016,7 +7016,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Non-Insulated Ring Terminals",
-                        "img_path": "หางปลากลมเปลือย",
+                        "img_path": "bare-ring-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7034,7 +7034,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลากลมเปลือย"
+                                    "spec_img": "bare-ring-terminal"
                                 },
                                 "list": []
                             }
@@ -7050,7 +7050,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Non-Insulated Spade Terminals",
-                        "img_path": "หางปลาแฉกเปลือย",
+                        "img_path": "bare-spade-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7068,7 +7068,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาแฉกเปลือย"
+                                    "spec_img": "bare-spade-terminal"
                                 },
                                 "list": []
                             }
@@ -7084,7 +7084,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Ring Terminals",
-                        "img_path": "หางปลากลมหุ้มฉนวน",
+                        "img_path": "insulated-ring-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7105,7 +7105,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลากลมหุ้มฉนวน"
+                                    "spec_img": "insulated-ring-terminal"
                                 },
                                 "list": []
                             }
@@ -7121,7 +7121,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Spade Terminals",
-                        "img_path": "หางปลาแฉกหุ้มฉนวน",
+                        "img_path": "insulated-spade-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7142,7 +7142,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาแฉกหุ้มฉนวน"
+                                    "spec_img": "insulated-spade-terminal"
                                 },
                                 "list": []
                             }
@@ -7158,7 +7158,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Heavy Duty European Style Terminals (Tubular)",
-                        "img_path": "หางปลารุ่นหนาทรงยุโรป (แบบท่อ)",
+                        "img_path": "heavy-duty-european-tubular-lug",
                         "property": [
                             "Durable"
                         ],
@@ -7176,7 +7176,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลารุ่นหนาทรงยุโรปแบบท่อ"
+                                    "spec_img": "heavy-duty-european-tubular-lug"
                                 },
                                 "list": []
                             }
@@ -7192,7 +7192,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Non-Insulated Butt Splice Connectors (Extra Long)",
-                        "img_path": "ข้อต่อสายแบบย้ำเปลือยยาวพิเศษ",
+                        "img_path": "extra-long-bare-crimp-connector",
                         "property": [
                             "Durable"
                         ],
@@ -7210,7 +7210,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "ข้อต่อสายแบบย้ำเปลือยยาวพิเศษ"
+                                    "spec_img": "extra-long-bare-crimp-connector"
                                 },
                                 "list": []
                             }
@@ -7226,7 +7226,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Male Flat Terminals",
-                        "img_path": "หางปลาหัวเสียบตัวผู้แบบแบนหุ้มฉนวน",
+                        "img_path": "insulated-male-flat-disconnect",
                         "property": [
                             "Durable"
                         ],
@@ -7246,7 +7246,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาหัวเสียบตัวผู้แบบแบนหุ้มฉนวน"
+                                    "spec_img": "insulated-male-flat-disconnect"
                                 },
                                 "list": []
                             }
@@ -7262,7 +7262,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Female Flat Terminals",
-                        "img_path": "หางปลาหัวเสียบตัวเมียแบบแบนหุ้มฉนวน",
+                        "img_path": "insulated-female-flat-disconnect",
                         "property": [
                             "Durable"
                         ],
@@ -7282,7 +7282,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาหัวเสียบตัวเมียแบบแบนหุ้มฉนวน"
+                                    "spec_img": "insulated-female-flat-disconnect"
                                 },
                                 "list": []
                             }
@@ -7298,7 +7298,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Fully Insulated Female Flat Terminals",
-                        "img_path": "หางปลาหัวเสียบตัวเมียแบบแบนหุ้มฉนวนเต็ม",
+                        "img_path": "fully-insulated-female-flat-disconnect",
                         "property": [
                             "Durable"
                         ],
@@ -7318,7 +7318,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาหัวเสียบตัวเมียแบบแบนหุ้มฉนวนเต็ม"
+                                    "spec_img": "fully-insulated-female-flat-disconnect"
                                 },
                                 "list": []
                             }
@@ -7334,7 +7334,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Butt Splice Connectors",
-                        "img_path": "ข้อต่อสายแบบย้ำหุ้มฉนวน",
+                        "img_path": "insulated-crimp-connector",
                         "property": [
                             "Durable"
                         ],
@@ -7354,7 +7354,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "ข้อต่อสายแบบย้ำหุ้มฉนวน"
+                                    "spec_img": "insulated-crimp-connector"
                                 },
                                 "list": []
                             }
@@ -7370,7 +7370,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Male Bullet Terminals",
-                        "img_path": "หางปลาหัวเสียบตัวผู้แบบกลมหุ้มฉนวน",
+                        "img_path": "insulated-male-bullet-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7390,7 +7390,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาหัวเสียบตัวผู้แบบกลมหุ้มฉนวน"
+                                    "spec_img": "insulated-male-bullet-terminal"
                                 },
                                 "list": []
                             }
@@ -7406,7 +7406,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Female Bullet Terminals",
-                        "img_path": "หางปลาหัวเสียบตัวเมียแบบกลมหุ้มฉนวน",
+                        "img_path": "insulated-female-bullet-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7426,7 +7426,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาหัวเสียบตัวเมียแบบกลมหุ้มฉนวน"
+                                    "spec_img": "insulated-female-bullet-terminal"
                                 },
                                 "list": []
                             }
@@ -7442,7 +7442,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Long Flat Pin Terminals",
-                        "img_path": "หางปลาหัวเสียบก้านไม้ขีดแบบแบนยาวหุ้มฉนวน",
+                        "img_path": "insulated-long-flat-pin-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7462,7 +7462,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาหัวเสียบก้านไม้ขีดแบบแบนยาวหุ้มฉนวน"
+                                    "spec_img": "insulated-long-flat-pin-terminal"
                                 },
                                 "list": []
                             }
@@ -7478,7 +7478,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Round Pin Terminals",
-                        "img_path": "หางปลาหัวเสียบก้านไม้ขีดแบบกลมหุ้มฉนวน",
+                        "img_path": "insulated-round-pin-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7498,7 +7498,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาหัวเสียบก้านไม้ขีดแบบกลมหุ้มฉนวน"
+                                    "spec_img": "insulated-round-pin-terminal"
                                 },
                                 "list": []
                             }
@@ -7514,7 +7514,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Flat Pin Terminals",
-                        "img_path": "หางปลาหัวเสียบก้านไม้ขีดแบบแบนหุ้มฉนวน",
+                        "img_path": "insulated-flat-pin-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7534,7 +7534,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หางปลาหัวเสียบก้านไม้ขีดแบบแบนหุ้มฉนวน"
+                                    "spec_img": "insulated-flat-pin-terminal"
                                 },
                                 "list": []
                             }
@@ -7550,7 +7550,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Closed End Connectors (Opaque White)",
-                        "img_path": "หัวต่อสายหุ้มฉนวนรูปหมวกแบบขาวขุ่น",
+                        "img_path": "translucent-insulated-closed-end-connector",
                         "property": [
                             "Durable"
                         ],
@@ -7568,7 +7568,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "หัวต่อสายหุ้มฉนวนรูปหมวกแบบขาวขุ่น"
+                                    "spec_img": "translucent-insulated-closed-end-connector"
                                 },
                                 "list": []
                             }
@@ -7584,7 +7584,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Square Spring Wire Nuts",
-                        "img_path": "ไวร์นัทสปริงเหลี่ยมหุ้มฉนวน",
+                        "img_path": "insulated-square-spring-wire-nut",
                         "property": [
                             "Durable"
                         ],
@@ -7605,7 +7605,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "ไวร์นัทสปริงเหลี่ยมหุ้มฉนวน"
+                                    "spec_img": "insulated-square-spring-wire-nut"
                                 },
                                 "list": []
                             }
@@ -7621,7 +7621,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Insulated Quick Splice Connectors",
-                        "img_path": "ตลับหนีบสายหุ้มฉนวน",
+                        "img_path": "insulated-wire-clip",
                         "property": [
                             "Durable"
                         ],
@@ -7641,7 +7641,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "ตลับหนีบสายหุ้มฉนวน"
+                                    "spec_img": "insulated-wire-clip"
                                 },
                                 "list": []
                             }
@@ -7657,7 +7657,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Twin Insulated Bootlace Ferrules",
-                        "img_path": "ข้อต่อย้ำปลายสายหุ้มฉนวนแบบคู่",
+                        "img_path": "insulated-twin-cord-end-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7678,7 +7678,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "ข้อต่อย้ำปลายสายหุ้มฉนวนแบบคู่"
+                                    "spec_img": "insulated-twin-cord-end-terminal"
                                 },
                                 "list": []
                             }
@@ -7694,7 +7694,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Single Insulated Bootlace Ferrules",
-                        "img_path": "ข้อต่อย้ำปลายสายหุ้มฉนวนแบบเดี่ยว",
+                        "img_path": "insulated-single-cord-end-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7716,7 +7716,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "ข้อต่อย้ำปลายสายหุ้มฉนวนแบบเดี่ยว"
+                                    "spec_img": "insulated-single-cord-end-terminal"
                                 },
                                 "list": []
                             }
@@ -7732,7 +7732,7 @@
                     {
                         "product_id": 1,
                         "product_name": "Non-Insulated Bootlace Ferrules",
-                        "img_path": "ข้อต่อย้ำปลายสายแบบเดี่ยวเปลือย",
+                        "img_path": "bare-single-cord-end-terminal",
                         "property": [
                             "Durable"
                         ],
@@ -7750,7 +7750,7 @@
                                     "size": "-",
                                     "used": "Used for industrial control",
                                     "setup": "Installed in factories",
-                                    "spec_img": "ข้อต่อย้ำปลายสายแบบเดี่ยวเปลือย"
+                                    "spec_img": "bare-single-cord-end-terminal"
                                 },
                                 "list": []
                             }

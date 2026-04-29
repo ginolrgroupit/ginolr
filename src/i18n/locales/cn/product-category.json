@@ -1,4 +1,4 @@
-[
+﻿[
    {
         "category_id": 1,
         "category_name": "终端配电箱 (Consumer Units)",
@@ -1587,7 +1587,7 @@
                     {
                         "product_id": 1,
                         "product_name": "CT 负荷中心",
-                        "img_path": "ธรรมดา",
+                        "img_path": "standard",
                         "property": [
                             "钢材质",
                             "1.2 mm 厚度"
@@ -1730,7 +1730,7 @@
                     {
                         "product_id": 2,
                         "product_name": "CT 漏电保护负荷中心 (RCBO)",
-                        "img_path": "rcbo (กันดูด)",
+                        "img_path": "rcbo-leakage-protection",
                         "property": [
                             "钢材质",
                             "1.2 mm 厚度",
@@ -3659,7 +3659,7 @@
                                     "size": "35mm x 70mm x 80mm",
                                     "used": "",
                                     "setup": "",
-                                    "spec_img": "ctm5b-125-rccb-2p-type-b-(1-เฟส)"
+                                    "spec_img": "ctm5b-125-rccb-2p-type-b-1-phase"
                                 },
                                 "list": [
                                     {
@@ -3705,7 +3705,7 @@
                                     "size": "70mm x 85mm x 70mm",
                                     "used": "",
                                     "setup": "",
-                                    "spec_img": "ctm5b-125-rccb-4p-type-b-(3-เฟส)"
+                                    "spec_img": "ctm5b-125-rccb-4p-type-b-3-phase"
                                 },
                                 "list": [
                                     {
@@ -6469,7 +6469,7 @@
                                     "size": "30mm x 79.5mm x 41.5mm",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "la38-11x2-2-จังหวะ"
+                                    "spec_img": "la38-11x2-2-position"
                                 },
                                 "list": [
                                     {
@@ -6491,7 +6491,7 @@
                                     "size": "30mm x 79.5mm x 41.5mm",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "la38-11x2-3-จังหวะ"
+                                    "spec_img": "la38-11x2-3-position"
                                 },
                                 "list": [
                                     {
@@ -6513,7 +6513,7 @@
                                     "size": "30mm x 95mm x 41.5mm",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "la38-11xd-2-2-จังหวะ"
+                                    "spec_img": "la38-11xd-2-2-position"
                                 },
                                 "list": [
                                     {
@@ -6535,7 +6535,7 @@
                                     "size": "30mm x 95mm x 41.5mm",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "la38-11xd-3-3-จังหวะ"
+                                    "spec_img": "la38-11xd-3-3-position"
                                 },
                                 "list": [
                                     {
@@ -6567,7 +6567,7 @@
                                     "size": "30mm x 76mm x 41.5mm",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "la38-11y-2-2-จังหวะ"
+                                    "spec_img": "la38-11y-2-2-position"
                                 },
                                 "list": [
                                     {
@@ -6589,7 +6589,7 @@
                                     "size": "30mm x 76mm x 41.5mm",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "la38-11y-3-3-จังหวะ"
+                                    "spec_img": "la38-11y-3-3-position"
                                 },
                                 "list": [
                                     {
@@ -7038,7 +7038,7 @@
                     {
                         "product_id": 1,
                         "product_name": "裸压圆型端子",
-                        "img_path": "หางปลากลมเปลือย",
+                        "img_path": "bare-ring-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7056,7 +7056,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลากลมเปลือย"
+                                    "spec_img": "bare-ring-terminal"
                                 },
                                 "list": []
                             }
@@ -7072,7 +7072,7 @@
                     {
                         "product_id": 1,
                         "product_name": "裸压叉型端子",
-                        "img_path": "หางปลาแฉกเปลือย",
+                        "img_path": "bare-spade-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7090,7 +7090,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาแฉกเปลือย"
+                                    "spec_img": "bare-spade-terminal"
                                 },
                                 "list": []
                             }
@@ -7106,7 +7106,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘圆型端子",
-                        "img_path": "หางปลากลมหุ้มฉนวน",
+                        "img_path": "insulated-ring-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7127,7 +7127,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลากลมหุ้มฉนวน"
+                                    "spec_img": "insulated-ring-terminal"
                                 },
                                 "list": []
                             }
@@ -7143,7 +7143,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘叉型端子",
-                        "img_path": "หางปลาแฉกหุ้มฉนวน",
+                        "img_path": "insulated-spade-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7164,7 +7164,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาแฉกหุ้มฉนวน"
+                                    "spec_img": "insulated-spade-terminal"
                                 },
                                 "list": []
                             }
@@ -7180,7 +7180,7 @@
                     {
                         "product_id": 1,
                         "product_name": "重型欧洲标准端子 (管状)",
-                        "img_path": "หางปลารุ่นหนาทรงยุโรป (แบบท่อ)",
+                        "img_path": "heavy-duty-european-tubular-lug",
                         "property": [
                             "耐用"
                         ],
@@ -7198,7 +7198,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลารุ่นหนาทรงยุโรปแบบท่อ"
+                                    "spec_img": "heavy-duty-european-tubular-lug"
                                 },
                                 "list": []
                             }
@@ -7214,7 +7214,7 @@
                     {
                         "product_id": 1,
                         "product_name": "非绝缘对接焊管 (加长型)",
-                        "img_path": "ข้อต่อสายแบบย้ำเปลือยยาวพิเศษ",
+                        "img_path": "extra-long-bare-crimp-connector",
                         "property": [
                             "耐用"
                         ],
@@ -7232,7 +7232,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "ข้อต่อสายแบบย้ำเปลือยยาวพิเศษ"
+                                    "spec_img": "extra-long-bare-crimp-connector"
                                 },
                                 "list": []
                             }
@@ -7248,7 +7248,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘公型插头端子 (扁平型)",
-                        "img_path": "หางปลาหัวเสียบตัวผู้แบบแบนหุ้มฉนวน",
+                        "img_path": "insulated-male-flat-disconnect",
                         "property": [
                             "耐用"
                         ],
@@ -7268,7 +7268,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาหัวเสียบตัวผู้แบบแบนหุ้มฉนวน"
+                                    "spec_img": "insulated-male-flat-disconnect"
                                 },
                                 "list": []
                             }
@@ -7284,7 +7284,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘母型插头端子 (扁平型)",
-                        "img_path": "หางปลาหัวเสียบตัวเมียแบบแบนหุ้มฉนวน",
+                        "img_path": "insulated-female-flat-disconnect",
                         "property": [
                             "耐用"
                         ],
@@ -7304,7 +7304,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาหัวเสียบตัวเมียแบบแบนหุ้มฉนวน"
+                                    "spec_img": "insulated-female-flat-disconnect"
                                 },
                                 "list": []
                             }
@@ -7320,7 +7320,7 @@
                     {
                         "product_id": 1,
                         "product_name": "全绝缘母型插头端子 (扁平型)",
-                        "img_path": "หางปลาหัวเสียบตัวเมียแบบแบนหุ้มฉนวนเต็ม",
+                        "img_path": "fully-insulated-female-flat-disconnect",
                         "property": [
                             "耐用"
                         ],
@@ -7340,7 +7340,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาหัวเสียบตัวเมียแบบแบนหุ้มฉนวนเต็ม"
+                                    "spec_img": "fully-insulated-female-flat-disconnect"
                                 },
                                 "list": []
                             }
@@ -7356,7 +7356,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘对接焊管",
-                        "img_path": "ข้อต่อสายแบบย้ำหุ้มฉนวน",
+                        "img_path": "insulated-crimp-connector",
                         "property": [
                             "耐用"
                         ],
@@ -7376,7 +7376,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "ข้อต่อสายแบบย้ำหุ้มฉนวน"
+                                    "spec_img": "insulated-crimp-connector"
                                 },
                                 "list": []
                             }
@@ -7392,7 +7392,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘公型子弹头端子",
-                        "img_path": "หางปลาหัวเสียบตัวผู้แบบกลมหุ้มฉนวน",
+                        "img_path": "insulated-male-bullet-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7412,7 +7412,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาหัวเสียบตัวผู้แบบกลมหุ้มฉนวน"
+                                    "spec_img": "insulated-male-bullet-terminal"
                                 },
                                 "list": []
                             }
@@ -7428,7 +7428,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘母型子弹头端子",
-                        "img_path": "หางปลาหัวเสียบตัวเมียแบบกลมหุ้มฉนวน",
+                        "img_path": "insulated-female-bullet-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7448,7 +7448,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาหัวเสียบตัวเมียแบบกลมหุ้มฉนวน"
+                                    "spec_img": "insulated-female-bullet-terminal"
                                 },
                                 "list": []
                             }
@@ -7464,7 +7464,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘长扁平插针端子",
-                        "img_path": "หางปลาหัวเสียบก้านไม้ขีดแบบแบนยาวหุ้มฉนวน",
+                        "img_path": "insulated-long-flat-pin-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7484,7 +7484,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาหัวเสียบก้านไม้ขีดแบบแบนยาวหุ้มฉนวน"
+                                    "spec_img": "insulated-long-flat-pin-terminal"
                                 },
                                 "list": []
                             }
@@ -7500,7 +7500,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘圆型插针端子",
-                        "img_path": "หางปลาหัวเสียบก้านไม้ขีดแบบกลมหุ้มฉนวน",
+                        "img_path": "insulated-round-pin-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7520,7 +7520,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาหัวเสียบก้านไม้ขีดแบบกลมหุ้มฉนวน"
+                                    "spec_img": "insulated-round-pin-terminal"
                                 },
                                 "list": []
                             }
@@ -7536,7 +7536,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘扁平插针端子",
-                        "img_path": "หางปลาหัวเสียบก้านไม้ขีดแบบแบนหุ้มฉนวน",
+                        "img_path": "insulated-flat-pin-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7556,7 +7556,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หางปลาหัวเสียบก้านไม้ขีดแบบแบนหุ้มฉนวน"
+                                    "spec_img": "insulated-flat-pin-terminal"
                                 },
                                 "list": []
                             }
@@ -7572,7 +7572,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘闭端子 (乳白色)",
-                        "img_path": "หัวต่อสายหุ้มฉนวนรูปหมวกแบบขาวขุ่น",
+                        "img_path": "translucent-insulated-closed-end-connector",
                         "property": [
                             "耐用"
                         ],
@@ -7590,7 +7590,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "หัวต่อสายหุ้มฉนวนรูปหมวกแบบขาวขุ่น"
+                                    "spec_img": "translucent-insulated-closed-end-connector"
                                 },
                                 "list": []
                             }
@@ -7606,7 +7606,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘方型弹簧接线帽 (Wire Nuts)",
-                        "img_path": "ไวร์นัทสปริงเหลี่ยมหุ้มฉนวน",
+                        "img_path": "insulated-square-spring-wire-nut",
                         "property": [
                             "耐用"
                         ],
@@ -7627,7 +7627,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "ไวร์นัทสปริงเหลี่ยมหุ้มฉนวน"
+                                    "spec_img": "insulated-square-spring-wire-nut"
                                 },
                                 "list": []
                             }
@@ -7643,7 +7643,7 @@
                     {
                         "product_id": 1,
                         "product_name": "绝缘快速接头 (Quick Splice)",
-                        "img_path": "ตลับหนีบสายหุ้มฉนวน",
+                        "img_path": "insulated-wire-clip",
                         "property": [
                             "耐用"
                         ],
@@ -7663,7 +7663,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "ตลับหนีบสายหุ้มฉนวน"
+                                    "spec_img": "insulated-wire-clip"
                                 },
                                 "list": []
                             }
@@ -7679,7 +7679,7 @@
                     {
                         "product_id": 1,
                         "product_name": "双线绝缘欧式端子",
-                        "img_path": "ข้อต่อย้ำปลายสายหุ้มฉนวนแบบคู่",
+                        "img_path": "insulated-twin-cord-end-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7700,7 +7700,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "ข้อต่อย้ำปลายสายหุ้มฉนวนแบบคู่"
+                                    "spec_img": "insulated-twin-cord-end-terminal"
                                 },
                                 "list": []
                             }
@@ -7716,7 +7716,7 @@
                     {
                         "product_id": 1,
                         "product_name": "单线绝缘欧式端子",
-                        "img_path": "ข้อต่อย้ำปลายสายหุ้มฉนวนแบบเดี่ยว",
+                        "img_path": "insulated-single-cord-end-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7738,7 +7738,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "ข้อต่อย้ำปลายสายหุ้มฉนวนแบบเดี่ยว"
+                                    "spec_img": "insulated-single-cord-end-terminal"
                                 },
                                 "list": []
                             }
@@ -7754,7 +7754,7 @@
                     {
                         "product_id": 1,
                         "product_name": "裸压单线欧式端子",
-                        "img_path": "ข้อต่อย้ำปลายสายแบบเดี่ยวเปลือย",
+                        "img_path": "bare-single-cord-end-terminal",
                         "property": [
                             "耐用"
                         ],
@@ -7772,7 +7772,7 @@
                                     "size": "-",
                                     "used": "用于工业控制",
                                     "setup": "安装于工厂",
-                                    "spec_img": "ข้อต่อย้ำปลายสายแบบเดี่ยวเปลือย"
+                                    "spec_img": "bare-single-cord-end-terminal"
                                 },
                                 "list": []
                             }

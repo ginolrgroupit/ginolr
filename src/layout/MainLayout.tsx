@@ -1,12 +1,12 @@
-import { Outlet, useLocation } from "react-router-dom"
+﻿import { Outlet, useLocation } from "react-router-dom"
 import './MainLayout.css'
 import Nav from "../nav/Nav"
 import type { Language, NavMenu } from "../type"
 import { useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
-import mascotUrl from "../assets/logo/เฉี่ยวซี CC-01.svg"
+import mascotUrl from "../assets/logo/chiao-xi-01.svg"
 
-const supportedLanguages: Language[] = ['TH', 'EN', 'CN']
+const supportedLanguages: Language[] = ['TH', 'EN', 'CN', 'LO']
 
 const MainLayout = () => {
     const { i18n } = useTranslation()
@@ -42,7 +42,7 @@ const MainLayout = () => {
             <div className="container-zone" ref={containerRef}>
                 <Outlet context={containerRef} />
             </div>
-            <img className="site-mascot" src={mascotUrl} alt="เฉี่ยวซี" />
+            <img className="site-mascot" src={mascotUrl} alt="Chiao Xi" />
         </div>
     )
 }

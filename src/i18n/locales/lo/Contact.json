@@ -1,0 +1,69 @@
+{
+    "seller_section": {
+        "northern_upper": {
+            "label": "ພາກເໜືອຕອນເທິງ",
+            "seller_list": [{ "name": "ທ່ານ Watchara Panphrom (Note)", "call": "" }]
+        },
+        "northern_lower": {
+            "label": "ພາກເໜືອຕອນລຸ່ມ",
+            "seller_list": [{ "name": "ທ່ານ Chalermpon Sribuaban (Benz)", "call": "" }]
+        },
+        "southern_upper": {
+            "label": "ພາກໃຕ້ຕອນເທິງ",
+            "seller_list": [{ "name": "ທ່ານ Kidravi Pimpradit (O)", "call": "" }]
+        },
+        "southern_lower": {
+            "label": "ພາກໃຕ້ຕອນລຸ່ມ",
+            "seller_list": [{ "name": "ທ່ານ Nutthapat Pusee (Pruek)", "call": "" }]
+        },
+        "northeastern_upper": {
+            "label": "ພາກຕາເວັນອອກສຽງເໜືອຕອນເທິງ",
+            "seller_list": [{ "name": "ນາງ Nutchareeporn Tuenchanthuek (Golf)", "call": "" }]
+        },
+        "northeastern_lower": {
+            "label": "ພາກຕາເວັນອອກສຽງເໜືອຕອນລຸ່ມ",
+            "seller_list": [{ "name": "ທ່ານ Promma Patana (Kik)", "call": "" }]
+        },
+        "bangkok": {
+            "label": "ກຸງເທບ",
+            "seller_list": [{ "name": "ນາງ Natthanan Donkaew (Nut)", "call": "" }]
+        },
+        "center": {
+            "label": "ພາກກາງ",
+            "seller_list": [
+                { "name": "ທ່ານ Saktat Siritaratip (Yo)", "call": "" },
+                { "name": "ທ່ານ Kittisak Thongpool (Nui)", "call": "" }
+            ]
+        }
+    },
+    "contact_section": {
+        "contact_us": "ຕິດຕໍ່ພວກເຮົາ",
+        "header": "GINOLR CT ELECTRIC CONTACT",
+        "title": "ທີມງານຂອງພວກເຮົາພ້ອມໃຫ້ບໍລິການ ແລະ ໃຫ້ຄໍາປຶກສາແກ່ທ່ານ",
+        "email": {
+            "title": "ອີເມວ",
+            "subtitle": "ສາມາດສອບຖາມຂໍ້ມູນຜ່ານອີເມວໄດ້ຕະຫຼອດເວລາ",
+            "contact": "ctthai@hotmail.com"
+        },
+        "location": {
+            "title": "ທີ່ຢູ່",
+            "subtitle": "ເຂົ້າຢ້ຽມຊົມສໍານັກງານໃຫຍ່ຂອງພວກເຮົາ",
+            "contact": "49/3 ໝູ່ 8 ຕໍາບົນນາດີ ອໍາເພີເມືອງສະໝຸດສາຄອນ ຈັງຫວັດສະໝຸດສາຄອນ"
+        },
+        "phone": {
+            "title": "ເບີໂທລະສັບ",
+            "subtitle": "ຈັນ - ເສົາ, 8:30 - 17:30",
+            "call": "034-496-686"
+        }
+    },
+    "social_media_section": {
+        "social_media": "ໂຊເຊຍມີເດຍ",
+        "header": "ຕິດຕາມພວກເຮົາຜ່ານຊ່ອງທາງອອນລາຍ",
+        "title": "ຕິດຕາມຂ່າວສານ ແລະ ກິດຈະກໍາສໍາຄັນລ່າສຸດຂອງພວກເຮົາ",
+        "facebook": { "title": "Facebook", "contact": "CTElectric" },
+        "tiktok": { "title": "Tiktok", "contact": "ctelectric" },
+        "line": { "title": "LINE", "contact": "@ctelectric" },
+        "lazada": { "title": "Lazada", "contact": "CT ELECTRIC" },
+        "shopee": { "title": "Shopee", "sub_title": "Ct ELECTRIC SHOP" }
+    }
+}

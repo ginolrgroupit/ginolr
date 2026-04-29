@@ -5,7 +5,7 @@ import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-
 import ThailandMap from "./Map"
 import { useEffect, useRef, useState } from "react"
 import { faUser } from "@fortawesome/free-solid-svg-icons/faUser"
-import lazadaIcon from "../../assets/lazada-icon.png"
+import lazadaIcon from "../../assets/lazada-icon.webp"
 import { motion } from 'framer-motion'
 import { card_variants, header_variants, section } from "../motion/normal";
 import { useTranslation } from "react-i18next";
