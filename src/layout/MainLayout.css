@@ -69,3 +69,7 @@
     width: clamp(120px, 13vw, 180px);
     z-index: 9;
 }
+
+.qiaoxi-meaning-layout .site-mascot {
+    display: none;
+}

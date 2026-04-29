@@ -8944,10 +8944,431 @@
     },
     {
         "category_id": 19,
-        "category_name": "Wriway",
-        "path": "wriway",
+        "category_name": "Wireway",
+        "path": "Wireway",
         "category_img": "",
-        "group": []
+        "group": [
+            {
+                "group_id": 1,
+                "group_name": "CWSS",
+                "title": "รางเดินสายไฟชนิดติดตั้งภายในอาคาร เพื่อความเป็นระเบียบและปลอดภัย",
+                "product": [
+                    {
+                        "product_id": 1,
+                        "product_name": "CWSS",
+                        "img_path": "cwss",
+                        "property": [
+                            "ทนทาน",
+                            "ไม่ลามไฟ",
+                            "น้ำหนักเบา"
+                        ],
+                        "spec": [
+                            {
+                                "spec_id": 1,
+                                "spec_name": "CWSS-2034",
+                                "detail": {
+                                    "name": "CWSS-2034",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "50mm x 75mm x1220mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwss-2034"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 2,
+                                "spec_name": "CWSS-2044",
+                                "detail": {
+                                    "name": "CWSS-2044",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "50mm x 100mm x1220mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwss-2044"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 3,
+                                "spec_name": "CWSS-3044",
+                                "detail": {
+                                    "name": "CWSS-3044",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "75mm x 100mm x1220mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwss-3044"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 4,
+                                "spec_name": "CWSS-4044",
+                                "detail": {
+                                    "name": "CWSS-4044",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "100mm x 100mm x1220mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwss-4044"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 5,
+                                "spec_name": "CWSS-4064",
+                                "detail": {
+                                    "name": "CWSS-4064",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "100mm x 150mm x1220mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwss-4064"
+                                },
+                                "list": []
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "group_id": 2,
+                "group_name": "CWBS",
+                "title": "รางเดินสายไฟชนิดติดตั้งภายในอาคาร แบบงอเปิดบน เพื่อความสะดวกในการติดตั้งและการบำรุงรักษา",
+                "product": [
+                    {
+                        "product_id": 2,
+                        "product_name": "CWBS",
+                        "img_path": "cwbs",
+                        "property": [
+                            "ทนทาน",
+                            "ไม่ลามไฟ",
+                            "น้ำหนักเบา"
+                        ],
+                        "spec": [
+                            {
+                                "spec_id": 1,
+                                "spec_name": "CWBS-2030",
+                                "detail": {
+                                    "name": "CWBS-2030",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "50mm x 75mm x 227mm // 50 mm x 75mm x 202mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwbs-2030"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 2,
+                                "spec_name": "CWBS-2040",
+                                "detail": {
+                                    "name": "CWBS-2040",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "50mm x 100mm x 252mm // 50 mm x 100mm x 202mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwbs-2040"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 3,
+                                "spec_name": "CWBS-3040",
+                                "detail": {
+                                    "name": "CWBS-3040",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "75mm x 100mm x 252mm // 75 mm x 100mm x 227mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwbs-3040"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 4,
+                                "spec_name": "CWBS-4040",
+                                "detail": {
+                                    "name": "CWBS-4040",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "100mm x 100mm x 252mm // 100 mm x 100mm x 227mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwbs-4040"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 5,
+                                "spec_name": "CWBS-4060",
+                                "detail": {
+                                    "name": "CWBS-4060",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "100mm x 150mm x 302mm // 100 mm x 150mm x 252mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwbs-4060"
+                                },
+                                "list": []
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "group_id": 3,
+                "group_name": "CWIS",
+                "title": "รางเดินสายไฟชนิดติดตั้งภายในอาคาร แบบงอเปิดใน เพื่อความสะดวกในการติดตั้งและการบำรุงรักษา",
+                "product": [
+                    {
+                        "product_id": 2,
+                        "product_name": "CWIS",
+                        "img_path": "cwis",
+                        "property": [
+                            "ทนทาน",
+                            "ไม่ลามไฟ",
+                            "น้ำหนักเบา"
+                        ],
+                        "spec": [
+                            {
+                                "spec_id": 1,
+                                "spec_name": "CWIS-2030",
+                                "detail": {
+                                    "name": "CWIS-2030",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "50mm x 75mm x 227mm // 50 mm x 75mm x 202mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwis-2030"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 2,
+                                "spec_name": "CWIS-2040",
+                                "detail": {
+                                    "name": "CWIS-2040",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "50mm x 100mm x 252mm // 50 mm x 100mm x 202mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwis-2040"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 3,
+                                "spec_name": "CWIS-3040",
+                                "detail": {
+                                    "name": "CWIS-3040",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "75mm x 100mm x 252mm // 75 mm x 100mm x 227mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwis-3040"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 4,
+                                "spec_name": "CWIS-4040",
+                                "detail": {
+                                    "name": "CWIS-4040",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "100mm x 100mm x 252mm // 100 mm x 100mm x 227mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwis-4040"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 5,
+                                "spec_name": "CWIS-4060",
+                                "detail": {
+                                    "name": "CWIS-4060",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "100mm x 150mm x 302mm // 100 mm x 150mm x 252mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwis-4060"
+                                },
+                                "list": []
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "group_id": 4,
+                "group_name": "CWOS",
+                "title": "รางเดินสายไฟชนิดติดตั้งภายในอาคาร แบบงอเปิดบน เพื่อความสะดวกในการติดตั้งและการบำรุงรักษา",
+                "product": [
+                    {
+                        "product_id": 2,
+                        "product_name": "CWOS",
+                        "img_path": "cwos",
+                        "property": [
+                            "ทนทาน",
+                            "ไม่ลามไฟ",
+                            "น้ำหนักเบา"
+                        ],
+                        "spec": [
+                            {
+                                "spec_id": 1,
+                                "spec_name": "CWOS-2030",
+                                "detail": {
+                                    "name": "CWOS-2030",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "50mm x 75mm x 227mm // 50 mm x 75mm x 202mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwos-2030"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 2,
+                                "spec_name": "CWOS-2040",
+                                "detail": {
+                                    "name": "CWOS-2040",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "50mm x 100mm x 252mm // 50 mm x 100mm x 202mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwos-2040"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 3,
+                                "spec_name": "CWOS-3040",
+                                "detail": {
+                                    "name": "CWOS-3040",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "75mm x 100mm x 252mm // 75 mm x 100mm x 227mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwos-3040"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 4,
+                                "spec_name": "CWOS-4040",
+                                "detail": {
+                                    "name": "CWOS-4040",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "100mm x 100mm x 252mm // 100 mm x 100mm x 227mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwos-4040"
+                                },
+                                "list": []
+                            },
+                             {
+                                "spec_id": 5,
+                                "spec_name": "CWOS-4060",
+                                "detail": {
+                                    "name": "CWOS-4060",
+                                    "category": "รางเดินสายไฟ",
+                                    "material": "",
+                                    "color": [
+                                        "gray"
+                                    ],
+                                    "size": "100mm x 150mm x 302mm // 100 mm x 150mm x 252mm",
+                                    "used": "",
+                                    "setup": "",
+                                    "spec_img": "cwos-4060"
+                                },
+                                "list": []
+                            }
+                        ]
+                    }
+                    
+                ]
+            }
+        ]
     },
     {
         "category_id": 20,

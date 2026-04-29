@@ -4,7 +4,7 @@
     --gb-gray-bg-color: rgba(245, 247, 246);
     --gb-main-green: rgba(0, 137, 133);
     --gb-sub-green: rgba(229, 242, 241);
-    --gb-main-blue: #1677ff;
+    --gb-main-blue: #209491;
     --gb-sub-blue: rgba(225, 242, 254);
 }
 
@@ -147,7 +147,7 @@
     padding: 0;
 
     &:hover {
-        background-color: #1677ffca;
+        background-color: #209491;
     }
 }
 

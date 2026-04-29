@@ -35,9 +35,10 @@ const MainLayout = () => {
     }, [pathname])
 
     const isCompanyHistoryPage = pathname.startsWith('/about/company-history')
+    const isQiaoxiMeaningPage = pathname.startsWith('/about/qiaoxi-meaning')
 
     return (
-        <div className={`all-screen${isCompanyHistoryPage ? ' company-history-layout' : ''}`}>
+        <div className={`all-screen${isCompanyHistoryPage ? ' company-history-layout' : ''}${isQiaoxiMeaningPage ? ' qiaoxi-meaning-layout' : ''}`}>
             <Nav setPage_selected={setPage_selected} page_selected={page_selected} language_selected={language_selected} setLanguage_selected={setLanguage_selected} />
             <div className="container-zone" ref={containerRef}>
                 <Outlet context={containerRef} />
