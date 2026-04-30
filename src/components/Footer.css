@@ -1,0 +1,139 @@
+.site-footer {
+    width: 100%;
+    min-height: 176px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-snap-align: none;
+    scroll-snap-stop: normal;
+    background: #209491;
+    border-top: 1px solid rgba(255, 255, 255, 0.45);
+    color: #ffffff;
+    font-family: 'Inter', 'Prompt', sans-serif;
+    padding: 18px clamp(28px, 3vw, 44px) 10px;
+}
+
+.site-footer-inner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) minmax(380px, 1.25fr) minmax(240px, 1fr);
+    align-items: flex-start;
+    column-gap: clamp(32px, 7vw, 110px);
+}
+
+.site-footer h2 {
+    margin: 0 0 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer-social-link {
+    width: 24px;
+    height: 24px;
+    display: inline-grid;
+    place-items: center;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #209491;
+    font-size: 16px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.footer-social-link span {
+    font-size: 8px;
+    font-weight: 800;
+}
+
+.footer-contact {
+    justify-self: center;
+}
+
+.footer-contact-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 7px 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.45;
+}
+
+.footer-address-row {
+    align-items: flex-start;
+}
+
+.footer-contact-icon {
+    width: 27px;
+    height: 27px;
+    flex: 0 0 27px;
+    display: inline-grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #209491;
+    font-size: 14px;
+}
+
+.footer-email {
+    justify-self: center;
+    padding-top: 25px;
+}
+
+.footer-email-icon {
+    font-size: 17px;
+}
+
+.footer-email a,
+.footer-address-row address {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footer-email a:hover,
+.footer-social-link:hover {
+    opacity: 0.85;
+}
+
+.footer-copyright {
+    width: 100%;
+    margin: 18px 0 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: center;
+}
+
+@media (max-width: 860px) {
+    .site-footer {
+        min-height: auto;
+        padding: 22px 20px 14px;
+    }
+
+    .site-footer-inner {
+        grid-template-columns: 1fr;
+        row-gap: 18px;
+    }
+
+    .footer-contact,
+    .footer-email {
+        justify-self: start;
+        padding-top: 0;
+    }
+
+    .footer-copyright {
+        text-align: left;
+    }
+}

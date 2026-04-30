@@ -90,7 +90,7 @@ const ZONES: Record<
         mapStyle: { top: "47%", left: "52%" },
         cardStyle: { top: "50%", left: "75%" },
         card_offsetX: -160,
-        card_offsetY: -105,
+        card_offsetY: -60,
     },
 }
 

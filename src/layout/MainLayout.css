@@ -57,10 +57,74 @@
     right: clamp(12px, 2.5vw, 32px);
     bottom: clamp(12px, 2.5vw, 32px);
     width: clamp(100px, 12vw, 180px);
-    height: auto;
     z-index: 20;
-    pointer-events: none;
+    height: auto;
+    animation: site-mascot-float 3.6s ease-in-out infinite;
+    cursor: default;
     user-select: none;
+}
+
+.site-mascot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 16px 18px rgba(0, 75, 70, 0.2));
+    transition: transform 180ms ease, filter 180ms ease;
+}
+
+.site-mascot:hover img,
+.site-mascot:focus img,
+.site-mascot:focus-within img {
+    transform: translateY(-6px) rotate(-2deg) scale(1.04);
+    filter: drop-shadow(0 20px 22px rgba(0, 75, 70, 0.26));
+}
+
+.site-mascot:focus {
+    outline: none;
+}
+
+.site-mascot-bubble {
+    position: absolute;
+    right: min(86%, 144px);
+    bottom: 72%;
+    width: max-content;
+    max-width: min(280px, calc(100vw - 48px));
+    padding: 12px 16px;
+    border: 1px solid rgba(0, 137, 133, 0.18);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.96);
+    color: #0b5f5a;
+    font-family: 'Inter', 'Prompt', sans-serif;
+    font-size: clamp(13px, 0.9vw, 15px);
+    font-weight: 600;
+    line-height: 1.45;
+    white-space: pre-line;
+    box-shadow: 0 14px 28px rgba(0, 91, 86, 0.16);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px) scale(0.96);
+    transform-origin: right bottom;
+    transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.site-mascot-bubble::after {
+    content: "";
+    position: absolute;
+    right: 16px;
+    bottom: -8px;
+    width: 14px;
+    height: 14px;
+    border-right: 1px solid rgba(0, 137, 133, 0.18);
+    border-bottom: 1px solid rgba(0, 137, 133, 0.18);
+    background: rgba(255, 255, 255, 0.96);
+    transform: rotate(45deg);
+}
+
+.site-mascot:hover .site-mascot-bubble,
+.site-mascot:focus .site-mascot-bubble,
+.site-mascot:focus-within .site-mascot-bubble {
+    opacity: 1;
+    transform: translateY(0) scale(1);
 }
 
 .company-history-layout .site-mascot {
@@ -70,6 +134,39 @@
     z-index: 9;
 }
 
+.company-history-layout .site-mascot-bubble {
+    right: auto;
+    left: min(86%, 144px);
+    transform-origin: left bottom;
+}
+
+.company-history-layout .site-mascot-bubble::after {
+    right: auto;
+    left: 16px;
+}
+
 .qiaoxi-meaning-layout .site-mascot {
     display: none;
+}
+
+@keyframes site-mascot-float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .site-mascot {
+        animation: none;
+    }
+
+    .site-mascot img,
+    .site-mascot-bubble {
+        transition: none;
+    }
 }

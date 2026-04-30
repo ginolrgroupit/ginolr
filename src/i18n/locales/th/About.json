@@ -149,8 +149,8 @@
     },
     "company_history": {
         "menu": {
-            "overview": "ภาพรวม",
-            "company_history": "ประวัติบริษัท",
+            "overview": "ประวัติบริษัท",
+            "company_history": "ภาพรวม",
             "qiaoxi_meaning": "ความหมาย เฉี่ยวซี",
             "quality_process": "กระบวนการคุณภาพ"
         },

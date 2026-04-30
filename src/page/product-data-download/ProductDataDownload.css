@@ -5,10 +5,35 @@
     background: var(--gb-map-gradient-bg);
 }
 
+.product-data-download-banner {
+    position: relative;
+    width: 100%;
+    height: clamp(260px, 34vw, 520px);
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.product-data-download-banner img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
+    transform: scale(1.02);
+    transition: opacity 900ms ease, transform 4200ms ease;
+}
+
+.product-data-download-banner img.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
 .product-data-download-header {
-    width: min(1180px, calc(100% - 48px));
+    width: min(1440px, calc(100% - 80px));
     margin: 0 auto;
-    padding: 72px 0 36px;
+    padding: 44px 0 28px;
 }
 
 .product-data-download-header p {
@@ -27,87 +52,133 @@
 }
 
 .catalog-download-section {
-    width: min(1180px, calc(100% - 48px));
+    width: min(1440px, calc(100% - 80px));
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(300px, 402px) minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
     padding-bottom: 96px;
 }
 
-.catalog-toolbar {
-    margin-bottom: 24px;
+.catalog-help-card {
+    overflow: hidden;
+    background: transparent;
 }
 
-.catalog-toolbar p {
-    margin: 0;
-    color: #405454;
-    font-size: 17px;
-    line-height: 1.7;
-}
-
-.catalog-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 20px;
-}
-
-.catalog-card {
-    min-height: 230px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 26px;
-    border: 1px solid rgba(28, 73, 73, 0.14);
-    background: #f7fbfa;
-}
-
-.catalog-category {
+.catalog-help-card img {
     display: block;
-    margin-bottom: 12px;
-    color: #008985;
-    font-size: 14px;
+    width: 100%;
+    aspect-ratio: 2028 / 1261;
+    object-fit: contain;
+}
+
+.catalog-list-wrap {
+    min-width: 0;
+}
+
+.catalog-list {
+    border-top: 1px solid #d7d7d7;
+}
+
+.catalog-download-row {
+    display: grid;
+    grid-template-columns: 58px minmax(0, 1fr) auto;
+    gap: 28px;
+    align-items: center;
+    min-height: 121px;
+    padding: 24px 16px 24px 22px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.catalog-file-icon {
+    width: 46px;
+    height: 46px;
+    color: #209491;
+    stroke-width: 1.8;
+}
+
+.catalog-download-row h2 {
+    margin: 0;
+    color: #000000;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.35;
 }
 
-.catalog-card h2 {
-    margin: 0 0 16px;
-    color: #1c4949;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 1.28;
+.catalog-download-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 154px;
+    min-height: 56px;
+    padding: 0 24px;
+    background: #209491;
+    color: #ffffff;
+    border: 1px solid #209491;
+    font-family: 'Inter', 'Prompt', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+    transition: background 160ms ease, color 160ms ease;
 }
 
-.catalog-meta {
+.catalog-download-button:hover {
+    background: #ffffff;
+    color: #209491;
+}
+
+.catalog-download-button svg {
+    flex: 0 0 auto;
+}
+
+.catalog-pagination {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin: 10px 0 22px;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 40px;
 }
 
-.catalog-meta span {
-    padding: 6px 10px;
+.catalog-pagination button {
+    min-width: 36px;
+    height: 36px;
+    border: 1px solid #dddddd;
     background: #ffffff;
-    color: #405454;
-    border: 1px solid rgba(28, 73, 73, 0.12);
-    font-size: 13px;
-    line-height: 1;
+    color: #4d4d4d;
+    font-family: 'Inter', 'Prompt', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
 }
 
-.catalog-card button {
-    width: 100%;
-    min-height: 42px;
-    border: none;
-    background: rgba(28, 73, 73, 0.3);
+.catalog-pagination button:first-child,
+.catalog-pagination button:last-child {
+    min-width: 94px;
+}
+
+.catalog-pagination button:hover:not(:disabled),
+.catalog-pagination button.active {
+    border-color: #209491;
+    background: #209491;
     color: #ffffff;
-    font-size: 15px;
-    font-weight: 600;
+}
+
+.catalog-pagination button:disabled {
+    color: #a8a8a8;
     cursor: not-allowed;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1040px) {
     .product-data-download-header,
     .catalog-download-section {
-        width: min(100% - 32px, 640px);
+        width: min(100% - 32px, 720px);
+    }
+
+    .product-data-download-banner {
+        height: clamp(180px, 44vw, 320px);
     }
 
     .product-data-download-header {
@@ -118,12 +189,50 @@
         font-size: 36px;
     }
 
-    .catalog-grid {
+    .catalog-download-section {
         grid-template-columns: 1fr;
+        gap: 28px;
     }
 
-    .catalog-card {
-        min-height: 210px;
-        padding: 24px;
+    .catalog-help-card {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .product-data-download-banner {
+        height: 180px;
+    }
+
+    .product-data-download-header {
+        padding-top: 36px;
+    }
+
+    .catalog-download-row {
+        grid-template-columns: 42px minmax(0, 1fr);
+        gap: 16px;
+        padding: 22px 0;
+    }
+
+    .catalog-file-icon {
+        width: 38px;
+        height: 38px;
+    }
+
+    .catalog-download-row h2 {
+        font-size: 17px;
+    }
+
+    .catalog-download-button {
+        grid-column: 2;
+        width: fit-content;
+        min-width: 142px;
+        min-height: 48px;
+        padding: 0 18px;
+        font-size: 15px;
+    }
+
+    .catalog-pagination {
+        justify-content: flex-start;
     }
 }
