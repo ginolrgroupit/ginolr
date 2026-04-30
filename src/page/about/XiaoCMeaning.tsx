@@ -38,7 +38,7 @@ const calloutLayout = [
     // Left 5: CT belt.
     { x: 100, y: 680, startX: 430, startY: 740, bendX: 570, bendY: 740, endX: 785, endY: 705, side: 'left' },
     // Right 1: CT-shaped hair.
-    { x: 1200, y: 58, startX: 1200, startY: 110, bendX: 1150, bendY: 110, endX: 1030, endY: 160, side: 'right' },
+    { x: 1200, y: 58, startX: 1200, startY: 110, bendX: 1150, bendY: 110, endX: 1090, endY: 160, side: 'right' },
     // Right 2: bright eye.
     { x: 1300, y: 186, startX: 1300, startY: 250, bendX: 1200, bendY: 250, endX: 940, endY: 400, side: 'right' },
     // Right 3: safety glove.
@@ -48,6 +48,15 @@ const calloutLayout = [
     // Right 5: cape.
     { x: 1200, y: 654, startX: 1200, startY: 730, bendX: 1010, bendY: 730, endX: 950, endY: 730, side: 'right' },
 ] as const
+
+// วงกลมสีแดงสำหรับชี้ตำแหน่งบนตัว XiaoC:
+// ขยับวงกลมได้โดยแก้ค่า x และ y (หน่วยเป็น px บน stage ขนาด 1600x900)
+// x = ระยะจากขอบซ้ายของ stage, y = ระยะจากขอบบนของ stage, size = ขนาดเส้นผ่านศูนย์กลางของวงกลม
+const XiaoCHighlightCircle = {
+    x: 890,
+    y: 75,
+    size: 200,
+}
 
 type XiaoCPoint = {
     title: string
@@ -107,6 +116,17 @@ const XiaoCMeaning = () => {
                     </svg>
 
                     <img src={mascotCenter} alt="XiaoC Mascot" className="XiaoC-mascot-main" />
+
+                    <div
+                        className="XiaoC-highlight-circle"
+                        aria-hidden="true"
+                        style={{
+                            left: `${XiaoCHighlightCircle.x}px`,
+                            top: `${XiaoCHighlightCircle.y}px`,
+                            width: `${XiaoCHighlightCircle.size}px`,
+                            height: `${XiaoCHighlightCircle.size}px`,
+                        }}
+                    />
 
                     {pointDetails.map((detail, index) => {
                         const layout = calloutLayout[index]

@@ -16,13 +16,13 @@ const mascotGreetings: Record<Language, string> = {
     LO: 'ສະບາຍດີ ຍິນດີຕ້ອນຮັບສູ່ GINOLR',
 }
 
-type MascotPage = 'about' | 'companyHistory' | 'xiaoCMeaning' | 'qualityProcess' | 'product' | 'productDataDownload' | 'contact'
+type MascotPage = 'about' | 'companyHistory' | 'XiaoCMeaning' | 'qualityProcess' | 'product' | 'productDataDownload' | 'contact'
 
 const mascotPageGreetings: Record<Language, Record<MascotPage, string>> = {
     TH: {
         about: 'ยินดีต้อนรับสู่หน้า\nภาพรวมของบริษัทครับ',
         companyHistory: 'ยินดีต้อนรับสู่หน้า\nประวัติของบริษัทครับ',
-        xiaoCMeaning: 'ยินดีต้อนรับสู่หน้า\nความหมายของ XiaoC ครับ',
+        XiaoCMeaning: 'ยินดีต้อนรับสู่หน้า\nความหมายของเฉี่ยวซีครับ',
         qualityProcess: 'ยินดีต้อนรับสู่หน้า\nกระบวนการคุณภาพของเราครับ',
         product: 'ยินดีต้อนรับสู่หน้า\nสินค้าของ GINOLR ครับ',
         productDataDownload: 'ยินดีต้อนรับสู่หน้า\nดาวน์โหลดข้อมูลสินค้าและแคตตาล็อกครับ',
@@ -31,7 +31,7 @@ const mascotPageGreetings: Record<Language, Record<MascotPage, string>> = {
     EN: {
         about: 'Welcome to\nour company overview page.',
         companyHistory: 'Welcome to\nour company history page.',
-        xiaoCMeaning: 'Welcome to\nthe meaning of XiaoC page.',
+        XiaoCMeaning: 'Welcome to\nthe meaning of XiaoC page.',
         qualityProcess: 'Welcome to\nour quality process page.',
         product: 'Welcome to\nthe GINOLR product page.',
         productDataDownload: 'Welcome to\nthe product data and catalogue download page.',
@@ -40,7 +40,7 @@ const mascotPageGreetings: Record<Language, Record<MascotPage, string>> = {
     CN: {
         about: '欢迎来到\n公司概览页面。',
         companyHistory: '欢迎来到\n公司历史页面。',
-        xiaoCMeaning: '欢迎来到\n小C含义页面。',
+        XiaoCMeaning: '欢迎来到\n巧喜含义页面。',
         qualityProcess: '欢迎来到\n我们的品质流程页面。',
         product: '欢迎来到\nGINOLR 产品页面。',
         productDataDownload: '欢迎来到\n产品资料和目录下载页面。',
@@ -49,7 +49,7 @@ const mascotPageGreetings: Record<Language, Record<MascotPage, string>> = {
     LO: {
         about: 'ຍິນດີຕ້ອນຮັບສູ່\nໜ້າພາບລວມຂອງບໍລິສັດ.',
         companyHistory: 'ຍິນດີຕ້ອນຮັບສູ່\nໜ້າປະຫວັດບໍລິສັດ.',
-        xiaoCMeaning: 'ຍິນດີຕ້ອນຮັບສູ່\nໜ້າຄວາມໝາຍຂອງ XiaoC.',
+        XiaoCMeaning: 'ຍິນດີຕ້ອນຮັບສູ່\nໜ້າຄວາມໝາຍຂອງ XiaoC.',
         qualityProcess: 'ຍິນດີຕ້ອນຮັບສູ່\nໜ້າຂັ້ນຕອນຄຸນນະພາບ.',
         product: 'ຍິນດີຕ້ອນຮັບສູ່\nໜ້າສິນຄ້າ GINOLR.',
         productDataDownload: 'ຍິນດີຕ້ອນຮັບສູ່\nໜ້າດາວໂຫຼດຂໍ້ມູນສິນຄ້າ ແລະ ແຄດຕາລັອກ.',
@@ -59,7 +59,7 @@ const mascotPageGreetings: Record<Language, Record<MascotPage, string>> = {
 
 const getMascotPage = (pathname: string): MascotPage | null => {
     if (pathname.startsWith('/about/company-history')) return 'companyHistory'
-    if (pathname.startsWith('/about/xiaoc-meaning') || pathname.startsWith('/about/XiaoC-meaning') || pathname.startsWith('/about/QiaoXi-meaning')) return 'xiaoCMeaning'
+    if (pathname.startsWith('/about/XiaoC-meaning')) return 'XiaoCMeaning'
     if (pathname.startsWith('/about/quality-process')) return 'qualityProcess'
     if (pathname.startsWith('/about')) return 'about'
     if (pathname.startsWith('/product-data-download')) return 'productDataDownload'
@@ -96,14 +96,14 @@ const MainLayout = () => {
     }, [pathname])
 
     const isCompanyHistoryPage = pathname.startsWith('/about/company-history')
-    const isXiaoCMeaningPage = pathname.startsWith('/about/xiaoc-meaning') || pathname.startsWith('/about/XiaoC-meaning') || pathname.startsWith('/about/QiaoXi-meaning')
+    const isXiaoCMeaningPage = pathname.startsWith('/about/XiaoC-meaning')
     const isHomePage = pathname.startsWith('/home')
     const shouldShowFooter = !pathname.startsWith('/home') && !pathname.startsWith('/contact') && !isCompanyHistoryPage
     const mascotPage = getMascotPage(pathname)
     const mascotMessage = mascotPage ? mascotPageGreetings[language_selected][mascotPage] : mascotGreetings[language_selected]
 
     return (
-        <div className={`all-screen${isHomePage ? ' home-layout' : ''}${isCompanyHistoryPage ? ' company-history-layout' : ''}${isXiaoCMeaningPage ? ' QiaoXi-meaning-layout' : ''}`}>
+        <div className={`all-screen${isHomePage ? ' home-layout' : ''}${isCompanyHistoryPage ? ' company-history-layout' : ''}${isXiaoCMeaningPage ? ' XiaoC-meaning-layout' : ''}`}>
             <Nav setPage_selected={setPage_selected} page_selected={page_selected} language_selected={language_selected} setLanguage_selected={setLanguage_selected} />
             <div className="container-zone" ref={containerRef}>
                 <Outlet context={containerRef} />
@@ -111,7 +111,7 @@ const MainLayout = () => {
             </div>
             <div className="site-mascot" tabIndex={0} aria-label={mascotMessage}>
                 <div className="site-mascot-bubble">{mascotMessage}</div>
-                <img src={mascotUrl} alt="XiaoC" />
+                <img src={mascotUrl} alt="Chiao Xi" />
             </div>
         </div>
     )

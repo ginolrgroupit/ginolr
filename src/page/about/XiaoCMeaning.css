@@ -103,6 +103,28 @@
     user-select: none;
 }
 
+.XiaoC-highlight-circle {
+    position: absolute;
+    z-index: 5;
+    box-sizing: border-box;
+    border: 6px solid #008985;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 137, 133, 0.34), 0 0 18px rgba(0, 137, 133, 0.22);
+    animation: XiaoC-circle-pulse 2.4s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.XiaoC-highlight-circle::after {
+    position: absolute;
+    inset: -6px;
+    border: 2px solid rgba(255, 255, 255, 0.92);
+    border-radius: inherit;
+    content: "";
+    opacity: 0;
+    transform: scale(0.9);
+    animation: XiaoC-circle-ring 2.4s ease-in-out infinite;
+}
+
 .XiaoC-callout {
     position: absolute;
     z-index: 4;
@@ -364,6 +386,10 @@
         display: none;
     }
 
+    .XiaoC-highlight-circle {
+        display: none;
+    }
+
     .XiaoC-mascot-main {
         position: sticky;
         top: 84px;
@@ -461,5 +487,31 @@
 
     to {
         stroke-dashoffset: 0;
+    }
+}
+
+@keyframes XiaoC-circle-pulse {
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 137, 133, 0.34), 0 0 18px rgba(0, 137, 133, 0.22);
+        transform: scale(1);
+    }
+
+    50% {
+        box-shadow: 0 0 0 14px rgba(0, 137, 133, 0), 0 0 24px rgba(0, 137, 133, 0.38);
+        transform: scale(1.035);
+    }
+}
+
+@keyframes XiaoC-circle-ring {
+    0% {
+        opacity: 0.9;
+        transform: scale(0.92);
+    }
+
+    70%,
+    100% {
+        opacity: 0;
+        transform: scale(1.16);
     }
 }
