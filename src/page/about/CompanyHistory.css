@@ -588,6 +588,43 @@
     text-align: center;
 }
 
+.production-popup-badge-colors {
+    display: grid;
+    gap: 10px;
+    margin-top: 6px;
+    padding: 10px 12px;
+    background: #ffffff;
+}
+
+.production-color-standard,
+.production-color-options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.production-color-options {
+    flex-wrap: wrap;
+}
+
+.production-popup-badge-colors small {
+    color: #8f9490;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.production-color-swatch {
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgba(28, 73, 73, 0.12);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+}
+
 .production-centers-intro {
     position: relative;
     min-height: 430px;

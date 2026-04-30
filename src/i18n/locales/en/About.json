@@ -276,9 +276,12 @@
                     "imageAlt": "Injection molding manufacturing center",
                     "detail": "Supports plastic injection molding for electrical components with quality control and consistent part standards.",
                     "badge": {
-                        "title": "Produced as required",
-                        "label": "Thickness",
-                        "items": ["0.8", "1.0", "1.2", "1.6", "2.0", "2.5"]
+                        "type": "colors",
+                        "title": "",
+                        "label": "COLOR STANDARD",
+                        "standardColor": "#5c5f5b",
+                        "desiredLabel": "COLOR AS DESIRED",
+                        "colors": ["#ffffff", "#93b4c2", "#df849b", "#4f8f3b", "#c7a52f", "#c27a2a", "#a82328"]
                     }
                 },
                 {

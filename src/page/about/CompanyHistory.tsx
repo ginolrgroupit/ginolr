@@ -34,9 +34,13 @@ type ProductionCenter = {
     imageAlt: string
     detail: string
     badge?: {
+        type?: 'values' | 'colors'
         title: string
         label: string
-        items: string[]
+        items?: string[]
+        standardColor?: string
+        desiredLabel?: string
+        colors?: string[]
     }
 }
 
@@ -135,12 +139,34 @@ const CompanyHistory = () => {
                                         <div className="production-popup-info">
                                             <h4 className="header-font">{center.title}</h4>
                                             <p>{center.detail}</p>
-                                            {center.badge && (
+                                            {center.badge && center.badge.type === 'colors' && (
+                                                <div className="production-popup-badge production-popup-badge-colors">
+                                                    <div className="production-color-standard">
+                                                        <span
+                                                            className="production-color-swatch"
+                                                            style={{ backgroundColor: center.badge.standardColor }}
+                                                        />
+                                                        <small>{center.badge.label}</small>
+                                                    </div>
+                                                    <div className="production-color-options">
+                                                        {(center.badge.colors || []).map((color) => (
+                                                            <span
+                                                                aria-label={color}
+                                                                className="production-color-swatch"
+                                                                key={color}
+                                                                style={{ backgroundColor: color }}
+                                                            />
+                                                        ))}
+                                                        <small>{center.badge.desiredLabel}</small>
+                                                    </div>
+                                                </div>
+                                            )}
+                                            {center.badge && center.badge.type !== 'colors' && (
                                                 <div className="production-popup-badge">
                                                     <strong>{center.badge.title}</strong>
                                                     <div>
                                                         <small>{center.badge.label}</small>
-                                                        {center.badge.items.map((item) => (
+                                                        {(center.badge.items || []).map((item) => (
                                                             <em key={item}>{item}</em>
                                                         ))}
                                                     </div>

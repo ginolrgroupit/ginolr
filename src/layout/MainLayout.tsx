@@ -40,7 +40,7 @@ const mascotPageGreetings: Record<Language, Record<MascotPage, string>> = {
     CN: {
         about: '欢迎来到\n公司概览页面。',
         companyHistory: '欢迎来到\n公司历史页面。',
-        XiaoCMeaning: '欢迎来到\n巧喜含义页面。',
+        XiaoCMeaning: '欢迎来到\n小C含义页面。',
         qualityProcess: '欢迎来到\n我们的品质流程页面。',
         product: '欢迎来到\nGINOLR 产品页面。',
         productDataDownload: '欢迎来到\n产品资料和目录下载页面。',

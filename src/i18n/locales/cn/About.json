@@ -10,10 +10,10 @@
         "header": "巧思的含义",
         "content": "巧思是 CT 品牌吉祥物，象征安全、速度、活力服务以及对环境的关怀。绿色叶形身体传达清新、积极和友善；安全护目镜、闪电眼睛、CT 白色上衣和黄色披风，则体现品牌对用电保护的信心。",
         "character": {
-            "title": "认识 XiaoC（巧喜）：您的电气安全守护者",
+            "title": "认识 XiaoC（小C）：您的电气安全守护者",
             "intro": {
                 "title": "很高兴认识您！",
-                "description": "我叫 XiaoC（巧喜），是网站上的贴心吉祥物，随时准备守护您的安全，并为您每一次选购电气产品带来信心。"
+                "description": "我叫 XiaoC（小C），是网站上的贴心吉祥物，随时准备守护您的安全，并为您每一次选购电气产品带来信心。"
             },
             "traitsTitle": "我的性格与特质",
             "traits": [
@@ -276,9 +276,12 @@
                     "imageAlt": "注塑生产中心",
                     "detail": "支持电气部件注塑生产，并控制产品质量与零件一致性。",
                     "badge": {
-                        "title": "按需求生产",
-                        "label": "厚度",
-                        "items": ["0.8", "1.0", "1.2", "1.6", "2.0", "2.5"]
+                        "type": "colors",
+                        "title": "",
+                        "label": "COLOR STANDARD",
+                        "standardColor": "#5c5f5b",
+                        "desiredLabel": "COLOR AS DESIRED",
+                        "colors": ["#ffffff", "#93b4c2", "#df849b", "#4f8f3b", "#c7a52f", "#c27a2a", "#a82328"]
                     }
                 },
                 {
