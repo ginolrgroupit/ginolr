@@ -19,9 +19,7 @@ export default function App() {
         <Route path="home" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="about/company-history" element={<CompanyHistory />} />
-        <Route path="about/xiaoc-meaning" element={<XiaoCMeaning />} />
-        <Route path="about/XiaoC-meaning" element={<Navigate to="/about/xiaoc-meaning" replace />} />
-        <Route path="about/QiaoXi-meaning" element={<Navigate to="/about/xiaoc-meaning" replace />} />
+        <Route path="about/XiaoC-meaning" element={<XiaoCMeaning />} />
         <Route path="about/quality-process" element={<QualityProcess />} />
         <Route path="contact" element={<Contact />} />
         <Route path="product" element={<ProductAll />} />
