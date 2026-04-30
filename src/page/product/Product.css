@@ -2,9 +2,9 @@
 
 .product-page {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 65px;
-    overflow-y: auto;
+    overflow: visible;
     background: var(--gb-map-gradient-bg);
 
     & .promote-img-section {

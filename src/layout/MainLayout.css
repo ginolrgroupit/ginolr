@@ -47,9 +47,14 @@
     min-height: 0;
     overflow-y: scroll;
     overflow-x: hidden;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: none;
     scroll-padding-top: 65px;
     background: var(--gb-map-gradient-bg);
+}
+
+.home-layout .container-zone,
+.company-history-layout .container-zone {
+    scroll-snap-type: y mandatory;
 }
 
 .site-mascot {
@@ -145,7 +150,7 @@
     left: 16px;
 }
 
-.qiaoxi-meaning-layout .site-mascot {
+.XiaoC-meaning-layout .site-mascot {
     display: none;
 }
 

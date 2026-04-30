@@ -16,7 +16,8 @@ const Footer = () => {
         <footer className="site-footer">
             <div className="site-footer-inner">
                 <section className="footer-brand" aria-label="GINOLR GROUP social links">
-                    <h2>GINOLR GROUP</h2>
+                    <h3>GINOLR GROUP</h3>
+                    <h2>FOLLOW US ON SOCIAL MEDIA</h2>
                     <div className="footer-social-list">
                         {socialLinks.map((item) => (
                             <a

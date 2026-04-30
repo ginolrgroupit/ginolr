@@ -3,7 +3,7 @@ import Home from './page/home/Home'
 import MainLayout from './layout/MainLayout'
 import About from './page/about/About'
 import CompanyHistory from './page/about/CompanyHistory'
-import QiaoxiMeaning from './page/about/QiaoxiMeaning'
+import XiaoCMeaning from './page/about/QiaoxiMeaning'
 import QualityProcess from './page/about/QualityProcess'
 import Contact from './page/contact/Contact'
 import ProductAll from './page/product/ProductAll'
@@ -19,7 +19,9 @@ export default function App() {
         <Route path="home" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="about/company-history" element={<CompanyHistory />} />
-        <Route path="about/qiaoxi-meaning" element={<QiaoxiMeaning />} />
+        <Route path="about/xiaoc-meaning" element={<XiaoCMeaning />} />
+        <Route path="about/XiaoC-meaning" element={<Navigate to="/about/xiaoc-meaning" replace />} />
+        <Route path="about/QiaoXi-meaning" element={<Navigate to="/about/xiaoc-meaning" replace />} />
         <Route path="about/quality-process" element={<QualityProcess />} />
         <Route path="contact" element={<Contact />} />
         <Route path="product" element={<ProductAll />} />

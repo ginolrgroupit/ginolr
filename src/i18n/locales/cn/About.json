@@ -6,8 +6,47 @@
     },
     "mascot_meaning_section": {
         "kicker": "吉祥物含义",
+        "name": "巧思",
         "header": "巧思的含义",
         "content": "巧思是 CT 品牌吉祥物，象征安全、速度、活力服务以及对环境的关怀。绿色叶形身体传达清新、积极和友善；安全护目镜、闪电眼睛、CT 白色上衣和黄色披风，则体现品牌对用电保护的信心。",
+        "character": {
+            "title": "认识 XiaoC（巧喜）：您的电气安全守护者",
+            "intro": {
+                "title": "很高兴认识您！",
+                "description": "我叫 XiaoC（巧喜），是网站上的贴心吉祥物，随时准备守护您的安全，并为您每一次选购电气产品带来信心。"
+            },
+            "traitsTitle": "我的性格与特质",
+            "traits": [
+                {
+                    "title": "专业而敏捷",
+                    "description": "凭借闪电眉毛的象征，我能够以闪电般的速度与精准度提供服务，让您的购物过程更加顺畅。"
+                },
+                {
+                    "title": "安全优先",
+                    "description": "我重视国际标准、准确性与专业精神。身上的 CT 制服和腰带提醒大家，您收到的每一件产品都应具备可靠品质与安全保障。"
+                },
+                {
+                    "title": "友好并愿意倾听",
+                    "description": "我愿意张开双臂，倾听每一个问题和建议，为重要的客户创造双赢的购物体验。"
+                }
+            ],
+            "gimmicksTitle": "我重视的价值",
+            "gimmicks": [
+                {
+                    "title": "关爱地球与环境",
+                    "description": "我热爱绿色，叶子尾巴象征着守护环境与低碳生活的承诺，希望共同迈向更清洁、更可持续的未来。"
+                },
+                {
+                    "title": "长远的视野",
+                    "description": "我明亮的眼睛会不断寻找更好的解决方案，带领大家在安全中迈向目标。"
+                }
+            ],
+            "signatureTitle": "给客户的特别小动作",
+            "signatureDescription": "当您看到我竖起 Thumbs Up，就代表该产品已经过良好的安全标准检查。",
+            "uspTitle": "信心的象征",
+            "uspName": "XiaoC：您的电气安全守护者",
+            "uspDescription": "XiaoC 会陪伴您的每一次选购，帮助您确信所选择的电气产品符合标准、安全可靠，并适合实际使用。"
+        },
         "points": [
             {
                 "title": "\"CT\" 标志发型",
@@ -151,7 +190,7 @@
         "menu": {
             "overview": "概览",
             "company_history": "公司历史",
-            "qiaoxi_meaning": "巧思的含义",
+            "XiaoC_meaning": "巧思的含义",
             "quality_process": "质量流程"
         },
         "hero": {

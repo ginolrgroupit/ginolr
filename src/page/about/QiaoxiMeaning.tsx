@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import './QiaoxiMeaning.css'
+import './XiaoCMeaning.css'
 
 import mascotCenter from '../../assets/logo/chiao-xi-02.svg'
 import partOne from '../../assets/chiao-xi-parts/part-01.webp'
@@ -27,7 +27,7 @@ const pointDetails = [
 ]
 
 const calloutLayout = [
-    // Left 1: company logo on Qiaoxi's forehead.
+    // Left 1: company logo on XiaoC's forehead.
     { x: 100, y: 40, startX: 430, startY: 100, bendX: 680, bendY: 100, endX: 750, endY: 240, side: 'left' },
     // Left 2: lightning eyebrow.
     { x: 40, y: 182, startX: 370, startY: 245, bendX: 560, bendY: 245, endX: 680, endY: 370, side: 'left' },
@@ -49,70 +49,143 @@ const calloutLayout = [
     { x: 1200, y: 654, startX: 1200, startY: 730, bendX: 1010, bendY: 730, endX: 950, endY: 730, side: 'right' },
 ] as const
 
-type QiaoxiPoint = {
+type XiaoCPoint = {
     title: string
     description: string
 }
 
-const QiaoxiMeaning = () => {
+type CharacterDetail = {
+    title: string
+    description: string
+}
+
+type XiaoCCharacter = {
+    title: string
+    intro: {
+        title: string
+        description: string
+    }
+    traitsTitle: string
+    traits: CharacterDetail[]
+    gimmicksTitle: string
+    gimmicks: CharacterDetail[]
+    signatureTitle: string
+    signatureDescription: string
+    uspTitle: string
+    uspName: string
+    uspDescription: string
+}
+
+const XiaoCMeaning = () => {
     const { t } = useTranslation('about')
     const points = t('mascot_meaning_section.points', { returnObjects: true })
-    const qiaoxiPoints = Array.isArray(points) ? (points as QiaoxiPoint[]) : []
+    const XiaoCPoints = Array.isArray(points) ? (points as XiaoCPoint[]) : []
+    const character = t('mascot_meaning_section.character', { returnObjects: true }) as XiaoCCharacter
 
     return (
-        <div className="qiaoxi-page">
-            <h1 className="qiaoxi-main-title">{t('mascot_meaning_section.header')}</h1>
+        <div className="XiaoC-page">
+            <h1 className="XiaoC-main-title">{t('mascot_meaning_section.header')}</h1>
+            <p className="XiaoC-character-name">{t('mascot_meaning_section.name')}</p>
 
-            <section className="qiaoxi-stage-shell" aria-label={t('mascot_meaning_section.header')}>
-                <div className="qiaoxi-stage">
-                    <svg className="qiaoxi-lines" width="1600" height="900" viewBox="0 0 1600 900" aria-hidden="true">
+            <section className="XiaoC-stage-shell" aria-label={t('mascot_meaning_section.header')}>
+                <div className="XiaoC-stage">
+                    <svg className="XiaoC-lines" width="1600" height="900" viewBox="0 0 1600 900" aria-hidden="true">
                         {calloutLayout.map((item, index) => (
                         <g key={index}>
                             <polyline
-                                className="qiaoxi-line-path"
+                                className="XiaoC-line-path"
                                 points={`${item.startX},${item.startY} ${item.bendX},${item.bendY} ${item.bendX},${item.endY} ${item.endX},${item.endY}`}
                             />
                             <polyline
-                                className="qiaoxi-line-light"
+                                className="XiaoC-line-light"
                                 points={`${item.startX},${item.startY} ${item.bendX},${item.bendY} ${item.bendX},${item.endY} ${item.endX},${item.endY}`}
                             />
-                            <circle className="qiaoxi-card-dot" cx={item.startX} cy={item.startY} r="5" />
-                            <circle className="qiaoxi-target-dot" cx={item.endX} cy={item.endY} r="5" />
+                            <circle className="XiaoC-card-dot" cx={item.startX} cy={item.startY} r="5" />
+                            <circle className="XiaoC-target-dot" cx={item.endX} cy={item.endY} r="5" />
                         </g>
                         ))}
                     </svg>
 
-                    <img src={mascotCenter} alt="Qiaoxi Mascot" className="qiaoxi-mascot-main" />
+                    <img src={mascotCenter} alt="XiaoC Mascot" className="XiaoC-mascot-main" />
 
                     {pointDetails.map((detail, index) => {
                         const layout = calloutLayout[index]
-                        const point = qiaoxiPoints[detail.pointIndex]
+                        const point = XiaoCPoints[detail.pointIndex]
 
                         if (!point) return null
 
                         return (
                             <article
-                                className={`qiaoxi-callout qiaoxi-callout-${layout.side}`}
+                                className={`XiaoC-callout XiaoC-callout-${layout.side}`}
                                 key={point.title}
                                 style={{
                                     left: `${layout.x}px`,
                                     top: `${layout.y}px`,
                                 }}
                             >
-                                <div className="qiaoxi-point-circle">
+                                <div className="XiaoC-point-circle">
                                     <img src={detail.image} alt="" />
                                 </div>
-                                <div className="qiaoxi-point-copy">
-                                    <p className="qiaoxi-point-title">{point.title}</p>
-                                    <p className="qiaoxi-point-description">{point.description}</p>
+                                <div className="XiaoC-point-copy">
+                                    <p className="XiaoC-point-title">{point.title}</p>
+                                    <p className="XiaoC-point-description">{point.description}</p>
                                 </div>
                             </article>
                         )
                     })}
                 </div>
             </section>
+
+            <section className="XiaoC-character-section" aria-labelledby="XiaoC-character-heading">
+                <div className="XiaoC-character-inner">
+                    <div className="XiaoC-character-heading-block">
+                        <p className="XiaoC-character-kicker">{character.uspName}</p>
+                        <h2 className="XiaoC-character-heading" id="XiaoC-character-heading">{character.title}</h2>
+                    </div>
+
+                    <article className="XiaoC-character-feature">
+                        <p className="XiaoC-character-feature-title">{character.intro.title}</p>
+                        <p className="XiaoC-character-feature-text">{character.intro.description}</p>
+                    </article>
+
+                    <div className="XiaoC-character-grid">
+                        <div className="XiaoC-character-group">
+                            <h3 className="XiaoC-character-group-title">{character.traitsTitle}</h3>
+                            {character.traits.map((item) => (
+                                <article className="XiaoC-character-card" key={item.title}>
+                                    <p className="XiaoC-character-card-title">{item.title}</p>
+                                    <p className="XiaoC-character-card-text">{item.description}</p>
+                                </article>
+                            ))}
+                        </div>
+
+                        <div className="XiaoC-character-group">
+                            <h3 className="XiaoC-character-group-title">{character.gimmicksTitle}</h3>
+                            {character.gimmicks.map((item) => (
+                                <article className="XiaoC-character-card" key={item.title}>
+                                    <p className="XiaoC-character-card-title">{item.title}</p>
+                                    <p className="XiaoC-character-card-text">{item.description}</p>
+                                </article>
+                            ))}
+                        </div>
+                    </div>
+
+                    <article className="XiaoC-signature-card">
+                        <div>
+                            <p className="XiaoC-signature-title">{character.signatureTitle}</p>
+                            <p className="XiaoC-signature-text">{character.signatureDescription}</p>
+                        </div>
+                    </article>
+
+                    <article className="XiaoC-usp-panel">
+                        <p className="XiaoC-usp-kicker">{character.uspTitle}</p>
+                        <h3 className="XiaoC-usp-title">{character.uspName}</h3>
+                        <p className="XiaoC-usp-text">{character.uspDescription}</p>
+                    </article>
+                </div>
+            </section>
         </div>
     )
 }
 
-export default QiaoxiMeaning
+export default XiaoCMeaning

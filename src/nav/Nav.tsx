@@ -269,11 +269,11 @@ const Nav = ({ setPage_selected, page_selected, language_selected, setLanguage_s
                     className='title-font'
                     type='button'
                     onClick={() => {
-                        navigate('/about/qiaoxi-meaning')
+                        navigate('/about/xiaoc-meaning')
                         setAbout_hover(false)
                     }}
                 >
-                    {t('company_history.menu.qiaoxi_meaning', { ns: 'about' })}
+                    {t('company_history.menu.QiaoXi_meaning', { ns: 'about' })}
                 </button>
                 <button
                     className='title-font'

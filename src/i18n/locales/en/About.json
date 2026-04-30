@@ -6,8 +6,47 @@
     },
     "mascot_meaning_section": {
         "kicker": "Mascot Meaning",
-        "header": "Meaning of Qiaoxi",
-        "content": "Qiaoxi is the CT brand mascot that represents safety, speed, cheerful service, and care for the environment. Its leaf-shaped green body communicates freshness and positive energy, while the safety goggles, lightning eyes, white CT shirt, and yellow cape reflect confidence in electrical protection.",
+        "name": "XiaoC",
+        "header": "Meaning of XiaoC",
+        "content": "XiaoC is the CT brand mascot that represents safety, speed, cheerful service, and care for the environment. Its leaf-shaped green body communicates freshness and positive energy, while the safety goggles, lightning eyes, white CT shirt, and yellow cape reflect confidence in electrical protection.",
+        "character": {
+            "title": "Meet XiaoC: Your Electrical Safety Guardian",
+            "intro": {
+                "title": "Nice to meet you!",
+                "description": "My name is XiaoC, the friendly mascot ready to care for your safety and bring confidence to every electrical product you choose on our website."
+            },
+            "traitsTitle": "My Personality",
+            "traits": [
+                {
+                    "title": "Expert & Agile",
+                    "description": "With my lightning eyebrows, I am ready to serve quickly and precisely, helping your shopping experience move as smoothly as possible."
+                },
+                {
+                    "title": "Safety First",
+                    "description": "I value international standards, accuracy, and professionalism. My CT uniform and belt show that every product you receive should be dependable, high quality, and safe."
+                },
+                {
+                    "title": "Open & Friendly",
+                    "description": "I am always ready to open my arms, listen to every question and suggestion, and help create a win-win shopping experience for every valued customer."
+                }
+            ],
+            "gimmicksTitle": "My Values",
+            "gimmicks": [
+                {
+                    "title": "Caring for the planet",
+                    "description": "I love green, and my leaf tail represents a commitment to environmental care and lower-carbon living for a cleaner, more sustainable future."
+                },
+                {
+                    "title": "A forward-looking vision",
+                    "description": "My bright eyes are ready to shine and search for the best solutions, helping everyone move toward their goals with safety and confidence."
+                }
+            ],
+            "signatureTitle": "A Special Gimmick for Customers",
+            "signatureDescription": "When you see me giving a Thumbs Up, it means that product has been carefully checked against safety standards.",
+            "uspTitle": "A Symbol of Confidence",
+            "uspName": "XiaoC: Your Electrical Safety Guardian",
+            "uspDescription": "XiaoC is here beside every purchase, helping you feel confident that the electrical products you choose are standardized, safe, and ready for real use."
+        },
         "points": [
             {
                 "title": "\"CT\" Logo Hair",
@@ -23,7 +62,7 @@
             },
             {
                 "title": "Logo on the Shirt",
-                "description": "As CT personnel, Qiaoxi serves wholeheartedly and always appears simple, neat, and standardized."
+                "description": "As CT personnel, XiaoC serves wholeheartedly and always appears simple, neat, and standardized."
             },
             {
                 "title": "Lightning Eyebrows",
@@ -151,7 +190,7 @@
         "menu": {
             "overview": "Overview",
             "company_history": "Company History",
-            "qiaoxi_meaning": "Meaning of Qiaoxi",
+            "QiaoXi_meaning": "Meaning of XiaoC",
             "quality_process": "Quality Process"
         },
         "hero": {
